@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data version="1.0" result="0" message="Success">
+  <section id="02" name="情侣区" maxDisTkts="1">
+    <ticket name="成人票" price="50" favorableFlg="N" maxTkts="0" marketPriceFlg="Y" isAllowPayCountCard="N" consumeTimes=""/>
+    <ticket name="学生票" price="50" favorableFlg="N" maxTkts="0" marketPriceFlg="N" isAllowPayCountCard="N" consumeTimes=""/>
+    <ticket name="成人票_会员价" price="40" favorableFlg="Y" maxTkts="1" marketPriceFlg="N" isAllowPayCountCard="Y" consumeTimes="0"/>
+  </section>
+</data>

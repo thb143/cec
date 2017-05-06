@@ -1,0 +1,213 @@
+<style type="text/css">
+	.divider {
+		margin-top: 5px;
+	}
+</style>
+<div class="pageContent">
+    <form  id="activityForm" method="post" action="ajaxDone1.html" class="pageForm required-validate"
+    onsubmit="return validateCallback(this, dialogAjaxDone);">
+        <div class="pageFormContent" layoutH="60">
+             <dl style="height:1px;">
+             <dt><h3>活动基本信息</h3></dt>
+         </dl>
+         <dl style="height:1px;width:100%;">
+             <div class="divider"></div>
+         </dl>
+         <dl>
+             <dt>活动名称：</dt>
+             <dd>龙的传人首映活动 </dd>
+          </dl>
+          <dl>
+              <dt>活动类型：</dt>
+              <dd>促销活动</dd>
+          </dl>
+          <dl>
+             <dt>起始日期：</dt>
+             <dd>2014-01-01</dd>
+         </dl>
+          <dl>
+             <dt>截止日期：</dt>
+             <dd>2014-12-30</dd>
+         </dl>
+         <dl class="nowrap">
+             <dt>活动价：</dt>
+             <dd>150.0&nbsp;元</dd>
+         </dl>
+         <dl class="nowrap">
+             <dt>活动影院、影厅：</dt>
+             <dd>
+                 <ul>
+                     <li style="line-height:15px;">中影XXXX影城  一号厅、二号厅</label></li>
+                     <li style="line-height:15px;">中影XXXX影城  一号厅、二号厅</label></li>
+                     <li style="line-height:15px;">中影XXXX影城  一号厅、二号厅</label></li>
+                 </ul>
+             </dd>
+         </dl>
+         <dl class="nowrap">
+             <dt>活动渠道：</dt>
+             <dd> <label>淘宝电影</label><label> 京东电影</label><label>微信电影</label><label>猫眼电影</label></dd>
+         </dl>
+            <dl style="height:1px;width:100%; padding-bottom:5px;">
+                <dt><h3>活动定价规则</h3></dt>
+            </dl>
+            <dl style="width:100%;height:1px;">
+                <div class="divider"></div>
+            </dl>
+             <dl class="nowrap">
+                <div class="panel collapse" minH="100" id="rule_1">
+                    <h1><strong>1.</strong>&nbsp;&nbsp;一线影院固定价60.00元【<span class="green">启用</span>】【<span class="green">已生效</span>】</h1>
+                    <div>
+                        <div>
+                          <table class="list" width="98%" style="margin-left:5px;">
+                            <tr>
+                                <td width="100"> 结算价格：</td>
+                                <td>折扣价5折</td>
+                            </tr>
+                            <tr>
+                                <td width="100" >放映类型：</td>
+                                <td>2D、IMAX</td>
+                            </tr>
+                            <tr>
+                                <td width="100" >时间限制：</td>
+                                <td>特殊时段 周一、周二、周三、周四 9:00~12:00</td>
+                            </tr>
+                            <tr>
+                                <td width="100" >影院、影厅范围：</td>
+                                <td>
+                                    <ul>
+                                        <li>中影影城  一号厅、二号厅</li>
+                                        <li>万达影城  一号厅、二号厅</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                       </table>
+                        </div>
+                        <div style="margin-top:10px;">
+                            <table class="list" width="98%" style="margin-top:10px;">
+	                              <thead>
+	                                <tr>
+	                                    <th width="30px" align="center">序号</th>
+	                                    <th align="center">渠道名称</th>
+	                                     <th width="80px" align="center">开放状态</th>
+	                                    <th width="80px" align="center">生效状态</th>
+	                                    <th width="100px" align="center">渠道返点</th>
+	                                    <th width="100px" align="center">手续费</th>
+	                                </tr>
+	                            </thead>
+	                            <tbody>
+	                                <tr target="sid_user" rel="1">
+	                                    <td class="text-center">1</td>
+	                                    <td class="text-center">淘宝电影</td>
+	                                    <td class="text-center green">开放</td>
+	                                    <td class="text-center green">已生效</td>
+	                                    <td class="text-right">1.00</td>
+	                                    <td class="text-right">1.00</td>
+	                                </tr>
+	                                <tr target="sid_user" rel="1">
+	                                    <td class="text-center">2</td>
+	                                    <td class="text-center">QQ电影</td>
+	                                    <td class="text-center gray">关闭</td>
+	                                    <td class="text-center green">已生效</td>
+	                                    <td class="text-right">4.00</td>
+	                                    <td class="text-right">3.00</td>
+	                                </tr>
+	                                <tr target="sid_user" rel="1">
+	                                    <td class="text-center">3</td>
+	                                    <td class="text-center">网易电影</td>
+	                                    <td class="text-center gray">关闭</td>
+	                                    <td class="text-center red">未生效</td>
+	                                    <td class="text-right">5.00</td>
+	                                    <td class="text-right">2.00</td>
+	                                </tr>
+	                            </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel collapse" minH="100" id="rule_2">
+                    <h1> <strong>2.</strong>&nbsp;&nbsp;二线影院折扣价5折【<font color="#999999">停用</font>】【<span class="red">未生效</span>】</h1>
+                    <div>
+                        <div>
+                           <table class="list" width="98%" style="margin-left:5px;">
+                            <tr>
+                                <td width="100"> 结算价格：</td>
+                                <td>折扣价5折</td>
+                            </tr>
+                            <tr>
+                                <td width="100" >放映类型：</td>
+                                <td>2D、IMAX</td>
+                            </tr>
+                            <tr>
+                                <td width="100" >时间限制：</td>
+                                <td>特殊时段 周一、周二、周三、周四 9:00~12:00</td>
+                            </tr>
+                            <tr>
+                                <td width="100" >影院、影厅范围：</td>
+                                <td>
+                                    <ul>
+                                        <li>中影影城  一号厅、二号厅</li>
+                                        <li>万达影城  一号厅、二号厅</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                       </table>
+                        </div>
+                        <div style="margin-top:10px;">
+                            <table class="list" width="98%" style="margin-top:10px;">
+                                <thead>
+	                                <tr>
+	                                    <th width="40px" align="center">序号</th>
+	                                    <th align="center">渠道名称</th>
+	                                     <th width="80px" align="center">开放状态</th>
+	                                    <th width="80px" align="center">生效状态</th>
+	                                    <th width="100px" align="center">渠道返点</th>
+	                                    <th width="100px" align="center">手续费</th>
+	                                </tr>
+	                            </thead>
+	                            <tbody>
+	                                <tr target="sid_user" rel="1">
+	                                    <td class="text-center">1</td>
+	                                    <td class="text-center">淘宝电影</td>
+	                                    <td class="text-center green">开放</td>
+	                                    <td class="text-center green">已生效</td>
+	                                    <td class="text-right">1.00</td>
+	                                    <td class="text-right">1.00</td>
+	                                </tr>
+	                                <tr target="sid_user" rel="1">
+	                                    <td class="text-center">2</td>
+	                                    <td class="text-center">QQ电影</td>
+	                                    <td class="text-center gray">关闭</td>
+	                                    <td class="text-center green">已生效</td>
+	                                    <td class="text-right">4.00</td>
+	                                    <td class="text-right">3.00</td>
+	                                </tr>
+	                                <tr target="sid_user" rel="1">
+	                                    <td class="text-center">3</td>
+	                                    <td class="text-center">网易电影</td>
+	                                    <td class="text-center gray">关闭</td>
+	                                    <td class="text-center red">未生效</td>
+	                                    <td class="text-right">5.00</td>
+	                                    <td class="text-right">2.00</td>
+	                                </tr>
+	                            </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                </dl>
+        </div>
+        <div class="formBar">
+            <ul>
+                <li>
+                    <a id="auditReturn" class="button" href="product/aduit-option.html" target="dialog" rel="aduit-option" mask="true" title="审批退回"  height="230"><span>审核退回</span></a>
+                </li>
+                <li>
+                    <div class="buttonActive"><div class="buttonContent"><button type="submit">审核通过</button> </div></div>
+                </li>
+                <li>
+                    <div class="button"><div class="buttonContent"><button type="button" class="close">取消 </button> </div></div>
+                </li>
+            </ul>
+        </div>
+    </form>
+</div>

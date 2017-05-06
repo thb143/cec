@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<status>1</status>
+	<errorMessage />
+	<errorCode />
+	<ticketOrder>
+		<status>4</status>
+		<voucher>
+			<printCode>907381</printCode>
+			<verifyCode>727655</verifyCode>
+		</voucher>
+	</ticketOrder>
+</root>

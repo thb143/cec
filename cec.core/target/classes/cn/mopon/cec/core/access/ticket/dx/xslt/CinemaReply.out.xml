@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<status>1</status>
+	<errorMessage />
+	<errorCode />
+	<cinema>
+		<halls>
+			<hall>
+				<code>261</code>
+				<name>1号厅</name>
+				<seatCount>324</seatCount>
+			</hall>
+			<hall>
+				<code>404</code>
+				<name>2号厅</name>
+				<seatCount>128</seatCount>
+			</hall>
+			<hall>
+				<code>405</code>
+				<name>4号厅</name>
+				<seatCount>212</seatCount>
+			</hall>
+			<hall>
+				<code>406</code>
+				<name>VIP厅</name>
+				<seatCount>30</seatCount>
+			</hall>
+			<hall>
+				<code>407</code>
+				<name>POLYMAX厅</name>
+				<seatCount>335</seatCount>
+			</hall>
+			<hall>
+				<code>408</code>
+				<name>7号厅</name>
+				<seatCount>89</seatCount>
+			</hall>
+			<hall>
+				<code>409</code>
+				<name>3号厅</name>
+				<seatCount>212</seatCount>
+			</hall>
+		</halls>
+	</cinema>
+</root>

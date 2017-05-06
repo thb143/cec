@@ -1,0 +1,30 @@
+<div class="page">
+    <div class="pageContent">
+        <form method="post" action="ajaxDone1.html" class="pageForm required-validate" onsubmit="return validateCallback(this, dialogAjaxDone);">
+        <div class="pageFormContent" layoutH="60">
+            <dl class="nowrap">
+                <dt style="width:60px;">批量设置：</dt>
+                <dd style="width:300px;"><input type="radio" name="r1" value="1"/>标准价加价<input size="2" name="price" disabled="true"/>&nbsp;元&nbsp;&nbsp;<input type="radio" name="r1" value="2" checked/>百分比加价<input size="2" name="price" value="10"/>&nbsp;%</dd>
+            </dl>
+        </div>
+        <div class="formBar">
+            <ul>
+                <li>
+                    <div class="buttonActive">
+                        <div class="buttonContent">
+                            <button type="submit">确定</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="button">
+                        <div class="buttonContent">
+                            <button type="button" class="close">取消</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OnlineTicketingServiceReply Version="1.0"
+	Datetime="2014-06-04T09:54:22">
+	<QueryOrderReply Status="Success" ErrorCode=""
+		ErrorMessage="" Id="ID_QueryOrderReply">
+		<Order OrderCode="70D9D26102466662">
+			<CinemaCode>13014101</CinemaCode>
+			<CinemaName>火烈鸟影院售票系统</CinemaName>
+			<ScreenCode>1007814042400001</ScreenCode>
+			<ScreenName>1号厅</ScreenName>
+			<SessionCode>1000414060305417</SessionCode>
+			<StartTime>2014-07-01 02:01:00.0</StartTime>
+			<PlaythroughFlag>No</PlaythroughFlag>
+			<PrintNo>2014060409283048</PrintNo>
+			<VerifyCode>B6236202217BE3DF</VerifyCode>
+			<Films>
+				<Film>
+					<Code>001102512014</Code>
+					<Name>辛巴达历险记2</Name>
+					<Duration>100</Duration>
+					<Sequence></Sequence>
+				</Film>
+			</Films>
+			<Seats>
+				<Seat>
+					<SeatCode>1_1_10_106600000</SeatCode>
+					<RowNum>1</RowNum>
+					<ColumnNum>10</ColumnNum>
+					<FilmTicketCode>1401845310375000</FilmTicketCode>
+					<PrintStatus>No</PrintStatus>
+					<PrintTime></PrintTime>
+					<RefundStatus>No</RefundStatus>
+					<RefundTime></RefundTime>
+				</Seat>
+			</Seats>
+		</Order>
+	</QueryOrderReply>
+</OnlineTicketingServiceReply>

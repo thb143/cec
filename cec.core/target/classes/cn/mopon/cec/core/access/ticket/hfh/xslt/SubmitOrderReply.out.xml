@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<result>0</result>
+	<message>订单处理成功(OPS:Order Processed Successfully)</message>
+	<Order>
+		<voucher>
+			<verifyCode>2014112971672649</verifyCode>
+			<printCode>1781014112915215</printCode>
+		</voucher>
+		<cinemaOrderCode>1781014112915215</cinemaOrderCode>
+		<orderItems>
+			<orderItem>
+				<ticketCode>1781141129030150</ticketCode>
+				<seatCode>1_02</seatCode>
+			</orderItem>
+		</orderItems>
+	</Order>
+</data>

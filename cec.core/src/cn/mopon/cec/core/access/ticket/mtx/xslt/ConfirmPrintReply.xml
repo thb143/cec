@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppPrintTicketResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ResultCode>0</ResultCode>
+	<OrderNo>49254982</OrderNo>
+	<OrderStatus>8</OrderStatus>
+	<OrderDate>2014-11-24</OrderDate>
+	<OrderTime>11:20</OrderTime>
+	<FeatureDate>2014-11-26</FeatureDate>
+	<FeatureTime>21:00</FeatureTime>
+	<FilmName>星际穿越（数字）</FilmName>
+	<HallName>3号厅</HallName>
+	<PrintType>1</PrintType>
+	<SeatInfos>
+		<SeatInfo>
+			<SeatRow>1</SeatRow>
+			<SeatCol>3</SeatCol>
+			<SeatPieceName>全厅</SeatPieceName>
+			<TicketNo>300000624431</TicketNo>
+		</SeatInfo>
+	</SeatInfos>
+</AppPrintTicketResult>

@@ -1,0 +1,106 @@
+<div class="page">
+    <div class="pageContent">
+        <form method="post" action="ajaxDone1.html" class="pageForm required-validate" onsubmit="return validateCallback(this, dialogAjaxDone);">
+        <div class="pageFormContent" layoutH="60">
+            <dl>
+                <dt>影院编码：</dt>
+                <dd><input type="text" name="cinema.code" size="30" maxlength="16" class="required" value="24343554"/></dd>
+            </dl>
+            <dl>
+                <dt>影院名称:</dt>
+                <dd><input type="text" name="cinema.name" size="30" maxlength="60" class="required" value="大地数字影院"/></dd>             
+            </dl>
+             <dl>
+                <dt>影厅数量：</dt>
+                <dd><input name="cinema.hallCount" size="30" class="required digits" value="4"/></dd>
+            </dl>
+            <dl>
+                <dt>是否结算：</dt>
+                <dd><input type="radio" name="settled" checked="checked" value="1"/>结算<input type="radio" name="settled" value="0"/>不结算</dd>
+            </dl>
+            <dl>
+                <dt>综合评分：</dt>
+                <dd><input name="cinema.grade" type="text" size="30" class="number"/></dd>
+            </dl>
+            <dl>
+                <dt>客服电话：</dt>
+                <dd><input type="text" name="cinema.tel" size="30" class="phone" value="0734-88885445"/></dd>
+            </dl>
+            <dl class="nowrap">
+                <dt>影院地址：</dt>
+                <dd><input type="text" name="cinema.address" size="80" value="深圳时代城6楼"/></dd>
+            </dl>
+            <dl class="nowrap">
+                <dt>影院网址：</dt>
+                <dd><input type="text" name="cinema.url" size="80" class="url"/></dd>
+            </dl>
+            <dl class="nowrap">
+                <dt>行政区划：</dt>
+                <dd>
+                    <select class="combox" name="province" ref="w_combox_city" refUrl="">
+                        <option value="all">所有省市</option>
+                        <option value="bj">北京</option>
+                        <option value="sh">上海</option>
+                    </select>
+                    <select class="combox" name="city" id="w_combox_city" ref="w_combox_area" refUrl="">
+                        <option value="all">所有城市</option>
+                    </select>
+                    <select class="combox" name="area" id="w_combox_area">
+                        <option value="all">所有区县</option>
+                    </select>
+                </dd>
+            </dl>
+             <dl>
+                <dt>经度：</dt>
+                <dd><input type="text" name="cinema.longitude" size="30"/></dd>
+            </dl>
+            <dl>
+                <dt>纬度：</dt>
+                <dd><input type="text" name="cinema.latitude" size="30"/></dd>
+            </dl> 
+            <dl>
+                <dt>影院LOGO：</dt>
+                <dd><input type="file" name="cinema.logo" /></dd>
+            </dl>
+            <dl class="nowrap">
+                <dt>影院简介：</dt>
+                <dd><textarea name="cinema.intro" cols="80" rows="5"/></dd>
+            </dl>
+            <dl class="nowrap">
+                <dt>影院特色：</dt>
+                <dd><textarea name="cinema.feature" cols="80" rows="5"/></dd>
+            </dl>
+            <dl class="nowrap">
+                <dt>公交线路：</dt>
+                <dd><textarea name="cinema.busLine" cols="80" rows="5"/></dd>
+            </dl>
+            <dl class="nowrap">
+                <dt>终端位置说明：</dt>
+                <dd><textarea name="cinema.devicePosition" cols="80" rows="5"/></dd>
+            </dl>
+            <dl class="nowrap">
+                <dt>终端位置图：</dt>
+                <dd><input type="file" name="cinema.deviceImg"/></dd>
+            </dl>
+        </div>
+        <div class="formBar">
+            <ul>
+                <li>
+                    <div class="buttonActive">
+                        <div class="buttonContent">
+                            <button type="submit">保存</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="button">
+                        <div class="buttonContent">
+                            <button type="button" class="close">取消</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        </form>
+    </div>
+</div>

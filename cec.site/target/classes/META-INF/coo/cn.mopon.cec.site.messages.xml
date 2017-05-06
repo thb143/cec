@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<!--=====================================价格名称===================================== -->
+	<entry key="minPrice">最低价</entry>
+	<entry key="stdPrice">标准价</entry>
+	<entry key="amount">销售金额</entry>
+	<entry key="cinemaAmount">影院结算金额</entry>
+	<entry key="channelAmount">渠道结算金额</entry>
+	<entry key="submitAmount">票房金额</entry>
+	<entry key="cinemaPrice">影院结算价</entry>
+	<entry key="channelPrice">渠道结算价</entry>
+	<entry key="salePrice">销售价</entry>
+	<entry key="submitPrice">票房价</entry>
+	<entry key="serviceFee">服务费</entry>
+	<entry key="connectFee">接入费</entry>
+	<entry key="circuitFee">手续费</entry>
+	<entry key="subsidyFee">补贴费</entry>
+	<entry key="channelFee">渠道费</entry>
+	<entry key="discountAmount">优惠金额</entry>
+	<entry key="snackName">卖品名称</entry>
+	<entry key="snackRemark">卖品内容</entry>
+	<entry key="snackCount">卖品数量</entry>
+	<entry key="saleAmount">销售价</entry>
+	<entry key="stdAmount">标准价</entry>
+	<entry key="cinemaAmount">影院结算价</entry>
+	<entry key="channelAmount">渠道结算价</entry>
+	<entry key="ticketAmount">选座票金额</entry>
+	<entry key="snackAmount">卖品金额</entry>
+	<!--=====================================运营管理===================================== -->
+	<!-- 接入类型 -->
+	<entry key="ticketAccessType.add.success">选座票接入类型新增成功。</entry>
+	<entry key="ticketAccessType.edit.success">选座票接入类型编辑成功。</entry>
+	<entry key="ticketSettings.edit.success">选座票接入设置编辑成功。</entry>
+
+	<entry key="memberAccessType.add.success">会员接入类型新增成功。</entry>
+	<entry key="memberAccessType.edit.success">会员接入类型编辑成功。</entry>
+	<entry key="memberSettings.edit.success">会员接入设置编辑成功。</entry>
+
+	<!-- 影院管理 -->
+	<entry key="cinema.add.success">影院新增成功。 </entry>
+	<entry key="cinema.edit.success">影院编辑成功。 </entry>
+	<entry key="cinema.enable.success">影院启用成功，系统将重新生成相关渠道排期。</entry>
+	<entry key="cinema.disable.success">影院停用成功，作废渠道排期[{0}]条。</entry>
+	<entry key="cinema.open.salable.success">影院启售成功，上架渠道排期[{0}]条。</entry>
+	<entry key="cinema.close.salable.success">影院停售成功，下架渠道排期[{0}]条。</entry>
+	<entry key="cinema.set.success">影院设置成功。</entry>
+
+	<entry key="hall.edit.success">影厅编辑成功。</entry>
+	<entry key="hall.sync.success">影厅同步成功。</entry>
+	<entry key="hall.sync.seats.success">影厅座位同步成功。</entry>
+	<entry key="hall.enable.success">影厅启用成功，系统将重新生成相关渠道排期。</entry>
+	<entry key="hall.disable.success">影厅停用成功，作废渠道排期[{0}]条。</entry>
+
+	<entry key="hallType.add.success">影厅类型新增成功。</entry>
+	<entry key="hallType.edit.success">影厅类型编辑成功。</entry>
+
+	<!-- 影片管理 -->
+	<entry key="film.sync.success">影片同步完成。</entry>
+	<entry key="minPriceGroup.save.success">影片最低价分类新增成功。</entry>
+	<entry key="minPriceGroup.delete.success">影片最低价分类删除成功。</entry>
+	<entry key="minPriceGroup.edit.success">影片最低价分类编辑成功。</entry>
+	<entry key="minPriceRule.add.success">影片最低价规则新增成功。</entry>
+	<entry key="minPriceRule.update.success">影片最低价规则编辑成功。</entry>
+	<entry key="minPriceRule.delete.success">影片最低价规则删除成功。</entry>
+
+	<!-- 参数设置 -->
+	<entry key="circuitSettings.set.success">参数设置成功。</entry>
+
+	<!-- 城市分组 -->
+	<entry key="cityGroup.add.success">城市分组新增成功。</entry>
+	<entry key="cityGroup.edit.success">城市分组编辑成功。</entry>
+	<entry key="cityGroup.delete.success">城市分组删除成功。</entry>
+
+	<!-- 统计分析 -->
+	<entry key="stat.success">统计成功。</entry>
+	<entry key="stat.part.success">部分统计成功，失败日期[{0}]。</entry>
+	<entry key="max.orderday.reset.success">最高订单日重置成功。</entry>
+	<entry key="sync.sale.statday.success">销售趋势统计维护成功。</entry>
+	<entry key="sync.sale.statall.success">累计订单信息维护成功。</entry>
+	<entry key="sync.today.ranks.success">当天销售排行维护成功。</entry>
+
+	<!-- 渠道管理 -->
+	<entry key="channel.add.success">渠道新增成功。</entry>
+	<entry key="channel.edit.success">渠道编辑成功。</entry>
+	<entry key="channel.enable.success">渠道开放成功，系统将重新生成相关渠道排期。</entry>
+	<entry key="channel.disable.success">渠道关闭成功，作废渠道排期[{0}]条。</entry>
+	<entry key="channel.open.salable.success">渠道启售成功，上架渠道排期[{0}]条。</entry>
+	<entry key="channel.close.salable.success">渠道停售成功，下架渠道排期[{0}]条。</entry>
+	<entry key="channel.set.success">渠道设置成功。</entry>
+
+	<!--=====================================价格管理===================================== -->
+	<!-- 公用提示信息 -->
+	<entry key="policy.add.success">策略新增成功。</entry>
+	<entry key="policy.edit.success">策略编辑成功。</entry>
+	<entry key="policy.delete.success">策略删除成功。</entry>
+	<entry key="policy.submit.success">策略提交成功。</entry>
+	<entry key="policy.copy.success">策略复制新增成功。</entry>
+	<entry key="policy.enable.success">策略启用成功，系统将重新生成相关渠道排期。</entry>
+	<entry key="policy.disable.success">策略停用成功，系统将重新生成相关渠道排期。</entry>
+	<entry key="policy.audit.pass.success">策略审核通过成功。</entry>
+	<entry key="policy.audit.refuse.success">策略审核退回成功。</entry>
+	<entry key="policy.approve.pass.success">策略审批通过成功。</entry>
+	<entry key="policy.approve.refuse.success">策略审批退回成功。</entry>
+
+	<entry key="rule.add.success">规则新增成功。</entry>
+	<entry key="rule.delete.success">规则删除成功。</entry>
+	<entry key="rule.enable.success">规则启用成功，系统将重新生成相关渠道排期。</entry>
+	<entry key="rule.disable.success">规则停用成功，系统将重新生成相关渠道排期。</entry>
+	<entry key="rule.edit.success">规则编辑成功。</entry>
+	<entry key="rule.copy.success">规则复制成功。</entry>
+
+	<!-- 渠道结算策略 -->
+	<entry key="channelPolicyRuleGroup.add.success">影院添加成功。</entry>
+	<entry key="channelPolicyRuleGroup.delete.success">影院删除成功。</entry>
+	<entry key="channelPolicyRuleGroup.open.success">影院开放成功，系统将重新生成相关渠道排期。</entry>
+	<entry key="channelPolicyRuleGroup.close.success">影院关闭成功，系统将重新生成相关渠道排期。</entry>
+	<entry key="channelPolicyRuleGroup.copy.success">复制到其他影院成功。</entry>
+	<entry key="channelPolicyRuleGroup.batch.open.success">影院开放设置成功，系统将重新生成相关渠道排期。</entry>
+	<entry key="channelPolicyRuleGroup.save.ordinal.success">影院排序设置成功。</entry>
+	<entry key="channelPolicyRuleGroup.set.connectFee.success">影院接入费设置成功。</entry>
+	<entry key="channelPolicyRuleGroup.batch.set.connectFee.success">影院接入费批量设置成功。</entry>
+	<entry key="channelRuleGroup.null.groupIds">请选择影院。</entry>
+
+	<!-- 特殊定价策略 -->
+	<entry key="specialChannel.open.success">渠道开放成功，系统将重新生成相关渠道排期。</entry>
+	<entry key="specialChannel.close.success">渠道关闭成功，系统将重新生成相关渠道排期。</entry>
+	<entry key="specialChannel.add.success">渠道新增成功。</entry>
+	<entry key="specialChannel.edit.success">渠道编辑成功。</entry>
+	<entry key="specialChannel.copy.success">渠道复制成功。</entry>
+	<entry key="specialChannel.delete.success">渠道删除成功。</entry>
+
+	<!--=====================================产品管理===================================== -->
+	<!-- 影院排期管理 -->
+	<entry key="show.sync.success">排期同步已完成，请查看排期同步日志了解详细信息。</entry>
+	<entry key="show.gen.success">重新生成了[{0}]条新的渠道排期。</entry>
+
+	<!-- 渠道排期管理 -->
+	<entry key="channelShow.enable.success">渠道排期上架成功。</entry>
+	<entry key="channelShow.disable.success">渠道排期下架成功。</entry>
+	<entry key="channelShow.batch.enable.success">渠道排期批量上架成功。</entry>
+	<entry key="channelShow.batch.disable.success">渠道排期批量下架成功。</entry>
+
+	<!-- 卖品类型管理 -->
+	<entry key="snackGroup.add.success">卖品分类新增成功。</entry>
+	<entry key="snackGroup.edit.success">卖品分类编辑成功。</entry>
+	
+	<!-- 卖品类型管理 -->
+	<entry key="snackType.add.success">卖品类型新增成功。</entry>
+	<entry key="snackType.edit.success">卖品类型编辑成功。</entry>
+
+	<!-- 卖品管理 -->
+	<entry key="snack.add.success">卖品新增成功。</entry>
+	<entry key="snack.set.success">卖品价格设置成功。</entry>
+	<entry key="snack.delete.success">卖品删除成功。</entry>
+	<entry key="snack.edit.success">卖品价格编辑成功。</entry>
+	<entry key="snack.enable.success">卖品上架成功。</entry>
+	<entry key="snack.disable.success">卖品下架成功。</entry>
+	
+	<!-- 卖品渠道管理 -->
+	<entry key="snackChannel.add.success">卖品渠道新增成功。</entry>
+	<entry key="snackChannel.copy.success">卖品渠道复制成功。</entry>
+	<entry key="snackChannel.edit.success">卖品渠道编辑成功。</entry>
+	<entry key="snackChannel.open.success">卖品渠道开放成功。</entry>
+	<entry key="snackChannel.close.success">卖品渠道关闭成功。</entry>
+	
+	<!-- 卡类管理 -->
+	<entry key="benefitCardType.add.success">卡类新增成功。</entry>
+	<entry key="benefitCardType.update.success">卡类修改成功。</entry>
+	<entry key="benefitCardType.enable.success">卡类启用成功，系统将重新生成相关渠道排期。</entry>
+	<entry key="benefitCardType.disabled.success">卡类停用成功。</entry>
+	<entry key="benefitCardType.delete.success">卡类删除成功。</entry>
+	
+	<entry key="benefitCardTypeRule.update.success">卡类结算规则修改成功。</entry>
+	<entry key="benefitCardTypeRule.enable.success">规则启用成功，系统将重新生成相关渠道排期。</entry>
+	<entry key="benefitCardTypeRule.disabled.success">规则停用成功，系统将重新生成相关渠道排期。</entry>
+	<entry key="benefitCardTypeSnackRule.enable.success">规则启用成功。</entry>
+	<entry key="benefitCardTypeSnackRule.disabled.success">规则停用成功。</entry>
+	<entry key="benefitCardTypeRule.add.success">卡类结算规则增加成功。</entry>
+	<entry key="benefitCardTypeRule.delete.success">卡类结算规则删除成功。</entry>
+	
+	<entry key="benefitCardType.submit.success">卡类提交审核成功。</entry>
+	<entry key="benefitCardType.audit.pass.success">卡类审核通过成功。</entry>
+	<entry key="benefitCardType.audit.refuse.success">卡类审核退回成功。</entry>
+	<entry key="benefitCardType.approve.refuse.success">卡类审批退回成功。</entry>
+	<entry key="benefitCardType.approve.pass.success">卡类审批通过成功。</entry>
+	
+	<!-- 权益卡管理 -->
+	<entry key="benefitCard.disable.success">权益卡冻结成功。</entry>
+	<entry key="benefitCard.enable.success">权益卡解冻成功。</entry>
+	<entry key="benefitCard.delay.success">权益卡延期成功。</entry>
+
+	<!--=====================================订单管理===================================== -->
+	<!-- 选座票 -->
+	<entry key="ticketOrder.mark.failed.success">标记出票失败成功。</entry>
+	<entry key="ticketOrder.revoke.success">退票成功。</entry>
+	<entry key="ticketOrder.mark.revoked.success">标记退票成功。</entry>
+	<entry key="ticketVoucher.reset.success">重置凭证成功。</entry>
+
+	<!--=====================================系统管理===================================== -->
+	<!-- 机构管理 -->
+	<entry key="organ.add.success">机构新增成功。</entry>
+	<entry key="organ.edit.success">机构编辑成功。</entry>
+
+	<!-- 角色管理 -->
+	<entry key="role.add.success">角色新增成功。</entry>
+	<entry key="role.edit.success">角色编辑成功。</entry>
+
+	<!-- 用户管理 -->
+	<entry key="user.add.success">用户新增成功。</entry>
+	<entry key="user.edit.success">用户编辑成功。</entry>
+	<entry key="user.enable.success">用户启用成功。</entry>
+	<entry key="user.disable.success">用户停用成功。</entry>
+	<entry key="user.pwd.reset.success">密码重置成功。</entry>
+
+	<entry key="actor.add.success">职务新增成功。</entry>
+	<entry key="actor.edit.success">职务编辑成功。</entry>
+	<entry key="actor.delete.success">职务删除成功。</entry>
+
+	<entry key="person.set.success">用户设置成功。</entry>
+	<entry key="person.pwd.change.success">密码修改成功。</entry>
+
+	<entry key="indexed.entity.build.success">重建全文索引成功。</entry>
+	<entry key="cached.entity.evict.success">清理实体缓存成功。</entry>
+	<entry key="entity.regions.evict.success">清理所有实体缓存成功。</entry>
+	<entry key="collection.regions.evict.success">清理所有集合缓存成功。</entry>
+	<entry key="query.regions.evict.success">清理所有查询缓存成功。</entry>
+	<entry key="all.regions.evict.success">清理所有缓存成功。</entry>
+
+	<!--=====================================页面格式校验信息===================================== -->
+	<entry key="input.price.validate">请输入0~1000的数字，格式：0000.00,如：1.00。</entry>
+	<entry key="input.percent.validate">请输入0~100的数字，格式：0000.00,如：1.00。</entry>
+	<entry key="input.time.validate">请输入正确的时间格式，例如：09:00,23:30。</entry>
+	<entry key="input.endDate.validate">结束日期不能小于开始日期。</entry>
+</properties>

@@ -1,0 +1,23 @@
+<LoginCardReturn>
+	<ResultCode>1</ResultCode>
+	<ResultMsg>记录不存在</ResultMsg>
+	<CardId></CardId>
+	<AccLevelCode></AccLevelCode>
+	<AccLevelName></AccLevelName>
+	<AccStatus></AccStatus>
+	<AccBalance></AccBalance>
+	<AccIntegral></AccIntegral>
+	<PlaceNo></PlaceNo>
+	<CinemaName></CinemaName>
+	<IdNnumber></IdNnumber>
+	<ExpirationTime></ExpirationTime>
+	<PhoneNumber></PhoneNumber>
+	<Email></Email>
+	<Birthday></Birthday>
+	<MemberName></MemberName>
+	<ConnectName></ConnectName>
+	<Address></Address>
+	<Sex></Sex>
+	<Married></Married>
+	<Kind></Kind>
+</LoginCardReturn>

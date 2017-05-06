@@ -1,0 +1,249 @@
+<SCRIPT type="text/javascript">
+    <!--
+    var setting = {
+        view : {
+            addHoverDom : addHoverDom,
+            removeHoverDom : removeHoverDom,
+            addDiyDom : addDiyDom,
+            selectedMulti : false,
+            nameIsHTML: true,
+            showIcon: false
+        }
+    };
+
+    var zNodes = [{
+        id : 1,
+        name : "2014",
+        open : true,
+        children : [{
+            id : 10,
+            name : "<span class='green'>特殊场次活动1</span>",
+            url : "activity/showActivity-view.html",
+            target : "ajax",
+            enabled : "[停用]"
+        }, {
+            id : 11,
+            name : "<span class='green'>特殊影片活动2</span>",
+            url : "activity/filmActivity-view.html",
+            target : "ajax",
+            enabled : "[停用]"
+        }, {
+            id : 12,
+            name : "<span class='green'>预售活动1</span>",
+            url : "activity/sellActivity-view.html",
+            target : "ajax",
+            enabled : "[停用]"
+        }, {
+            id : 13,
+            name : "<span class='gray'>促销活动1</span>",
+            url : "activity/sellActivity-view.html",
+            target : "ajax",
+            enabled : "[启用]"
+        }]
+    },{
+        id : 2,
+        name : "2013",
+        open : true,
+        children : [{
+        	id : 20,
+            name : "<span class='gray'>特殊场次活动1</span>",
+            url : "activity/showActivity-view.html",
+            target : "ajax",
+            enabled : "[启用]"
+        }, {
+            id : 21,
+            name : "<span class='gray'>特殊影片活动2</span>",
+            url : "activity/filmActivity-view.html",
+            target : "ajax",
+            enabled : "[启用]"
+        }, {
+            id : 22,
+            name : "<span class='gray'>预售活动1</span>",
+            url : "activity/sellActivity-view.html",
+            target : "ajax",
+            enabled : "[启用]"
+        }, {
+            id : 23,
+            name : "<span class='gray'>促销活动1</span>",
+            url : "activity/sellActivity-view.html",
+            target : "ajax",
+            enabled : "[启用]"
+        }]
+    }];
+
+    function addDiyDom(treeId, treeNode) {
+        if (treeNode.parentNode && treeNode.parentNode.id != 2)
+            return;
+        var aObj = $("#" + treeNode.tId + "_a");
+        var currYear = (new Date()).getFullYear();
+        //只能在当前年度下添加活动.
+        if (currYear.toString() == treeNode.name) {
+            var editStr = "[<a href='activity/activity-type-select.html' id='diyBtn1_" + treeNode.id + "' target='dialog' mask='true' rel='activity-type-select' title='请选择活动类型'>新增</a>]";
+            editStr += "[<a href='activity/activity-copy-select.html' id='diyBtn1_" + treeNode.id + "' width='850' height='550' target='dialog' mask='true' rel='ticket-add' title='搜索待复制的活动'>复制新增</a>]";
+            aObj.after(editStr);
+            return;
+        }
+    }
+
+    function addHoverDom(treeId, treeNode) {
+        var sObj = $("#" + treeNode.tId + "_span");
+        if (treeNode.editNameFlag || $("#addBtn_" + treeNode.tId).length > 0)
+            return;
+        if (treeNode.id < zNodes.length + 1) {
+            return;
+        }
+        var addStr = "<span id='addBtn_" + treeNode.tId + "'>";
+        addStr += "<a href='javascript:void(0);' id='editTicket_"+treeNode.id+"'>[编辑]</a>";
+        addStr += "<a href=''>[删除]</a>";
+        addStr += "<a href=''>" + treeNode.enabled + "</a>";
+        addStr += "<a id='diyBtn1_" + treeNode.id + "'>[上移]</a><a id='diyBtn2_" + treeNode.id + "'>[下移]</a></span>";
+        sObj.after(addStr);
+        $("#diyBtn1_" + treeNode.id).bind("click", function() {
+            nodeUp(treeNode.id.toString().substring(1), treeNode.id.toString().substring(0, 1));
+            removeHoverDom(treeNode.tId, treeNode);
+            return false;
+        });
+        $("#diyBtn2_" + treeNode.id).bind("click", function() {
+            nodeDown(treeNode.id.toString().substring(1), treeNode.id.toString().substring(0, 1));
+            removeHoverDom(treeNode.tId, treeNode);
+            return false;
+        });
+        $("#editTicket_" + treeNode.id).bind("click", function() {
+            editTicket();
+            removeHoverDom(treeNode.tId, treeNode);
+            return false;
+        });
+    };
+
+    function nodeUp(childId, parentId) {
+        var zTree = $.fn.zTree.getZTreeObj("treeDemo");
+        var nodes = zTree.getNodes()[parentId - 1];
+        var num = nodes.children ? nodes.children.length : 0;
+        for (var i = 1; i < num; i++) {
+            if (i == childId) {// 上移
+                var curName = nodes.children[i].name;
+                var upName = nodes.children[i - 1].name;
+                nodes.children[i].name = upName;
+                nodes.children[i - 1].name = curName;
+                zTree.updateNode(nodes.children[i]);
+                zTree.updateNode(nodes.children[i - 1]);
+            }
+        }
+    };
+
+    function nodeDown(childId, parentId) {
+        var zTree = $.fn.zTree.getZTreeObj("treeDemo");
+        var nodes = zTree.getNodes()[parentId - 1];
+        var num = nodes.children ? nodes.children.length : 0;
+        for (var i = 0; i < num - 1; i++) {
+            if (i == childId) {// 下移
+                var curName = nodes.children[i].name;
+                var upName = nodes.children[i + 1].name;
+                nodes.children[i].name = upName;
+                nodes.children[i + 1].name = curName;
+                zTree.updateNode(nodes.children[i]);
+                zTree.updateNode(nodes.children[i + 1]);
+            }
+        }
+    };
+
+    function removeHoverDom(treeId, treeNode) {
+        $("#addBtn_" + treeNode.tId).unbind().remove();
+    };
+
+    $(document).ready(function() {
+        $.fn.zTree.init($("#treeDemo"), setting, zNodes);
+        $("a[name='up']").click(function() {
+            if ($("input[name='rule']:checked").size() > 1) {
+                alert("只能选择一项进行上下移操作！");
+                return;
+            }
+            $("input[name='rule']:checked").each(function() {
+                var $div = $('#rule_' + $(this).val());
+                if ($div.index() != 0) {
+                    $div.prev().before($div);
+                }
+            });
+        });
+        $("a[name='down']").click(function() {
+            if ($("input[name='rule']:checked").size() > 1) {
+                alert("只能选择一项进行上下移操作！");
+                return;
+            }
+            $("input[name='rule']:checked").each(function() {
+                var $div = $('#rule_' + $(this).val());
+                if ($('#rule_' + (parseInt($(this).val()) + 1)).html() != null) {
+                    $div.next().after($div);
+                }
+            });
+        });
+    });
+
+    function down(no) {
+        var $div = $('#rule_' + no);
+        if($div.next() != null) {
+            $div.next().after($div);
+        }
+    }
+
+    function up(no) {
+        var $div = $('#rule_' + no);
+        if ($div.index() != 0) {
+            $div.prev().before($div);
+        }
+    }
+
+    function stretch() {
+        var name = $("#stretch").attr("name");
+        if(name.indexOf('open') != -1) {
+            $("#stretch").attr("name","close");
+            $("div[class=panelHeaderContent]>a[class='panelCollapseBtn expandable']").trigger("click");
+        } else {
+            $("#stretch").attr("name","open");
+            $("div[class=panelHeaderContent]>a[class='panelCollapseBtn collapsable']").trigger("click");
+        }
+    }
+    function editRule() {
+        $("#editRule").click();
+    }
+    function editTicket() {
+        $("#editTicket").click();
+    }
+    //-->
+</SCRIPT>
+
+<div style="float:left; display:block; width:27%; border-right:solid 1px #CCC;">
+    <div class="pageHeader">
+        <div class="searchBar">
+            <div class="subBar">
+                <ul>
+                    <li>
+                        <input name="search"/>
+                    </li>
+                    <li>
+                        <div class="buttonActive">
+                            <div class="buttonContent">
+                                <button type="submit">
+                                    筛选
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="page" layoutH="40">
+        <div class="pageContent">
+            <ul id="treeDemo" class="ztree"></ul>
+        </div>
+    </div>
+</div>
+<div id="ticketPolicyBox" style="float:left; display:block; padding:3px; overflow: hidden; width:72%;"></div>
+<script>
+    $(function() {
+        setTimeout(function() {
+            $("a[objectid='activity/showActivity-view.html']").click();
+        }, 10);
+    });
+</script>

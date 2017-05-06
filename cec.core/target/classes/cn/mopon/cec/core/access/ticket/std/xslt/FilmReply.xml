@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OnlineTicketingServiceReply Version="1.0"
+	Datetime="2014-04-12T20:58:02">
+	<QueryFilmReply Status="Success" ErrorCode=""
+		ErrorMessage="" Id="ID_QueryFilm">
+		<Films Count="2">
+			<Film>
+				<Code>1</Code>
+				<Name>美国队长2</Name>
+				<Version>1.0</Version>
+				<Duration>120</Duration>
+				<PublishDate>2014-4-4</PublishDate>
+				<Publisher>美国</Publisher>
+				<Producer>制作人1</Producer>
+				<Director>导演1</Director>
+				<Cast>演员1</Cast>
+				<Introduction>简介1</Introduction>
+			</Film>
+			<Film>
+				<Code>1</Code>
+				<Name>笔仙惊魂</Name>
+				<Version>1.0</Version>
+				<Duration>110</Duration>
+				<PublishDate>2014-4-5</PublishDate>
+				<Publisher>大陆</Publisher>
+				<Producer>制作人2</Producer>
+				<Director>导演2</Director>
+				<Cast>演员2</Cast>
+				<Introduction>简介2</Introduction>
+			</Film>
+		</Films>
+	</QueryFilmReply>
+</OnlineTicketingServiceReply>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reply>
+	<code>001</code>
+	<msg>操作成功。</msg>
+	<shows>
+		<show>
+			<channelShowCode>141000000003</channelShowCode>
+			<cinemaCode>2</cinemaCode>
+			<cinemaShowCode>7209620141009153150</cinemaShowCode>
+			<hallCode>314</hallCode>
+			<filmCode>100142</filmCode>
+			<filmName>动物也疯狂</filmName>
+			<showType>1</showType>
+			<language>汉语普通话</language>
+			<showTime>2014-10-10 16:00:00</showTime>
+			<duration>12</duration>
+			<stopSellTime>2014-10-10 15:45:00</stopSellTime>
+			<stdPrice>70.0</stdPrice>
+			<minPrice>20.0</minPrice>
+			<settlePrice>3.0</settlePrice>
+			<status>1</status>
+		</show>
+		<show>
+			<channelShowCode>141000000002</channelShowCode>
+			<cinemaCode>2</cinemaCode>
+			<cinemaShowCode>7209520141009153150</cinemaShowCode>
+			<hallCode>314</hallCode>
+			<filmCode>100142</filmCode>
+			<filmName>动物也疯狂</filmName>
+			<showType>1</showType>
+			<language>汉语普通话</language>
+			<showTime>2014-10-10 13:30:00</showTime>
+			<duration>12</duration>
+			<stopSellTime>2014-10-10 13:15:00</stopSellTime>
+			<stdPrice>70.0</stdPrice>
+			<minPrice>20.0</minPrice>
+			<settlePrice>3.0</settlePrice>
+			<status>1</status>
+		</show>
+		<show>
+			<channelShowCode>141000000001</channelShowCode>
+			<cinemaCode>2</cinemaCode>
+			<cinemaShowCode>7209420141009153150</cinemaShowCode>
+			<hallCode>314</hallCode>
+			<filmCode>100142</filmCode>
+			<filmName>动物也疯狂</filmName>
+			<showType>1</showType>
+			<language>汉语普通话</language>
+			<showTime>2014-10-10 11:05:00</showTime>
+			<duration>12</duration>
+			<stopSellTime>2014-10-10 10:50:00</stopSellTime>
+			<stdPrice>25.0</stdPrice>
+			<minPrice>20.0</minPrice>
+			<settlePrice>3.0</settlePrice>
+			<status>1</status>
+		</show>
+	</shows>
+</reply>

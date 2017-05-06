@@ -1,0 +1,88 @@
+<div class="page">
+    <div class="pageHeader">
+        <div class="searchBar">
+            <div class="subBar">
+                <ul>
+                  <li><input name="search"/></li>
+                  <li><div class="buttonActive"><div class="buttonContent"><button type="submit">检索</button></div></div></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="pageContent">
+        <table class="table" width="100%" layoutH="85">
+            <thead>
+                <tr>
+                    <th width="30px" align="center">序号</th>
+                    <th align="center">活动名称</th>
+                    <th width="130px" align="center">活动类型</th>
+                    <th width="80px" align="center">起始日期</th>
+                    <th width="80px" align="center">截止日期</th>
+                    <th width="80px" align="center">提交人</th>
+                    <th width="130px" align="center">提交时间</th>
+                    <th width="60px" align="center">上架状态</th>
+                    <th width="60px" align="center">操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr target="sid_comTicket" rel="1">
+                    <td>1</td>
+                    <td>龙的传人首映活动</td>
+                    <td>特殊场次活动</td>
+                    <td>2014-05-01</td>
+                    <td>2014-05-07</td>
+                    <td>张三</td>
+                    <td>2014-03-01 10:30:26</td>
+                    <td class="green">上架</td>
+                    <td><a href="activity/showActivity-audit.html" target="dialog" rel="showActivity-audit" mask="true" title="审核活动"  width="850" height="500">审核</a></td>
+                </tr>
+                 <tr target="sid_comTicket" rel="1">
+                    <td>2</td>
+                    <td>龙的传人优惠活动</td>
+                    <td>促销活动</td>
+                    <td>2014-05-01</td>
+                    <td>2014-05-07</td>
+                    <td>张三</td>
+                    <td>2014-03-01 10:30:26</td>
+                    <td class="gray">下架</td>
+                    <td><a href="activity/sellActivity-audit.html" target="dialog" rel="sellActivity-audit" mask="true" title="审核活动"  width="850" height="500">审核</a></td>
+                </tr>
+                 <tr target="sid_comTicket" rel="1">
+                    <td>3</td>
+                    <td>大闹天宫</td>
+                    <td>特殊影片活动</td>
+                    <td>2014-05-01</td>
+                    <td>2014-05-07</td>
+                    <td>张三</td>
+                    <td>2014-03-01 10:30:26</td>
+                    <td class="green">上架</td>
+                    <td><a href="activity/filmActivity-audit.html" target="dialog" rel="tactics-check" mask="true" title="审核"  width="850" height="500">审核</a></td>
+                </tr>
+                 <tr target="sid_comTicket" rel="1">
+                    <td>4</td>
+                    <td>龙的传人预售活动</td>
+                    <td>预售活动</td>
+                    <td>2014-05-01</td>
+                    <td>2014-05-07</td>
+                    <td>张三</td>
+                    <td>2014-03-01 10:30:26</td>
+                    <td class="gray">下架</td>
+                    <td><a href="activity/presellActivity-audit.html" target="dialog" rel="tactics-check" mask="true" title="审核"  width="850" height="500">审核</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="panelBar">
+            <div class="pages">
+                <span>显示</span>
+                <select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                    <option value="200">200</option>
+                </select>
+                <span>条，共4条</span>
+            </div>
+            <div class="pagination" targetType="navTab" totalCount="1" numPerPage="20" pageNumShown="10" currentPage="1"></div>
+        </div>
+    </div>
+</div>

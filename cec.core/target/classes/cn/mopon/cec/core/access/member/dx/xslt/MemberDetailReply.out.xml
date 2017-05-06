@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<status>1</status>
+	<errorMessage />
+	<errorCode />
+	<memberCard>
+		<balance>0</balance>
+		<score>720</score>
+		<accLevelName>集团放假折扣卡</accLevelName>
+		<expirationTime>2013-04-10 23:59:59</expirationTime>
+		<status>1</status>
+	</memberCard>
+</root>

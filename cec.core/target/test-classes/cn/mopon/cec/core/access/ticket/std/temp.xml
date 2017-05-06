@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+	<env:Body>
+		<m:query xmlns:m="http://www.crifst.ac.cn/2013/OTSAPI">
+			<m:msg>报文XML</m:msg>
+		</m:query>
+	</env:Body>
+</env:Envelope>
+
+<?xml version="1.0" encoding="utf-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+	<env:Body>
+		<m:reply xmlns:m="http://www.crifst.ac.cn/2013/OTSAPI">
+			<m:msg>报文XML</m:msg>
+		</m:reply>
+	</env:Body>
+</env:Envelope>
+
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+	<env:Body>
+		<m:query xmlns:m="http://www.crifst.ac.cn/2013/OTSAPI">
+			<m:msg>&lt;OnlineTicketingServiceQuery Datetime="2014-07-02T14:21:04"
+				Password="e10adc3949ba59abbe56e057f20f883e" Username="buyTicket"
+				Version="1.0"&gt; &lt;QueryCinema CinemaCode="13014101"
+				Id="ID_QueryCinema"/&gt;&lt;ds:Signature
+				xmlns:ds="http://www.w3.org/2000/09/xmldsig#"&gt;&lt;ds:SignedInfo&gt;&lt;ds:CanonicalizationMethod
+				Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/&gt;&lt;ds:SignatureMethod
+				Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/&gt;&lt;ds:Reference
+				URI="#ID_QueryCinema"&gt;&lt;ds:DigestMethod
+				Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/&gt;&lt;ds:DigestValue&gt;vyBeqZkGfLf+7ol3Ofuv1W18NH4=&lt;/ds:DigestValue&gt;&lt;/ds:Reference&gt;&lt;/ds:SignedInfo&gt;&lt;ds:SignatureValue&gt;qY6yLM089B8x1OoeMh69QhP2wfsBsboX2e6Jzv+NdayYSS/yQBiw9Yq5pzdnjEbSBY1dKo0Sd5L87aFw8l60ahUR2iWF9rdlqpixFnm7/HMlL5XocJ7mrLPMeSHpExE1d8UEKP0ZDpWheZr03cYjdQRES+vbr+26De5KTaJa/Cg=&lt;/ds:SignatureValue&gt;&lt;/ds:Signature&gt;&lt;/OnlineTicketingServiceQuery&gt; </m:msg>
+		</m:query>
+	</env:Body>
+</env:Envelope>
+
+<OnlineTicketingServiceQuery Datetime="2014-07-02T14:22:28"
+	Password="e10adc3949ba59abbe56e057f20f883e" Username="buyTicket"
+	Version="1.0">
+	<QueryCinema CinemaCode="13014101" Id="ID_QueryCinema" />
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod
+				Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments" />
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+			<ds:Reference URI="#ID_QueryCinema">
+				<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<ds:DigestValue>vyBeqZkGfLf+7ol3Ofuv1W18NH4=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue>EaOeYkQcNXaFd+kNMR08EQcyJLmJ07S989EsLSGnvsgIWK88N0z3bH/jrqw8/J5UM1p03L5g5RiktdDaMHl1BHsBmZnnH0XAzlEnJx7IOBNm69fUsTxn+57qkpybsa6LlZUQhwF6ClIJFOMAUP46M7prQdz6riPeF1+5ah2tT1o=</ds:SignatureValue>
+	</ds:Signature>
+</OnlineTicketingServiceQuery>

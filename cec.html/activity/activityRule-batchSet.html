@@ -1,0 +1,53 @@
+<div class="page">
+    <form method="post" action="ajaxDone1.html" class="pageForm required-validate"
+    onsubmit="return validateCallback(this, dialogAjaxDone);">
+        <div class="pageContent">
+            <table class="table" width="100%" layoutH="100">
+                <thead>
+                    <tr>
+                        <th width="30px" align="center"><input class="checkboxCtrl" type="checkbox" group="entityClasses" value="true"></th>
+                        <th width="30px" align="center">序号</th>
+                        <th width="150px" align="center">渠道名称</th>
+                        <th width="350px" align="center">手续费</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr target="sid_user" rel="1">
+                        <td><input type="checkbox" name="entityClasses"></td>
+                        <td>1</td>
+                        <td>淘宝电影</td>
+                        <td><input type="radio" name="r1" value="1"/>无手续费<input type="radio" name="r1" value="1" checked/>固定金额<input size="3" name="price" class="number"/>&nbsp;元&nbsp;&nbsp;<input type="radio" name="r1" value="2"/>百分比<input size="3" name="price" disabled="true"/>&nbsp;%</td>
+                    </tr>
+                    <tr target="sid_user" rel="2">
+                         <td><input type="checkbox" name="entityClasses"></td>
+                        <td>2</td>
+                        <td>京东电影</td>
+                        <td><input type="radio" name="r1" value="1"/>无手续费<input type="radio" name="r1" value="1" checked/>固定金额<input size="3" name="price" class="number"/>&nbsp;元&nbsp;&nbsp;<input type="radio" name="r1" value="2"/>百分比<input size="3" name="price" disabled="true"/>&nbsp;%</td>
+                    </tr>
+                    <tr target="sid_user" rel="2">
+                         <td><input type="checkbox" name="entityClasses"></td>
+                        <td>3</td>
+                        <td>腾讯电影</td>
+                        <td><input type="radio" name="r1" value="1"/>无手续费<input type="radio" name="r1" value="1" checked/>固定金额<input size="3" name="price" class="number"/>&nbsp;元&nbsp;&nbsp;<input type="radio" name="r1" value="2"/>百分比<input size="3" name="price" disabled="true"/>&nbsp;%</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="formBar">
+                <ul>
+                    <li>
+                        <a class="button"  href="ajaxdone.html"  target="ajaxTodo" title="您是否确定要开放所选渠道？"><span>批量开放渠道</span></a>
+                    </li>
+                    <li>
+                        <a class="button"  href="ajaxdone.html"  target="ajaxTodo" title="您是否确定要关闭所选渠道？"><span>批量关闭渠道</span></a>
+                  </li>
+                    <li>
+                      <a class="button" href="javascript:;" onclick="submitConfirm()"><span>保存渠道设置</span></a>
+                  </li>
+                  <li>
+                      <div class="button"><div class="buttonContent"> <button type="button" class="close">取消</button></div></div>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </form>
+</div>

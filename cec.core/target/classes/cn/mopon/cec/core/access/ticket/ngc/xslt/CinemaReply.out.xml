@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reply>
+	<code>001</code>
+	<msg>操作成功。</msg>
+	<cinema>
+		<code>01010071</code>
+		<name>火烈鸟测试影院</name>
+		<hallCount>5</hallCount>
+		<province>河北省</province>
+		<provinceCode>130000</provinceCode>
+		<city>石家庄市</city>
+		<cityCode>130100</cityCode>
+		<county>长安区</county>
+		<countyCode>130102</countyCode>
+		<address>河北</address>
+		<logo />
+		<url />
+		<tel>123456567</tel>
+		<devicePos />
+		<deviceImg />
+		<grade>8.0</grade>
+		<intro />
+		<busLine />
+		<longitude />
+		<latitude />
+		<feature />
+	</cinema>
+</reply>

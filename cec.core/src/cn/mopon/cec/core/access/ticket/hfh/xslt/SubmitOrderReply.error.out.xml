@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<result>6</result>
+	<message>座位数量不符，传入的为【1】，实际为【0】</message>
+	<Order>
+		<voucher>
+			<verifyCode>00000000</verifyCode>
+			<printCode>99914112943135</printCode>
+		</voucher>
+		<cinemaOrderCode>99914112943135</cinemaOrderCode>
+		<orderItems />
+	</Order>
+</data>

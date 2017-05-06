@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OnlineTicketingServiceReply Version="1.0" Datetime="2014-05-22T17:32:08">
+	<RefundTicketReply Status="Success" ErrorCode=""
+		ErrorMessage="" Id="ID_RefundTicketReply">
+		<refunded>true</refunded>
+	</RefundTicketReply>
+</OnlineTicketingServiceReply>

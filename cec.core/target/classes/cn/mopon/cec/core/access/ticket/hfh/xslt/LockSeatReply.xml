@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data version="1.0">
+	<seatLock version="1.0">
+		<result>0</result>
+		<messages>
+			<message>Success</message>
+		</messages>
+		<seats>
+			<seat rowId="13" columnId="13" statusInd="" />
+			<seat rowId="13" columnId="12" statusInd="" />
+		</seats>
+	</seatLock>
+</data>

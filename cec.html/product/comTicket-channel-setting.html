@@ -1,0 +1,55 @@
+<style type="text/css">
+   .pageFormContent dt{width:15px;}
+   .pageFormContent dl.nowrap dd, .nowrap dd{width:560px;}
+   .message{color:red; text-align: center; margin-left: 10px;}
+</style>
+<div class="page">
+    <div class="subBar">
+            <ul>
+                <li style="float:left;"><input type="radio" name="r1" value="1" checked/>标准价加价<input size="4" name="price" class="required number"/>&nbsp;元&nbsp;&nbsp;<input type="radio" name="r1" value="4"/>百分比加价<input size="4" name="price" disabled="true"/>&nbsp;%&nbsp;&nbsp;</li>
+                 <li><a id="batchBtn" class="button" href="javascript:void(0);" onclick="batchSetting();" title="批量设置"><span>批量设置</span></a></li>
+                 <li><span class="message"></span></li>
+            </ul>
+        </div>
+    <div class="pageContent">
+        <form method="post" action="ajaxDone1.html" class="pageForm required-validate" onsubmit="return validateCallback(this, dialogAjaxDone);">
+        <div class="pageFormContent" layoutH="90">
+             <dl class="nowrap">
+                <dt><input type="checkbox" name="c1" value="1" checked></dt>
+                <dd>&nbsp;淘宝电影&nbsp;&nbsp;手续费:&nbsp;&nbsp;固定价2.00元&nbsp;&nbsp;<input type="radio" name="r1" value="1" checked/>标准价加价<input size="3" name="price" value="2.00"/>&nbsp;元&nbsp;&nbsp;<input type="radio" name="r1" value="2"/>百分比加价<input size="3" name="price" disabled="true"/>&nbsp;%</dd>
+            </dl>
+            <dl class="nowrap">
+                <dt><input type="checkbox" name="c1" value="1" checked></dt>
+                <dd>&nbsp;京东电影&nbsp;&nbsp;手续费:&nbsp;&nbsp;固定价2.00元&nbsp;&nbsp;<input type="radio" name="r1" value="1"/>标准价加价<input size="3" name="price" disabled="true"/>&nbsp;元&nbsp;&nbsp;<input type="radio" name="r1" value="2" checked/>百分比加价<input size="3" name="price" value="10"/>&nbsp;%</dd>
+            </dl>
+        </div>
+        <div class="formBar">
+            <ul>
+                <li>
+                    <div class="buttonActive">
+                        <div class="buttonContent">
+                            <button type="submit">确定</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="button">
+                        <div class="buttonContent">
+                            <button type="button" class="close">取消</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        </form>
+    </div>
+</div>
+<script type="text/javascript" charset="utf-8">
+    $(function(){
+        var temp;
+        $("#batchBtn").click(function(){
+            temp=$("input[name='price']").val();
+           //$(".message").html("请输入标准加价值");
+        });
+    })
+</script>

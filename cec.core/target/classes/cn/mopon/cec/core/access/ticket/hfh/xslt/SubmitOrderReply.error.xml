@@ -1,0 +1,5 @@
+<data version="1.0" result="6" message="座位数量不符，传入的为【1】，实际为【0】">
+	<bookingId>99914112943135</bookingId>
+	<confirmationId>00000000</confirmationId>
+	<seats />
+</data>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OnlineTicketingServiceReply Version="1.0" Datetime="2014-06-04T09:54:22">
+	<QueryOrderReply Status="Success" ErrorCode="" ErrorMessage="" Id="ID_QueryOrderReply">
+		<Order>
+			<cinemaOrderCode>70D9D26102466662</cinemaOrderCode>
+			<ticketVoucher>
+				<printCode>2014060409283048</printCode>
+				<verifyCode>B6236202217BE3DF</verifyCode>
+			</ticketVoucher>
+			<ticketOrderItems>
+				<ticketOrderItem>
+					<ticketCode>1401845310375000</ticketCode>
+					<seatCode>1_1_10_106600000</seatCode>
+				</ticketOrderItem>
+			</ticketOrderItems>
+		</Order>
+	</QueryOrderReply>
+</OnlineTicketingServiceReply>

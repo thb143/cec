@@ -1,0 +1,581 @@
+<SCRIPT type="text/javascript">
+    <!--
+    var setting = {
+        view : {
+            addHoverDom : addHoverDom,
+            removeHoverDom : removeHoverDom,
+            addDiyDom : addDiyDom,
+            selectedMulti : false,
+            nameIsHTML: true,
+            showIcon: false
+        }
+    };
+
+    var zNodes = [{
+        id : 1,
+        name : "中影益田假日影城",
+        open : true,
+        children : [{
+            id : 10,
+            name : "<span class='green'>2014年策略</span>",
+            enabled : "停用"
+        }, {
+            id : 11,
+            name : "<span class='gray'>2013年策略</span>",
+            enabled : "启用"
+        }, {
+            id : 12,
+            name : "<span class='gray'>2012年策略</span>",
+            enabled : "启用"
+        }, {
+            id : 13,
+            name : "<span class='gray'>2011年策略</span>",
+            enabled : "启用"
+        }, {
+            id : 14,
+            name : "<span class='gray'>2010年策略</span>",
+            enabled : "启用"
+        }, {
+            id : 15,
+            name : "<span class='gray'>2009年策略</span>",
+            enabled : "启用"
+        }]
+    }, {
+        id : 2,
+        name : "保利剧院",
+        open : true,
+        children : [{
+        	id : 20,
+            name : "<span class='green'>2014年策略</span>",
+            enabled : "停用"
+        }, {
+            id : 21,
+            name : "<span class='gray'>2013年策略</span>",
+            enabled : "启用"
+        }, {
+            id : 22,
+            name : "<span class='gray'>2012年策略</span>",
+            enabled : "启用"
+        }, {
+            id : 23,
+            name : "<span class='gray'>2011年策略</span>",
+            enabled : "启用"
+        }, {
+            id : 24,
+            name : "<span class='gray'>2010年策略</span>",
+            enabled : "启用"
+        }, {
+            id : 25,
+            name : "<span class='gray'>2009年策略</span>",
+            enabled : "启用"
+        }]
+    }, {
+        id : 3,
+        name : "保利剧院1",
+        open : true,
+        children : [{
+        	id : 30,
+            name : "<span class='green'>2014年策略</span>",
+            enabled : "停用"
+        }, {
+            id : 31,
+            name : "<span class='gray'>2013年策略</span>",
+            enabled : "启用"
+        }, {
+            id : 32,
+            name : "<span class='gray'>2012年策略</span>",
+            enabled : "启用"
+        }, {
+            id : 33,
+            name : "<span class='gray'>2011年策略</span>",
+            enabled : "启用"
+        }, {
+            id : 34,
+            name : "<span class='gray'>2010年策略</span>",
+            enabled : "启用"
+        }, {
+            id : 35,
+            name : "<span class='gray'>2009年策略</span>",
+            enabled : "启用"
+        }]
+    }, {
+        id : 4,
+        name : "保利剧院2",
+        open : true,
+        children : [{
+        	id : 40,
+            name : "<span class='green'>2014年策略</span>",
+            enabled : "停用"
+        }, {
+            id : 41,
+            name : "<span class='gray'>2013年策略</span>",
+            enabled : "启用"
+        }, {
+            id : 42,
+            name : "<span class='gray'>2012年策略</span>",
+            enabled : "启用"
+        }, {
+            id : 43,
+            name : "<span class='gray'>2011年策略</span>",
+            enabled : "启用"
+        }, {
+            id : 44,
+            name : "<span class='gray'>2010年策略</span>",
+            enabled : "启用"
+        }, {
+            id : 45,
+            name : "<span class='gray'>2009年策略</span>",
+            enabled : "启用"
+        }]
+    }, {
+        id : 5,
+        name : "保利剧院3",
+        open : true,
+        children : [{
+        	id : 50,
+            name : "<span class='green'>2014年策略</span>",
+            enabled : "停用"
+        }, {
+            id : 51,
+            name : "<span class='gray'>2013年策略</span>",
+            enabled : "启用"
+        }, {
+            id : 52,
+            name : "<span class='gray'>2012年策略</span>",
+            enabled : "启用"
+        }, {
+            id : 53,
+            name : "<span class='gray'>2011年策略</span>",
+            enabled : "启用"
+        }, {
+            id : 54,
+            name : "<span class='gray'>2010年策略</span>",
+            enabled : "启用"
+        }, {
+            id : 55,
+            name : "<span class='gray'>2009年策略</span>",
+            enabled : "启用"
+        }]
+    }];
+
+    function addDiyDom(treeId, treeNode) {
+        if (treeNode.parentNode && treeNode.parentNode.id != 2)
+            return;
+        var aObj = $("#" + treeNode.tId + "_a");
+        if (treeNode.id < zNodes.length + 1) {
+            var editStr = "[<a href='product/ticket-add.html' id='diyBtn1_" + treeNode.id + "' width='850' height='550' target='dialog' mask='true' rel='ticket-add'>新增</a>]";
+            editStr += "[<a href='product/ticket-copy.html' id='diyBtn1_" + treeNode.id + "' width='850' height='550' target='dialog' mask='true' rel='ticket-add' title='搜索待复制的影院策略'>复制新增</a>]";
+            aObj.after(editStr);
+            return;
+        }
+    }
+
+    function addHoverDom(treeId, treeNode) {
+        var sObj = $("#" + treeNode.tId + "_span");
+        if (treeNode.editNameFlag || $("#addBtn_" + treeNode.tId).length > 0)
+            return;
+        if (treeNode.id < zNodes.length + 1) {
+            return;
+        }
+        var addStr = "<span id='addBtn_" + treeNode.tId + "'>";
+        addStr += "<a href='javascript:void(0);' id='editTicket_"+treeNode.id+"'>编辑</a>";
+        addStr += "<a href=''>删除</a>";
+        addStr += "<a href=''>" + treeNode.enabled + "</a>";
+        addStr += "<a id='diyBtn1_" + treeNode.id + "'>上移</a><a id='diyBtn2_" + treeNode.id + "'>下移</a></span>";
+        sObj.after(addStr);
+        $("#diyBtn1_" + treeNode.id).bind("click", function() {
+            nodeUp(treeNode.id.toString().substring(1), treeNode.id.toString().substring(0, 1));
+            removeHoverDom(treeNode.tId, treeNode);
+            return false;
+        });
+        $("#diyBtn2_" + treeNode.id).bind("click", function() {
+            nodeDown(treeNode.id.toString().substring(1), treeNode.id.toString().substring(0, 1));
+            removeHoverDom(treeNode.tId, treeNode);
+            return false;
+        });
+        $("#editTicket_" + treeNode.id).bind("click", function() {
+            editTicket();
+            removeHoverDom(treeNode.tId, treeNode);
+            return false;
+        });
+    };
+
+    function nodeUp(childId, parentId) {
+        var zTree = $.fn.zTree.getZTreeObj("treeDemo");
+        var nodes = zTree.getNodes()[parentId - 1];
+        var num = nodes.children ? nodes.children.length : 0;
+        for (var i = 1; i < num; i++) {
+            if (i == childId) {// 上移
+                var curName = nodes.children[i].name;
+                var upName = nodes.children[i - 1].name;
+                nodes.children[i].name = upName;
+                nodes.children[i - 1].name = curName;
+                zTree.updateNode(nodes.children[i]);
+                zTree.updateNode(nodes.children[i - 1]);
+            }
+        }
+    };
+
+    function nodeDown(childId, parentId) {
+        var zTree = $.fn.zTree.getZTreeObj("treeDemo");
+        var nodes = zTree.getNodes()[parentId - 1];
+        var num = nodes.children ? nodes.children.length : 0;
+        for (var i = 0; i < num - 1; i++) {
+            if (i == childId) {// 下移
+                var curName = nodes.children[i].name;
+                var upName = nodes.children[i + 1].name;
+                nodes.children[i].name = upName;
+                nodes.children[i + 1].name = curName;
+                zTree.updateNode(nodes.children[i]);
+                zTree.updateNode(nodes.children[i + 1]);
+            }
+        }
+    };
+
+    function removeHoverDom(treeId, treeNode) {
+        $("#addBtn_" + treeNode.tId).unbind().remove();
+    };
+
+    $(document).ready(function() {
+        $.fn.zTree.init($("#treeDemo"), setting, zNodes);
+        $("a[name='up']").click(function() {
+            if ($("input[name='rule']:checked").size() > 1) {
+                alert("只能选择一项进行上下移操作！");
+                return;
+            }
+            $("input[name='rule']:checked").each(function() {
+                var $div = $('#rule_' + $(this).val());
+                if ($div.index() != 0) {
+                    $div.prev().before($div);
+                }
+            });
+        });
+        $("a[name='down']").click(function() {
+            if ($("input[name='rule']:checked").size() > 1) {
+                alert("只能选择一项进行上下移操作！");
+                return;
+            }
+            $("input[name='rule']:checked").each(function() {
+                var $div = $('#rule_' + $(this).val());
+                if ($('#rule_' + (parseInt($(this).val()) + 1)).html() != null) {
+                    $div.next().after($div);
+                }
+            });
+        });
+    });
+
+    function down(no) {
+        var $div = $('#rule_' + no);
+        if($div.next() != null) {
+            $div.next().after($div);
+        }
+    }
+
+    function up(no) {
+        var $div = $('#rule_' + no);
+        if ($div.index() != 0) {
+            $div.prev().before($div);
+        }
+    }
+
+    function stretch() {
+        var name = $("#stretch").attr("name");
+        if(name.indexOf('open') != -1) {
+            $("#stretch").attr("name","close");
+            $("div[class=panelHeaderContent]>a[class='panelCollapseBtn expandable']").trigger("click");
+        } else {
+            $("#stretch").attr("name","open");
+            $("div[class=panelHeaderContent]>a[class='panelCollapseBtn collapsable']").trigger("click");
+        }
+    }
+    function editRule() {
+        $("#editRule").click();
+    }
+    function editTicket() {
+        $("#editTicket").click();
+    }
+    //-->
+</SCRIPT>
+
+<div style="float:left; display:block; width:27%; border-right:solid 1px #CCC;">
+    <div class="pageHeader">
+        <div class="searchBar">
+            <div class="subBar">
+                <ul>
+                    <li>
+                        <input name="search"/>
+                    </li>
+                    <li>
+                        <div class="buttonActive">
+                            <div class="buttonContent">
+                                <button type="submit">
+                                    筛选
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="page" layoutH="40">
+        <div class="pageContent">
+            <ul id="treeDemo" class="ztree"></ul>
+        </div>
+    </div>
+</div>
+<div id="organBox" style="float:left; display:block; padding:3px; overflow: hidden; width:72%;">
+    <div class="pageContent">
+        <h2 class="contentTitle" style="line-height: 34px">
+                            2014年策略&nbsp;&nbsp;<a href="#">【启用】</a>
+            <span style="float: right;">
+                <form action>
+                    <select class="combox" name="province" ref="w_combox_city" refUrl="">
+                        <option value="all">全部放映类型</option>
+                        <option value="bj">2D</option>
+                        <option value="sh">3D</option>
+                    </select>
+                    <select class="combox" name="province" ref="w_combox_city" refUrl="">
+                        <option value="all">全部影厅</option>
+                        <option value="bj">1号厅</option>
+                        <option value="sh">2号厅</option>
+                        <option value="sh">3号厅</option>
+                        <option value="sh">4号厅</option>
+                        <option value="sh">5号厅</option>
+                        <option value="sh">6号厅</option>
+                    </select>
+                    <div class="buttonActive" style="margin-top:-1px;">
+                        <div class="buttonContent">
+                            <button type="submit">
+                                筛选
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </span>
+        </h2>
+    </div>
+    <div class="pageContent sortDrag" selector="h2" layoutH="85">
+        <div class="panel collapse" minH="100" id="rule_1">
+            <h1>
+            <input type="checkbox" name="rule" value="1" />
+            1.&nbsp;&nbsp;&nbsp;2D常规销售规则<span style="padding-left:30px;">状态：<strong style="color:green;">启用</strong></span>
+            <span style="line-height:28px;margin-right:20px;float:right;">
+                <a href="product/ticket-rule-edit.html" target="dialog" width="850" height="500" rel="ticket-rule-add">[编辑]</a>
+                <a href="#">[复制]</a>
+                <a href="#">[删除]</a>
+                <a href="#">[停用]</a>
+                <a href="#" onclick="up('1')">[上移]</a>
+                <a href="#" onclick="down('1')">[下移]</a>
+            </span>
+            </h1>
+            <div>
+                <div>
+                    规则信息：2D | 结算价：6折 | 一号厅、二号厅、三号厅 | 全部时段
+                </div>
+                <div style="margin-top:10px;">
+                    <span style="font-size:14px;font-weight:bold;">渠道定价</span>
+                    <table class="list" width="98%" style="margin-top:10px;">
+                        <thead>
+                            <tr>
+                                <th align="center" width="30">序号</th>
+                                <th align="center">渠道名称</th>
+                                <th align="center" width="80">开放状态</th>
+                                <th align="center" width="80">生效状态</th>
+                                <th align="center" width="150">渠道返点</th>
+                                <th align="center" width="200">手续费</th>
+                                <th align="center" width="100" >操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td align="center">1</td>
+                                <td align="center">淘宝电影</td>
+                                <td align="center" class="green">开放</td>
+                                <td align="center" class="green">已生效</td>
+                                <td align="right">2.00</td>
+                                <td align="right">10%</td>
+                                <td align="center"><a href="product/circuitFee-edit.html" target="dialog" mask="true" rel="calc-price-setting" height="150" title="设置销售渠道">设置</a>&nbsp;|&nbsp;<a href="ajaxdone.html" target="ajaxTodo" title="您是否确定要关闭该渠道？">关闭</a></td>
+                            </tr>
+                            <tr>
+                                <td align="center">2</td>
+                                <td align="center">QQ电影</td>
+                                <td align="center" class="gray">关闭</td>
+                                <td align="center" class="green">已生效</td>
+                                <td align="right">2.00</td>
+                                <td align="right">2.00</td>
+                                <td align="center"><a href="product/circuitFee-edit.html" target="dialog" mask="true" rel="calc-price-setting" height="150" title="设置销售渠道">设置</a>&nbsp;|&nbsp;<a href="ajaxdone.html" target="ajaxTodo" title="您是否确定要关闭该渠道？">关闭</a></td>
+                            </tr>
+                            <tr>
+                                <td align="center">3</td>
+                                <td align="center">京东电影</td>
+                                <td align="center" class="gray">关闭</td>
+                                <td align="center" class="red">未生效</td>
+                                <td align="right">2.00</td>
+                                <td align="right">10%</td>
+                                <td align="center"><a href="product/circuitFee-edit.html" target="dialog" mask="true" rel="calc-price-setting" height="150" title="设置销售渠道">设置</a>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td align="center">4</td>
+                                <td align="center">微信电影</td>
+                                <td align="center" class="gray">关闭</td>
+                                <td align="center" class="red">未生效</td>
+                                <td align="right">2.00</td>
+                                <td align="right">10%</td>
+                                <td align="center"><a href="product/circuitFee-edit.html" target="dialog" mask="true" rel="calc-price-setting" height="150" title="设置销售渠道">设置</a>&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel collapse" minH="100" id="rule_2">
+            <h1>
+            <input type="checkbox" name="rule" value="1" />
+            2.&nbsp;&nbsp;&nbsp;3D常规销售规则<span style="padding-left:30px;">状态：<strong class="gray">停用</strong></span>
+            <span style="line-height:28px;margin-right:20px;float:right;">
+                <a href="product/ticket-rule-edit.html" target="dialog" width="850" height="500" rel="ticket-rule-add">[编辑]</a>
+                <a href="#">[复制]</a>
+                <a href="#">[删除]</a>
+                <a href="#">[停用]</a>
+                <a href="#" onclick="up('2')">[上移]</a>
+                <a href="#" onclick="down('2')">[下移]</a>
+            </span>
+            </h1>
+            <div>
+                <div>
+                    规则信息：2D | 结算价：6折 | 一号厅、二号厅、三号厅 | 全部时段
+                </div>
+                <div style="margin-top:10px;">
+                    <span style="font-size:14px;font-weight:bold;">渠道定价</span>
+                    <table class="list" width="98%" style="margin-top:10px;">
+                        <thead>
+                            <tr>
+                                <th align="center" width="30">序号</th>
+                                <th align="center">渠道名称</th>
+                                <th align="center" width="100">开放状态</th>
+                                <th align="center" width="100">生效状态</th>
+                                <th align="center" width="100">渠道返点</th>
+                                <th align="center" width="100">手续费</th>
+                                <th align="center" width="100" >操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td align="center">1</td>
+                                <td align="center">淘宝电影</td>
+                                <td align="center" class="green">开放</td>
+                                <td align="center" class="green">已生效</td>
+                                <td align="right">2.00</td>
+                                <td align="right">10%</td>
+                                <td align="center"><a href="product/circuitFee-edit.html" target="dialog" mask="true" rel="calc-price-setting" height="150" title="设置销售渠道">设置</a>&nbsp;|&nbsp;<a href="ajaxdone.html" target="ajaxTodo" title="您是否确定要关闭该渠道？">关闭</a></td>
+                            </tr>
+                            <tr>
+                                <td align="center">2</td>
+                                <td align="center">QQ电影</td>
+                                <td align="center" class="gray">关闭</td>
+                                <td align="center" class="green">已生效</td>
+                                <td align="right">2.00</td>
+                                <td align="right">2.00</td>
+                                <td align="center"><a href="product/circuitFee-edit.html" target="dialog" mask="true" rel="calc-price-setting" height="150" title="设置销售渠道">设置</a>&nbsp;|&nbsp;<a href="ajaxdone.html" target="ajaxTodo" title="您是否确定要关闭该渠道？">关闭</a></td>
+                            </tr>
+                            <tr>
+                                <td align="center">3</td>
+                                <td align="center">京东电影</td>
+                                <td align="center" class="gray">关闭</td>
+                                <td align="center" class="red">未生效</td>
+                                <td align="right">2.00</td>
+                                <td align="right">10%</td>
+                                <td align="center"><a href="product/circuitFee-edit.html" target="dialog" mask="true" rel="calc-price-setting" height="150" title="设置销售渠道">设置</a>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td align="center">4</td>
+                                <td align="center">微信电影</td>
+                                <td align="center" class="gray">关闭</td>
+                                <td align="center" class="red">未生效</td>
+                                <td align="right">2.00</td>
+                                <td align="right">10%</td>
+                                <td align="center"><a href="product/circuitFee-edit.html" target="dialog" mask="true" rel="calc-price-setting" height="150" title="设置销售渠道">设置</a>&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel collapse" minH="100" id="rule_3">
+            <h1>
+            <input type="checkbox" name="rule" value="1" />
+            3.&nbsp;&nbsp;&nbsp;4D常规销售规则<span style="padding-left:30px;">状态：<strong style="color:green;">启用</strong></span>
+            <span style="line-height:28px;margin-right:20px;float:right;">
+                <a href="product/ticket-rule-edit.html" target="dialog" width="850" height="500" rel="ticket-rule-add">[编辑]</a>
+                <a href="#">[复制]</a>
+                <a href="#">[删除]</a>
+                <a href="#">[停用]</a>
+                <a href="#" onclick="up('3')">[上移]</a>
+                <a href="#" onclick="down('3')">[下移]</a>
+            </span>
+            </h1>
+            <div>
+                <div>
+                    规则信息：2D | 结算价：6折 | 一号厅、二号厅、三号厅 | 全部时段
+                </div>
+                <div style="margin-top:10px;">
+                    <span style="font-size:14px;font-weight:bold;">渠道定价</span>
+                    <table class="list" width="98%" style="margin-top:10px;">
+                        <thead>
+                            <tr>
+                                <th align="center" width="30">序号</th>
+                                <th align="center">渠道名称</th>
+                                <th align="center" width="100">开放状态</th>
+                                <th align="center" width="100">生效状态</th>
+                                <th align="center" width="150">渠道返点</th>
+                                <th align="center" width="150">手续费</th>
+                                <th align="center" width="100" >操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td align="center">1</td>
+                                <td align="center">淘宝电影</td>
+                                <td align="center" class="green">开放</td>
+                                <td align="center" class="green">已生效</td>
+                                <td align="center" >固定费用：1.20元</td>
+                                <td align="center" >百分比费用：1.05%<br/><font color="orange">百分比费用：1.03%</font></td>
+                                <td align="center"><a href="product/circuitFee-edit.html" target="dialog" mask="true" rel="calc-price-setting" height="150" title="设置销售渠道">设置</a>&nbsp;|&nbsp;<a href="ajaxdone.html" target="ajaxTodo" title="您是否确定要关闭该渠道？">关闭</a></td>
+                            </tr>
+                            <tr>
+                                <td align="center">2</td>
+                                <td align="center">微信电影</td>
+                                <td align="center" class="gray">关闭</td>
+                                <td align="center" class="green">已生效</td>
+                                <td align="center">百分比费用：0.53%</td>
+                                <td align="center">固定费用：58.00元<br/><font color="orange">固定费用：38.00元</font></td>
+                                <td align="center"><a href="product/circuitFee-edit.html" target="dialog" mask="true" rel="calc-price-setting" height="150" title="设置销售渠道">设置</a>&nbsp;|&nbsp;<a href="ajaxdone.html" target="ajaxTodo" title="您是否确定要关闭该渠道？">开放</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="formBar">
+        <ul>
+            <li style="margin-left:10px;">
+                <a class="button" href="javascript:void(0);" onclick="stretch();" id="stretch" name="close"><span>批量展开/收缩</span></a>
+            </li>
+            
+            <li style="margin-left:10px;">
+                <a class="button" href="product/ticket-rule-add.html" width="850" height="500" target="dialog" rel="ticket-rule-add"><span>新增规则</span></a>
+            </li>
+            <li style="margin-left:10px;display:none;">
+                <a id="editTicket" class="button" href="product/ticket-edit.html" width="850" height="500" target="dialog" rel="ticket-edit"><span>编辑定价策略</span></a>
+            </li>
+            <li style="margin-left:10px;">
+                <a class="button" href="product/circuitFeeRule-settings.html" width="600" height="300" target="dialog" rel="ticket-channel-edit" title="批量设置销售渠道"><span>批量设置销售渠道</span></a>
+            </li>
+            <li style="margin-left:10px;">
+                <a class="button" href="product/ticketPolicy-option.html" width="600" height="300" target="dialog" rel="ticketPolicy-option" title="提交定价策略"><span>提交审核</span></a>
+            </li>
+        </ul>
+    </div>
+</div>

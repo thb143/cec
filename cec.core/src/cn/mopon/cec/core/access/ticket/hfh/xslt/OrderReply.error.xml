@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data version="1.0" result="1" message="没有找到该订单">
+	<orderDetail version="1.0">
+		<cinemaId>11051601</cinemaId>
+		<hallId />
+		<filmId />
+		<show seqNo="" date="" time="" />
+		<seats />
+		<statusInd>2</statusInd>
+		<bookingId></bookingId>
+		<confirmationId>00000000</confirmationId>
+	</orderDetail>
+</data>

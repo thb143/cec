@@ -1,0 +1,404 @@
+<?xml version="1.0"	encoding="utf-8"?>
+<data version="1.0" result="0" message="">
+	<shows cinemaId="44135701" cinemaName="中影国际影城佛山昊达南海万科店"
+		cinemaLinkId="1781" version="1.0">
+		<show hallId="3" hallName="3号厅" seqNo="17811411296F4R4JB6"
+			showSeqNo="1" date="2014-11-29" time="1010" updateLevel="0"
+			updateType="I">
+			<film id="05110097201301" filmUId="14112709332313061" name="火线反攻（数字）"
+				language="英语" title="火线反攻（数字）" duration="100" imax="0" dimensional="2D"
+				code="051100972013" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="50" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号厅" seqNo="17811411294HLZR22X"
+			showSeqNo="1" date="2014-11-29" time="1020" updateLevel="0"
+			updateType="I">
+			<film id="05110083201401" filmUId="14110604095412404" name="星际穿越（数字）"
+				language="英语" title="星际穿越（数字）" duration="170" imax="0" dimensional="2D"
+				code="051100832014" />
+			<price lowest="20">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅【巨幕】" seqNo="17811411296IZCVZ8X"
+			showSeqNo="1" date="2014-11-29" time="1030" updateLevel="0"
+			updateType="I">
+			<film id="00110588201401" filmUId="14111310235912581" name="黄飞鸿 英雄有梦"
+				language="国语" title="黄飞鸿
+	英雄有梦" duration="131" imax="0"
+				dimensional="3D" code="001105882014" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="1781141129L48V86H0"
+			showSeqNo="1" date="2014-11-29" time="1040" updateLevel="0"
+			updateType="I">
+			<film id="05120090201401" filmUId="14111202125612546" name="马达加斯加的企鹅（数字３Ｄ）"
+				language="英语" title="马达加斯加的企鹅（数字３Ｄ）" duration="92" imax="0"
+				dimensional="3D" code="051200902014" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="17811411298PU50WP6"
+			showSeqNo="1" date="2014-11-29" time="1045" updateLevel="0"
+			updateType="I">
+			<film id="07410091201401" filmUId="14111802243712781" name="狂怒（数字）"
+				language="英语" title="狂怒（数字）" duration="135" imax="0" dimensional="2D"
+				code="074100912014" />
+			<price lowest="20">
+				<section id="0000000000000001" standard="50" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="1781141129ZF8ZR848"
+			showSeqNo="1" date="2014-11-29" time="1100" updateLevel="0"
+			updateType="I">
+			<film id="00110323201401" filmUId="14110712163112461" name="撒娇女人最好命"
+				language="国语" title="撒娇女人最好命" duration="95" imax="0" dimensional="2D"
+				code="001103232014" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="1781141129QZTV9JKJ"
+			showSeqNo="1" date="2014-11-29" time="1200" updateLevel="0"
+			updateType="I">
+			<film id="00110623201401" filmUId="14112807103213261" name="坏姐姐之拆婚联盟"
+				language="国语" title="坏姐姐之拆婚联盟" duration="110" imax="0" dimensional="2D"
+				code="001106232014" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="50" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="1781141129CB3LFPB9"
+			showSeqNo="1" date="2014-11-29" time="1220" updateLevel="0"
+			updateType="I">
+			<film id="00110324201401" filmUId="14110410354912261" name="单身男女ＩＩ"
+				language="粤语" title="单身男女ＩＩ" duration="115" imax="0" dimensional="2D"
+				code="001103242014" />
+			<price lowest="20">
+				<section id="0000000000000001" standard="50" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="17811411298Z448BJ8"
+			showSeqNo="1" date="2014-11-29" time="1250" updateLevel="0"
+			updateType="I">
+			<film id="00110323201401" filmUId="14110712163112461" name="撒娇女人最好命"
+				language="国语" title="撒娇女人最好命" duration="95" imax="0" dimensional="2D"
+				code="001103232014" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="1781141129AJYADSVC"
+			showSeqNo="1" date="2014-11-29" time="1310" updateLevel="0"
+			updateType="I">
+			<film id="07710093201401" filmUId="14112709212613041" name="机器纪元（数字）"
+				language="英语" title="机器纪元（数字）" duration="95" imax="0" dimensional="2D"
+				code="077100932014" />
+			<price lowest="20">
+				<section id="0000000000000001" standard="50" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号厅" seqNo="17811411296222DR0R"
+			showSeqNo="1" date="2014-11-29" time="1320" updateLevel="0"
+			updateType="I">
+			<film id="05110083201401" filmUId="14110604095412404" name="星际穿越（数字）"
+				language="英语" title="星际穿越（数字）" duration="170" imax="0" dimensional="2D"
+				code="051100832014" />
+			<price lowest="20">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="1781141129L8T080DR"
+			showSeqNo="1" date="2014-11-29" time="1400" updateLevel="0"
+			updateType="I">
+			<film id="07710093201401" filmUId="14112709212613041" name="机器纪元（数字）"
+				language="英语" title="机器纪元（数字）" duration="95" imax="0" dimensional="2D"
+				code="077100932014" />
+			<price lowest="20">
+				<section id="0000000000000001" standard="50" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="1781141129KCDXSLOI"
+			showSeqNo="1" date="2014-11-29" time="1430" updateLevel="0"
+			updateType="I">
+			<film id="00110588201401" filmUId="14111310235912581" name="黄飞鸿 英雄有梦"
+				language="国语" title="黄飞鸿
+	英雄有梦" duration="131" imax="0"
+				dimensional="3D" code="001105882014" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="17811411294RB646FH"
+			showSeqNo="1" date="2014-11-29" time="1440" updateLevel="0"
+			updateType="I">
+			<film id="00110323201401" filmUId="14110712163112461" name="撒娇女人最好命"
+				language="国语" title="撒娇女人最好命" duration="95" imax="0" dimensional="2D"
+				code="001103232014" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="1781141129MD3Z8AWO"
+			showSeqNo="1" date="2014-11-29" time="1500" updateLevel="0"
+			updateType="I">
+			<film id="00110621201401" filmUId="14112710053313121" name="匆匆那年"
+				language="国语" title="匆匆那年" duration="120" imax="0" dimensional="2D"
+				code="001106212014" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="1781141129ANVKBFAC"
+			showSeqNo="1" date="2014-11-29" time="1615" updateLevel="0"
+			updateType="I">
+			<film id="07410091201401" filmUId="14111802243712781" name="狂怒（数字）"
+				language="英语" title="狂怒（数字）" duration="135" imax="0" dimensional="2D"
+				code="074100912014" />
+			<price lowest="20">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号厅" seqNo="1781141129SFN81HRS"
+			showSeqNo="1" date="2014-11-29" time="1620" updateLevel="0"
+			updateType="I">
+			<film id="07710093201401" filmUId="14112709212613041" name="机器纪元（数字）"
+				language="英语" title="机器纪元（数字）" duration="95" imax="0" dimensional="2D"
+				code="077100932014" />
+			<price lowest="20">
+				<section id="0000000000000001" standard="50" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="1781141129L88LB8Z0"
+			showSeqNo="1" date="2014-11-29" time="1630" updateLevel="0"
+			updateType="I">
+			<film id="00110323201401" filmUId="14110712163112461" name="撒娇女人最好命"
+				language="国语" title="撒娇女人最好命" duration="95" imax="0" dimensional="2D"
+				code="001103232014" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="1781141129H62Z6ZJ4"
+			showSeqNo="1" date="2014-11-29" time="1650" updateLevel="0"
+			updateType="I">
+			<film id="05120090201401" filmUId="14111202125612546" name="马达加斯加的企鹅（数字３Ｄ）"
+				language="英语" title="马达加斯加的企鹅（数字３Ｄ）" duration="92" imax="0"
+				dimensional="3D" code="051200902014" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="1781141129KO1PSUQB"
+			showSeqNo="1" date="2014-11-29" time="1710" updateLevel="0"
+			updateType="I">
+			<film id="00110621201401" filmUId="14112710053313121" name="匆匆那年"
+				language="国语" title="匆匆那年" duration="120" imax="0" dimensional="2D"
+				code="001106212014" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号厅" seqNo="1781141129WZHOVB06"
+			showSeqNo="1" date="2014-11-29" time="1810" updateLevel="0"
+			updateType="I">
+			<film id="07710093201401" filmUId="14112709212613041" name="机器纪元（数字）"
+				language="英语" title="机器纪元（数字）" duration="95" imax="0" dimensional="2D"
+				code="077100932014" />
+			<price lowest="20">
+				<section id="0000000000000001" standard="50" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="1781141129V22TH486"
+			showSeqNo="1" date="2014-11-29" time="1820" updateLevel="0"
+			updateType="I">
+			<film id="00110323201401" filmUId="14110712163112461" name="撒娇女人最好命"
+				language="国语" title="撒娇女人最好命" duration="95" imax="0" dimensional="2D"
+				code="001103232014" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="17811411292R4R08H4"
+			showSeqNo="1" date="2014-11-29" time="1830" updateLevel="0"
+			updateType="I">
+			<film id="05120090201401" filmUId="14111202125612546" name="马达加斯加的企鹅（数字３Ｄ）"
+				language="英语" title="马达加斯加的企鹅（数字３Ｄ）" duration="92" imax="0"
+				dimensional="3D" code="051200902014" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="17811411298J0RVBBD"
+			showSeqNo="1" date="2014-11-29" time="1840" updateLevel="0"
+			updateType="I">
+			<film id="05110097201301" filmUId="14112709332313061" name="火线反攻（数字）"
+				language="英语" title="火线反攻（数字）" duration="100" imax="0" dimensional="2D"
+				code="051100972013" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="50" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="1781141129N3TLJ4JQ"
+			showSeqNo="1" date="2014-11-29" time="1920" updateLevel="0"
+			updateType="I">
+			<film id="00110621201401" filmUId="14112710053313121" name="匆匆那年"
+				language="国语" title="匆匆那年" duration="120" imax="0" dimensional="2D"
+				code="001106212014" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号厅" seqNo="1781141129ICQ8SBPJ"
+			showSeqNo="1" date="2014-11-29" time="2000" updateLevel="0"
+			updateType="I">
+			<film id="00110623201401" filmUId="14112807103213261" name="坏姐姐之拆婚联盟"
+				language="国语" title="坏姐姐之拆婚联盟" duration="110" imax="0" dimensional="2D"
+				code="001106232014" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="50" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="17811411294J048H2T"
+			showSeqNo="1" date="2014-11-29" time="2010" updateLevel="0"
+			updateType="I">
+			<film id="00110323201401" filmUId="14110712163112461" name="撒娇女人最好命"
+				language="国语" title="撒娇女人最好命" duration="95" imax="0" dimensional="2D"
+				code="001103232014" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="1781141129QASYMWLE"
+			showSeqNo="1" date="2014-11-29" time="2030" updateLevel="0"
+			updateType="I">
+			<film id="05120080201401" filmUId="14102309535612127" name="忍者神龟：变种时代（数字３Ｄ）"
+				language="英语" title="忍者神龟：变种时代（数字３Ｄ）" duration="105" imax="0"
+				dimensional="3D" code="051200802014" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="178114112980PXNZ6P"
+			showSeqNo="1" date="2014-11-29" time="2030" updateLevel="0"
+			updateType="I">
+			<film id="05110083201401" filmUId="14110604095412404" name="星际穿越（数字）"
+				language="英语" title="星际穿越（数字）" duration="170" imax="0" dimensional="2D"
+				code="051100832014" />
+			<price lowest="20">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="1781141129CKTTUWMK"
+			showSeqNo="1" date="2014-11-29" time="2130" updateLevel="0"
+			updateType="I">
+			<film id="05120090201401" filmUId="14111202125612546" name="马达加斯加的企鹅（数字３Ｄ）"
+				language="英语" title="马达加斯加的企鹅（数字３Ｄ）" duration="92" imax="0"
+				dimensional="3D" code="051200902014" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="1781141129V2420H6X"
+			showSeqNo="1" date="2014-11-29" time="2200" updateLevel="0"
+			updateType="I">
+			<film id="00110323201401" filmUId="14110712163112461" name="撒娇女人最好命"
+				language="国语" title="撒娇女人最好命" duration="95" imax="0" dimensional="2D"
+				code="001103232014" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号厅" seqNo="1781141129F60206X2"
+			showSeqNo="1" date="2014-11-29" time="2210" updateLevel="0"
+			updateType="I">
+			<film id="05110083201401" filmUId="14110604095412404" name="星际穿越（数字）"
+				language="英语" title="星际穿越（数字）" duration="170" imax="0" dimensional="2D"
+				code="051100832014" />
+			<price lowest="20">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="1781141129MAB74T18"
+			showSeqNo="1" date="2014-11-29" time="2250" updateLevel="0"
+			updateType="I">
+			<film id="07410091201401" filmUId="14111802243712781" name="狂怒（数字）"
+				language="英语" title="狂怒（数字）" duration="135" imax="0" dimensional="2D"
+				code="074100912014" />
+			<price lowest="20">
+				<section id="0000000000000001" standard="50" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="1781141129WHCBFW6N"
+			showSeqNo="1" date="2014-11-29" time="2310" updateLevel="0"
+			updateType="I">
+			<film id="00110324201401" filmUId="14110410354912261" name="单身男女ＩＩ"
+				language="粤语" title="单身男女ＩＩ" duration="115" imax="0" dimensional="2D"
+				code="001103242014" />
+			<price lowest="20">
+				<section id="0000000000000001" standard="50" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="1781141129LE039U3P"
+			showSeqNo="1" date="2014-11-29" time="2330" updateLevel="0"
+			updateType="I">
+			<film id="00110450201401" filmUId="14110604134712428" name="怨灵"
+				language="国语" title="怨灵" duration="90" imax="0" dimensional="2D"
+				code="001104502014" />
+			<price lowest="15">
+				<section id="0000000000000001" standard="50" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="1781141129LP6VNV40"
+			showSeqNo="1" date="2014-11-29" time="2345" updateLevel="0"
+			updateType="I">
+			<film id="00110323201401" filmUId="14110712163112461" name="撒娇女人最好命"
+				language="国语" title="撒娇女人最好命" duration="95" imax="0" dimensional="2D"
+				code="001103232014" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+	</shows>
+</data>

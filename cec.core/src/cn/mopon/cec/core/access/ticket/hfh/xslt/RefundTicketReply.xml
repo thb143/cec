@@ -1,0 +1,11 @@
+<?xml version="1.0"	encoding="utf-8"?>
+<data version="1.0">
+	<bookingCancel version="1.0" result="0" message="">
+		<bookingId>1781014112915215</bookingId>
+		<confirmationId />
+		<seats>
+			<seat ticketNo="1781141129030150" rowId="1" columnId="02"
+				sectionId="" statusInd="" printedFlg="False" lastModifyTime="" />
+		</seats>
+	</bookingCancel>
+</data>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reply>
+	<code>001</code>
+	<msg>操作成功。</msg>
+	<order>
+		<code>1411301000000002</code>
+		<channelOrderCode>1000414052905411</channelOrderCode>
+		<confirmTime>2014-11-30 00:04:24</confirmTime>
+		<ticketCount>1</ticketCount>
+		<amount>88.0</amount>
+		<printCode>1417277041722751</printCode>
+		<verifyCode>3057628797916318</verifyCode>
+		<status>4</status>
+		<printStatus>0</printStatus>
+	</order>
+</reply>

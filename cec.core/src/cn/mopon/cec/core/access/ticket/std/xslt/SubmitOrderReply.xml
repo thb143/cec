@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OnlineTicketingServiceReply Version="1.0"
+	Datetime="2014-06-03T16:32:18">
+	<SubmitOrderReply Status="Success" ErrorCode=""
+		ErrorMessage="" Id="ID_SubmitOrderReply">
+		<Order OrderCode="099871F99576C3D2" SessionCode="1000414060305417"
+			Count="1" PrintNo="2014060316321869" VerifyCode="BA19ECB5FED17411">
+			<Seat SeatCode="1_1_9_1066000000" FilmTicketCode="1401784338654000" />
+		</Order>
+	</SubmitOrderReply>
+</OnlineTicketingServiceReply>

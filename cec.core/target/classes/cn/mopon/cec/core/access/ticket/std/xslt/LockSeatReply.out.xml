@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OnlineTicketingServiceReply Version="1.0" Datetime="2014-05-22T11:42:24">
+	<LockSeatReply Status="Success" ErrorCode=""
+		ErrorMessage="" Id="ID_LockSeatReply">
+		<Order>
+			<cinemaOrderCode>153754C964A6FB40</cinemaOrderCode>
+		</Order>
+	</LockSeatReply>
+</OnlineTicketingServiceReply>

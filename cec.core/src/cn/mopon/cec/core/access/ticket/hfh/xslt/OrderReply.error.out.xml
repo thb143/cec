@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<result>1</result>
+	<message>没有找到该订单</message>
+	<Order>
+		<voucher>
+			<printCode />
+			<verifyCode>00000000</verifyCode>
+		</voucher>
+		<status>5</status>
+		<cinemaOrderCode />
+		<orderItems />
+	</Order>
+</data>

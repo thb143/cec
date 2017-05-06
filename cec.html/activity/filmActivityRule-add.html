@@ -1,0 +1,248 @@
+<style type="text/css">
+.pageFormContent label {
+ width: 80px;
+}
+</style>
+<script>
+function display(name) {
+    $("dl[id=common]").css("display","none");
+    $("dl[id=everyDay]").css("display","none");
+    $("dl[id=week]").css("display","none");
+    $("dl[id=day]").css("display","none");
+    $("dl[id=interval]").css("display","none"); 
+    $("dl[id=" + name + "]").css("display","block");
+    $("dl[id=" + name + "] table tbody").html('');
+}
+function settleWays(name) {
+    var ways = ["fixedPrice","fixedPriceAdd","fixedPriceCut",
+    "discountPrice","discountAddPrice","discountCutPrice","intervalPrice"];
+    for(var i = 0; i < ways.length - 1; i++) {
+        $("dl[id=" + ways[i] + "]").css("display","none");
+        $("input[name=" + ways[i] + "]").val('');
+    }
+    $("dl[id=intervalPrice] table tbody").html('');
+    $("dl[id=intervalPrice]").css("display","none");
+    $("dl[id=" + name + "]").css("display","block"); 
+}
+</script>
+<div class="page">
+   <div class="pageContent">
+        <form onsubmit="return validateCallback(this, dialogAjaxDone);" class="pageForm required-validate" action="ajaxDone1.html" method="post" novalidate="novalidate">
+        <div layouth="60" class="pageFormContent" style="height: 501px; overflow: auto;">
+            <dl class="nowrap">
+                <dt>规则名称：</dt>
+                <dd><input type="text" class="required textInput" name="code" size="30"></dd>
+            </dl>
+            <dl class="nowrap">
+                <dt>选择影片：</dt>
+                <dd><input type="checkbox" />全选<br/><input type="checkbox" />龙的传人<input type="checkbox" />烈火英雄<input type="checkbox" />催眠大师</dd>
+            </dl>
+            <dl class="nowrap">
+                <dt>活动影院、影厅：</dt>
+                <dd><a class="button" href="activity/hall-select.html" target="dialog" rel="cinema-select" mask="true" width='850' height='550'><span>选择影院、影厅</span></a></dd>
+            </dl>
+            <dl class="nowrap">
+                <dt>&nbsp;</dt>
+                <dd>
+                   <table class="list" width="100%">
+                        <thead>
+                            <tr>
+                                <th width="30px" align="center">序号</th>
+                                <th width="150px" align="center">影院名称</th>
+                                <th align="center">影厅名称</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr target="sid_user" rel="1">
+                                <td>1</td>
+                                <td>兜有</td>
+                                <td>1号厅、2号厅、5号厅、VIP厅</td>
+                            </tr>
+                            <tr target="sid_user" rel="1">
+                                <td>2</td>
+                                <td>中影</td>
+                                <td>1号厅、2号厅、VIP厅</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </dd>
+             </dl>
+            <dl class="nowrap" style="margin-left:-5px;">
+                <dt>时间限制：</dt>
+                <dd>
+                    <label style="width:95px;"><input type="radio" name="time" onclick="display('common');" checked />常规时段</label>
+                    <label style="width:95px;"><input type="radio" name="time" onclick="display('everyDay');"/>每天特殊时段</label>
+                    <label style="width:95px;"><input type="radio" name="time" onclick="display('week');"/>星期特殊时段</label>
+                    <label style="width:95px;"><input type="radio" name="time" onclick="display('day');"/>特殊日期时段</label>
+                    <label style="width:95px;"><input type="radio" name="time" onclick="display('interval');"/>日期区间时段</label>              
+                </dd>
+            </dl>
+            <dl class="nowrap" id="everyDay" style="display:none;">
+                <dt>&nbsp;</dt>
+                <dd>
+                    <table class="list itemDetail" addButton="添加时间" width="100%">
+                        <thead>
+                            <tr>
+                                <th type="date" datefmt="HH:mm" name="items[#index#].itemDataTime" size="6">开始时间</th>
+                                <th type="date" datefmt="HH:mm" name="items[#index#].itemDataTime" size="6">结束时间</th>
+                                <th type="del" width="60">操作</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </dd>
+            </dl>
+            <dl class="nowrap" id="week" style="display:none;">
+                <dt>&nbsp;</dt>
+                <dd>
+                    <table class="list itemDetail" addButton="添加时间" width="100%">
+                        <thead>
+                            <tr>
+                                <th width="40" align="center" type="checkbox" size="2">周一</th>
+                                <th width="40" align="center" type="checkbox" size="2">周二</th>
+                                <th width="40" align="center" type="checkbox" size="2">周三</th>
+                                <th width="40" align="center" type="checkbox" size="2">周四</th>
+                                <th width="40" align="center" type="checkbox" size="2">周五</th>
+                                <th width="40" align="center" type="checkbox" size="2">周六</th>
+                                <th width="40" align="center" type="checkbox" size="2">周日</th>
+                                <th width="150" align="center" type="date" datefmt="HH:mm" name="items[#index#].itemDataTime" size="6">开始时间</th>
+                                <th width="150" align="center" type="date" datefmt="HH:mm" name="items[#index#].itemDataTime" size="6">结束时间</th>
+                                <th width="40" align="center" type="del" width="60">操作</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </dd>
+            </dl>
+            <dl class="nowrap" id="day" style="display:none;">
+                <dt>&nbsp;</dt>
+                <dd>
+                    <table class="list itemDetail" addButton="添加时间" width="100%">
+                        <thead>
+                            <tr>
+                                <th width="180" type="date" format="YYYY-MM-DD" name="items[#index#].itemDataTime" size="10">日期</th>
+                                <th width="150" type="date" datefmt="HH:mm" name="items[#index#].itemDataTime" size="6">开始时间</th>
+                                <th width="150" type="date" datefmt="HH:mm" name="items[#index#].itemDataTime" size="6">结束时间</th>
+                                <th type="del" width="60">操作</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </dd>
+            </dl>
+            <dl class="nowrap" id="interval" style="display:none;">
+                <dt>&nbsp;</dt>
+                <dd>
+                    <table class="list itemDetail" addButton="添加时间" width="100%">
+                        <thead>
+                            <tr>
+                                <th width="180" type="date" format="YYYY-MM-DD" name="items[#index#].itemDataTime" size="10">开始日期</th>
+                                <th width="180" type="date" format="YYYY-MM-DD" name="items[#index#].itemDataTime" size="10">结束日期</th>
+                                <th width="150" type="date" datefmt="HH:mm" name="items[#index#].itemDataTime" size="6">开始时间</th>
+                                <th width="150" type="date" datefmt="HH:mm" name="items[#index#].itemDataTime" size="6">结束时间</th>
+                                <th type="del" width="60">操作</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </dd>
+            </dl>
+            <dl class="nowrap" style="margin-left:-5px;">
+                <dt>结算基准：</dt>
+                <dd>
+                   <label style="width:57px;"><input type="radio" value="0" name="settleStandard" checked />标准价</label>
+                   <label style="width:57px;"><input type="radio" value="1" name="settleStandard" />最低价</label>
+                </dd>
+            </dl>
+            <dl class="nowrap" style="margin-left:-5px;">
+                <dt>结算规则：</dt>
+                <dd>
+                    <label style="width:57px;"><input type="radio" name="settleWay" onclick="javascript:settleWays('fixedPrice');" checked/>固定价</label>
+                    <label style="width:75px;"><input type="radio" name="settleWay" onclick="javascript:settleWays'fixedPriceAdd');"/>固定加价</label>
+                    <label style="width:75px;"><input type="radio" name="settleWay" onclick="javascript:settleWays('fixedPriceCut');"/>固定减价</label>
+                    <label style="width:57px;"><input type="radio" name="settleWay" onclick="javascript:settleWays('discountPrice');"/>折扣价</label>
+                    <label style="width:75px;"><input type="radio" name="settleWay" onclick="javascript:settleWays('discountAddPrice');"/>折扣加价</label>
+                    <label style="width:75px;"><input type="radio" name="settleWay" onclick="javascript:settleWays('discountCutPrice');"/>折扣减价</label>
+                    <label style="width:75px;"><input type="radio" name="settleWay" onclick="javascript:settleWays('intervalPrice');"/>区间定价</label>         
+                </dd>
+            </dl>
+            <dl class="nowrap" id="fixedPrice" style="display:block;margin-left:5px;">
+                <dt>&nbsp;</dt>
+                <dd>
+                    <input type="text" id="fixedPrice" name="fixedPrice" size="10" class="textInput">&nbsp;元
+                </dd>
+            </dl>
+            <dl class="nowrap" id="fixedPriceAdd" style="display:none;margin-left:5px;">
+                <dt>&nbsp;</dt>
+                <dd>
+                    <input type="text" id="fixedPriceAdd" name="fixedPriceAdd" size="10" class="textInput">&nbsp;元&nbsp;
+                </dd>
+            </dl>
+            <dl class="nowrap" id="fixedPriceCut" style="display:none;margin-left:5px;">
+                <dt>&nbsp;</dt>
+                <dd>
+                    <input type="text" id="fixedPriceCut" name="fixedPriceCut" size="10" class="textInput">&nbsp;元&nbsp;
+                </dd>
+            </dl>
+            <dl class="nowrap" id="discountPrice" style="display:none;margin-left:5px;">
+                <dt>&nbsp;</dt>
+                <dd>
+                    <input type="text" id="discountPrice" name="discountPrice" size="10" class="textInput">&nbsp;元&nbsp;
+                </dd>
+            </dl>
+            <dl class="nowrap" id="discountAddPrice" style="display:none;margin-left:5px;">
+                <dt>&nbsp;</dt>
+                <dd>
+                    <ul>
+                        <li style="float:left;margin-left: 10px;"><input type="text" id="discountAddPrice" name="discountAddPrice" size="10" class="textInput">&nbsp;折&nbsp;</li>
+                        <li style="float:left;margin-left: 10px;"><input type="text" id="discountAddPrice" name="discountAddPrice" size="10" class="textInput">&nbsp;元&nbsp;</li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="nowrap" id="discountCutPrice" style="display:none;margin-left:5px;">
+                <dt>&nbsp;</dt>
+                <dd>
+                    <ul>
+                        <li style="float:left;margin-left: 10px;"><input type="text" id="discountCutPrice" name="discountCutPrice" size="10" class="textInput">&nbsp;折&nbsp;</li>
+                        <li style="float:left;margin-left: 10px;"><input type="text" id="discountCutPrice" name="discountCutPrice" size="10" class="textInput">&nbsp;元&nbsp;</li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="nowrap" id="intervalPrice" style="display:none;margin-left:5px;">
+                <dt>&nbsp;</dt>
+                <dd>
+                    <table class="list itemDetail" addButton="添加规则" width="100%">
+                        <thead>
+                            <tr>
+                                <th type="text" name="items[#index#].itemDataTime" size="12" fieldClass="number">起始金额</th>
+                                <th type="text" name="items[#index#].itemDataTime" size="12" fieldClass="number">截止金额</th>
+                                <th type="text" name="items[#index#].itemDataTime" size="12" fieldClass="number">定价金额</th>
+                                <th type="del" width="60">操作</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </dd>
+            </dl>
+        </div>
+        <div class="formBar">
+            <ul>
+                <li>
+                    <div class="buttonActive">
+                        <div class="buttonContent">
+                            <button type="submit">保存</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="button">
+                        <div class="buttonContent">
+                            <button class="close" type="button">取消</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+<reply>
+	<code>001</code>
+	<msg>操作成功。</msg>
+	<halls>
+		<hall>
+			<code>0000000000000001</code>
+			<name>1</name>
+			<seatCount>100</seatCount>
+		</hall>
+		<hall>
+			<code>0000000000000002</code>
+			<name>VIP</name>
+			<seatCount>100</seatCount>
+		</hall>
+		<hall>
+			<code>0000000000000003</code>
+			<name>聚宝台</name>
+			<seatCount>100</seatCount>
+		</hall>
+		<hall>
+			<code>0000000000000004</code>
+			<name>低调站</name>
+			<seatCount>100</seatCount>
+		</hall>
+		<hall>
+			<code>0000000000000006</code>
+			<name>teste</name>
+			<seatCount>100</seatCount>
+		</hall>
+	</halls>
+</reply>

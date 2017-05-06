@@ -1,0 +1,104 @@
+<div class="page">
+    <div class="pageHeader">
+        <div class="searchBar">
+            <div class="subBar">
+                <ul>
+                    <li><input name="search"/></li>
+                    <li>
+                        <div class="buttonActive">
+                            <div class="buttonContent">
+                                <button type="submit">检索 </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="pageContent">
+        <div class="panelBar">
+            <ul class="toolBar">
+                <li>
+                    <a href="javascript:;" rel="channel-add" 
+                    mask="true" ><span class="a09">导出报表</span></a>
+                </li>
+            </ul>
+        </div>
+        <table class="table" width="100%" layoutH="112">
+            <thead>
+                <tr>
+                    <th width="30px" align="center">序号</th>
+                    <th width="130px" align="center">订单号</th>
+                    <th width="130px" align="center">影院订单号</th>
+                    <th width="130px" align="center">渠道订单号</th>
+                    <th width="70px" align="center">订单状态</th>
+                    <th width="70px" align="center">凭证状态</th>
+                    <th width="80px" align="center">销售金额</th>
+                    <th width="130px" align="center">退款时间</th>
+                    <th width="80px" align="center">退款金额</th>
+                    <th align="center">申请退款原因</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr target="sid_user" rel="1">
+                    <td>1</td>
+                    <td>
+                        <a href="order/ticketOrder-view.html" target="dialog" rel="ticketOrder-view"
+                         mask="true" title="查看订单" width="850" height="550">D12345678</a>
+                    </td>
+                    <td>T123456789</td>
+                    <td>D327391736</td>
+                    <td>已支付</td>
+                    <td>未使用</td>
+                    <td style="text-align:right;">45.00</td>
+                    <td>2014-01-01 10:30</td>
+                    <td style="text-align:right;">45.00</td>
+                    <td>出票失败</td>
+                </tr>
+                <tr target="sid_user" rel="1">
+                    <td>2</td>
+                    <td>
+                        <a href="order/ticketOrder-view.html" target="dialog" rel="ticketOrder-view"
+                         mask="true" title="查看订单" width="750" height="500">D12345678</a>
+                    </td>
+                    <td>T123456789</td>
+                    <td>D327391736</td>
+                    <td>已支付</td>
+                    <td>未使用</td>
+                    <td style="text-align:right;">45.00</td>
+                    <td>2014-01-01 10:30</td>
+                    <td style="text-align:right;">45.00</td>
+                    <td>出票失败</td>
+                </tr>
+                <tr target="sid_user" rel="1">
+                    <td>3</td>
+                    <td>
+                        <a href="order/ticketOrder-view.html" target="dialog" rel="ticketOrder-view"
+                         mask="true" title="查看订单" width="750" height="500">D12345678</a>
+                    </td>
+                    <td>T123456789</td>
+                    <td>D327391736</td>
+                    <td>已支付</td>
+                    <td>未使用</td>
+                    <td style="text-align:right;">45.00</td>
+                    <td>2014-01-01 10:30</td>
+                    <td style="text-align:right;">45.00</td>
+                    <td>出票失败</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="panelBar">
+            <div class="pages">
+                <span>显示</span>
+                <select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                    <option value="200">200</option>
+                </select>
+                <span>条，共1条</span>
+            </div>
+            <div class="pagination" targetType="navTab" totalCount="1" numPerPage="20" pageNumShown="10" currentPage="1"></div>
+        </div>
+    </div>
+</div>

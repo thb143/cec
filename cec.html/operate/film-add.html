@@ -1,0 +1,128 @@
+<div class="page">
+    <div class="pageContent">
+        <form method="post" action="ajaxDone1.html" class="pageForm required-validate" onsubmit="return validateCallback(this, dialogAjaxDone);">
+        <div class="pageFormContent" layoutH="60">
+            <dl>
+                <dt>影片编码：</dt>
+                <dd><input type="text" name="film.filmCode" size="30" maxlength="16" class="required"/></dd>
+            </dl>
+            <dl>
+                <dt>影片名称:</dt>
+                <dd><input type="text" name="film.filmName" size="30" maxlength="60" class="required"/></dd>             
+            </dl>
+             <dl>
+                <dt>公映日期：</dt>
+                <dd><input name="film.publishDate" size="30" class="required date"/></dd>
+            </dl>
+            <dl>
+                <dt>制作人：</dt>
+                <dd><input type="text" name="film.producer" size="30" maxlength="60"/></dd>
+            </dl>
+            <dl>
+                <dt>时长：</dt>
+                <dd> <input type="text" name="film.daration" size="30" min="30" max="300" class="digits"/></dd>
+            </dl>
+            <dl>
+                <dt>发行商：</dt>
+                <dd> <input type="text" name="film.publisher" size="30" maxlength="16"/></dd>
+            </dl>
+             <dl>
+                <dt>发行版本：</dt>
+                <dd> <input type="text" name="film.version" size="30" maxlength="20"/></dd>
+            </dl>
+             <dl>
+                <dt>影片类型：</dt>
+                <dd><input type="text" name="film.filmType" size="30" maxlength="120"/></dd>
+            </dl>
+            <dl>
+                <dt>放映类型：</dt>
+                <dd>
+                <select name="film.showType" class="combox" size="30">
+                    <option value="" selected="">请选择</option>
+                    <option value="1">2D</option>
+                    <option value="1">IMax</option>
+                </select>
+                </dd>
+            </dl>
+            <dl class="nowrap">
+                <dt>导演：</dt>
+                <dd><textarea name="film.director" cols="80" rows="2"></textarea></dd>
+            </dl>
+            <dl class="nowrap">
+                <dt>演员：</dt>
+                <dd> <textarea name="film.cast" cols="80" rows="3"></textarea></dd>
+            </dl>
+            <dl class="nowrap">
+                <dt>简介：</dt>
+                <dd><textarea name="film.introduction" cols="80" rows="5"></textarea></dd>
+            </dl>
+            <dl class="nowrap">
+                <dt>精彩看点：</dt>
+                <dd> <textarea name="film.highlight" cols="80" rows="5"></textarea></dd>
+            </dl>
+            <dl class="nowrap">
+                <dt>备注：</dt>
+                <dd><textarea name="film.memo" cols="80" rows="3"></textarea></dd>
+            </dl>
+             <dl class="nowrap">
+                <dt>海报：</dt>
+                <dd>
+                 <input id="testFileInput" type="file" name="film.poster"
+                        uploaderOption="{
+                        swf:'dwz/uploadify/scripts/uploadify.swf',
+                        uploader:'ajaxDone.html',
+                        formData:{PHPSESSID:'xxx', ajax:1},
+                        queueID:'fileQueue',
+                        buttonImage:'dwz/uploadify/img/add.jpg',
+                        buttonClass:'my-uploadify-button',
+                        width:102,
+                        auto:false
+                        }"
+                        />
+                        <div id="fileQueue" class="fileQueue"></div>
+                        <input type="image" src="dwz/uploadify/img/upload.jpg" onclick="$('#testFileInput').uploadify('upload', '*');"/>
+                        <input type="image" src="dwz/uploadify/img/cancel.jpg" onclick="$('#testFileInput').uploadify('cancel', '*');"/>
+                </dd>
+            </dl>
+             <dl class="nowrap">
+                <dt>剧照：</dt>
+                <dd>
+                 <input id="testFileInput2" type="file" name="film.poster"
+                        uploaderOption="{
+                        swf:'dwz/uploadify/scripts/uploadify.swf',
+                        uploader:'ajaxDone.html',
+                        formData:{PHPSESSID:'xxx', ajax:1},
+                        queueID:'fileQueue',
+                        buttonImage:'dwz/uploadify/img/add.jpg',
+                        buttonClass:'my-uploadify-button',
+                        width:102,
+                        auto:false
+                        }"
+                        />
+                        <div id="fileQueue" class="fileQueue"></div>
+                        <input type="image" src="dwz/uploadify/img/upload.jpg" onclick="$('#testFileInput2').uploadify('upload', '*');"/>
+                        <input type="image" src="dwz/uploadify/img/cancel.jpg" onclick="$('#testFileInput2').uploadify('cancel', '*');"/>
+                </dd>
+            </dl>
+        </div>
+        <div class="formBar">
+            <ul>
+                <li>
+                    <div class="buttonActive">
+                        <div class="buttonContent">
+                            <button type="submit">保存</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="button">
+                        <div class="buttonContent">
+                            <button type="button" class="close">取消</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        </form>
+    </div>
+</div>

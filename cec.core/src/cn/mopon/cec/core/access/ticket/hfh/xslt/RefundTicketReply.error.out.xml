@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<result>104</result>
+	<Messages>退票订单单号不存在或订单信息错误</Messages>
+	<Order>
+		<voucher>
+			<verifyCode />
+			<printCode />
+		</voucher>
+		<cinemaOrderCode />
+		<orderItems />
+	</Order>
+</data>

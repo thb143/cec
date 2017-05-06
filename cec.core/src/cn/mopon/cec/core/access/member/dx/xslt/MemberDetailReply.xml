@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<status>1</status>
+	<errorMessage />
+	<errorCode />
+	<data>
+		<cardNumber>882378901789002</cardNumber>
+		<username>test</username>
+		<balance></balance>
+		<availableJifen>720</availableJifen>
+		<period>2013-04-10 23:59:59</period>
+		<discount>80</discount>
+		<cardLevel>集团放假折扣卡</cardLevel>
+		<purchaseDiscountNum>4</purchaseDiscountNum>
+		<basePrice>80.00</basePrice>
+		<minAddMoney>500</minAddMoney>
+		<canUse>1</canUse>
+		<canBuyNum>4</canBuyNum>
+		<globalCanBuyNum>1</globalCanBuyNum>
+		<priceInfo>
+			<priceItem>
+				<global>0</global>
+				<price>30</price>
+				<preferPrice>30</preferPrice>
+				<globalPreferPrice>30</globalPreferPrice>
+				<can>0</can>
+				<desc>ok券</desc>
+			</priceItem>
+		</priceInfo>
+	</data>
+</root>

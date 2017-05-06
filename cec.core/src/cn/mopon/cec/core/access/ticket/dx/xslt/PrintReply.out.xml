@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<status>1</status>
+	<errorMessage />
+	<errorCode />
+	<ticketOrder>
+		<orderItems>
+			<orderItem>
+				<ticketCode>1000000000151546</ticketCode>
+				<printStatus>0</printStatus>
+			</orderItem>
+		</orderItems>
+	</ticketOrder>
+</root>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OnlineTicketingServiceReply Version="1.0" Datetime="2014-06-03T16:32:18">
+	<SubmitOrderReply Status="Success" ErrorCode=""
+		ErrorMessage="" Id="ID_SubmitOrderReply">
+		<Order>
+			<voucher>
+				<printCode>2014060316321869</printCode>
+				<verifyCode>BA19ECB5FED17411</verifyCode>
+			</voucher>
+			<orderItems>
+				<orderItem>
+					<ticketCode>1401784338654000</ticketCode>
+					<seatCode>1_1_9_1066000000</seatCode>
+				</orderItem>
+			</orderItems>
+		</Order>
+	</SubmitOrderReply>
+</OnlineTicketingServiceReply>

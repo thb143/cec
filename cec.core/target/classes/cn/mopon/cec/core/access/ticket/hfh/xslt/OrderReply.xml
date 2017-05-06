@@ -1,0 +1,16 @@
+<?xml version="1.0"	encoding="utf-8"?>
+<data version="1.0" result="0" message="交易成功，订单已经确认">
+	<orderDetail version="1.0">
+		<cinemaId>11051601</cinemaId>
+		<hallId>3</hallId>
+		<filmId>05110071201201</filmId>
+		<show seqNo="" date="2014-12-02" time="205" />
+		<seats>
+			<seat ticketNo="9991411087867" sectionId="01" rowId="A"
+				columnId="03" statusInd="B" printedFlg="N" lastModifyTime="" />
+		</seats>
+		<statusInd>1</statusInd>
+		<bookingId>99914112943133</bookingId>
+		<confirmationId>07970611</confirmationId>
+	</orderDetail>
+</data>

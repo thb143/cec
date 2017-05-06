@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<result>0</result>
+	<Messages />
+	<Order>
+		<voucher>
+			<verifyCode />
+			<printCode>1781014112915215</printCode>
+		</voucher>
+		<cinemaOrderCode>1781014112915215</cinemaOrderCode>
+		<orderItems>
+			<orderItem>
+				<ticketCode>1781141129030150</ticketCode>
+				<seatCode>1
+					_
+					02</seatCode>
+			</orderItem>
+		</orderItems>
+	</Order>
+</data>

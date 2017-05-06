@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data version="1.0">
+	<seatRelease version="1.0">
+		<result>0</result>
+		<messages>
+			<message>解锁成功</message>
+		</messages>
+	</seatRelease>
+</data>

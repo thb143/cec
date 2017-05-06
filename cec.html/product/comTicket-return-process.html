@@ -1,0 +1,236 @@
+<style>
+	.pageFormContent dt {
+		float: left;
+		width: 85px;
+		padding: 0px 5px;
+		line-height: 21px;
+	}
+	.pageFormContent dd {
+		display: block;
+		line-height: 21px;
+		float: left;
+	}
+	.dialog .pageFormContent, .dialog .viewInfo {
+    border-style: none;
+    border-width: 1px 0px 0px;
+}
+</style>
+<form method="post" action="ajaxDone1.html" class="pageForm required-validate" onsubmit="return validateCallback(this, dialogAjaxDone);" height="500">
+    <div class="pageFormContent" layoutH="60">
+        <fieldset>
+            <legend>
+                审批信息
+            </legend>
+            <dl>
+                <dd style="width: 320px;height:100%; color:red;">
+                    销售价格设置错误 | 张三 | 2014-01-01 10:30:00 。
+                </dd>
+            </dl>
+        </fieldset>
+        <fieldset style="height:230px;">
+            <legend>
+                通兑票信息
+            </legend>
+            <dl>
+                <dt>
+                    通兑票编码：
+                </dt>
+                <dd>
+                    <input size="30" name="code" type="text" class="required"/>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    通兑票名称:
+                </dt>
+                <dd>
+                    <input size="40" name="name" type="text" class="required"/>
+                </dd>
+            </dl>
+            <dl style="width:450px;">
+                <dt>
+                    通兑票类型：
+                </dt>
+                <dd style="width: 300px;height:100%;">
+                    <input type="radio" name="type" value="2D" checked/>
+                    2D
+                    <input type="radio" name="type" value="3D"/>
+                    3D
+                    <input type="radio" name="type" value="IMAX"/>
+                    IMAX
+                    <input type="radio" name="type" value="MAX3D"/>
+                    IMAX3D
+                    <input type="radio" name="type" value="4D"/>
+                    4D
+                </dd>
+            </dl>
+            <dl style="width:100%;">
+                <dt>
+                    有效期：
+                </dt>
+                <dd style="width: 650px;height:100%;">
+                    <input type="radio" name="period" checked/>
+                    固定天数&nbsp;&nbsp;
+                    <input size="5" name="day" class="required number"/>
+                    &nbsp;&nbsp;
+                    <input type="radio" name="period" />
+                    时间范围&nbsp;&nbsp;
+                    <input size="20" name="startTime" class="date"/>
+                    至
+                    <input size="20" name="endTime" class="date"/>
+                </dd>
+            </dl>
+            <dl style="width:100%;">
+                <dt>
+                    最大销售数量:
+                </dt>
+                <dd style="width: 650px;height:100%;">
+                    <input size="5" name="soldNum" type="text" value="0" class="required number"/>
+                    张
+                </dd>
+            </dl>
+            <dl style="width:100%;">
+                <dt>
+                    影院范围:&nbsp;&nbsp;<a href="product/comTicket-cinema-list.html" target="dialog" rel="comTicket-cinema-list" mark="true" title="影院列表" width="500" height="300" lookupgroup="orgLookup" autocomplete="off"><span>选择</span></a>
+                </dt>
+                <dd style="width: 650px;height:100%;">
+                    最高结算价：30.00 元&nbsp;&nbsp;&nbsp;&nbsp;最低结算价：20.00 元&nbsp;&nbsp;&nbsp;&nbsp;平均结算价：25.00 元
+                    <br/>
+                    中影XXXX影城（20.00元）
+                    中影XXXX影城（20.00元）
+                    中影XXXX影城（20.00元）
+                    中影XXXX影城（25.00元）
+                    中影XXXX影城（25.00元）
+                    中影XXXX影城（25.00元）
+                    中影XXXX影城（30.00元）
+                    中影XXXX影城（30.00元）
+                    中影XXXX影城（30.00元)
+                </dd>
+            </dl>
+        </fieldset>
+        <fieldset>
+            <legend>
+                销售渠道设置
+            </legend>
+            <dl style="width:100%;">
+                <dt>
+                    <input type="checkbox" name="c1" value="1" checked>
+                </dt>
+                <dd style="width: 650px;height:100%;">
+                    &nbsp;淘宝电影&nbsp;&nbsp;手续费:&nbsp;&nbsp;固定价2.00元&nbsp;&nbsp;
+                    <input type="radio" name="r1" value="1" checked/>
+                    标准价加价
+                    <input size="3" name="price" value="2.00"/>
+                    &nbsp;元&nbsp;&nbsp;
+                    <input type="radio" name="r1" value="2"/>
+                    百分比加价
+                    <input size="3" name="price" disabled="true"/>
+                    &nbsp;%
+                </dd>
+            </dl>
+            <dl style="width:100%;">
+                <dt>
+                    <input type="checkbox" name="c1" value="1" checked>
+                </dt>
+                <dd style="width: 650px;height:100%;">
+                    &nbsp;淘宝电影&nbsp;&nbsp;手续费:&nbsp;&nbsp;固定价2.00元&nbsp;&nbsp;
+                    <input type="radio" name="r1" value="1" checked/>
+                    标准价加价
+                    <input size="3" name="price" value="2.00"/>
+                    &nbsp;元&nbsp;&nbsp;
+                    <input type="radio" name="r1" value="2"/>
+                    百分比加价
+                    <input size="3" name="price" disabled="true"/>
+                    &nbsp;%
+                </dd>
+            </dl>
+            <dl style="width:100%;">
+                <dt>
+                    <input type="checkbox" name="c1" value="1" checked>
+                </dt>
+                <dd style="width: 650px;height:100%;">
+                    &nbsp;淘宝电影&nbsp;&nbsp;手续费:&nbsp;&nbsp;固定价2.00元&nbsp;&nbsp;
+                    <input type="radio" name="r1" value="1" checked/>
+                    标准价加价
+                    <input size="3" name="price" value="2.00"/>
+                    &nbsp;元&nbsp;&nbsp;
+                    <input type="radio" name="r1" value="2"/>
+                    百分比加价
+                    <input size="3" name="price" disabled="true"/>
+                    &nbsp;%
+                </dd>
+            </dl>
+            <dl style="width:100%;">
+                <dt>
+                    <input type="checkbox" name="c1" value="1" checked>
+                </dt>
+                <dd style="width: 650px;height:100%;">
+                    &nbsp;淘宝电影&nbsp;&nbsp;手续费:&nbsp;&nbsp;固定价2.00元&nbsp;&nbsp;
+                    <input type="radio" name="r1" value="1" checked/>
+                    标准价加价
+                    <input size="3" name="price" value="2.00"/>
+                    &nbsp;元&nbsp;&nbsp;
+                    <input type="radio" name="r1" value="2"/>
+                    百分比加价
+                    <input size="3" name="price" disabled="true"/>
+                    &nbsp;%
+                </dd>
+            </dl>
+            <dl style="width:100%;">
+                <dt>
+                    <input type="checkbox" name="c1" value="1" checked>
+                </dt>
+                <dd style="width: 650px;height:100%;">
+                    &nbsp;淘宝电影&nbsp;&nbsp;手续费:&nbsp;&nbsp;固定价2.00元&nbsp;&nbsp;
+                    <input type="radio" name="r1" value="1" checked/>
+                    标准价加价
+                    <input size="3" name="price" value="2.00"/>
+                    &nbsp;元&nbsp;&nbsp;
+                    <input type="radio" name="r1" value="2"/>
+                    百分比加价
+                    <input size="3" name="price" disabled="true"/>
+                    &nbsp;%
+                </dd>
+            </dl>
+            <dl style="width:100%;">
+                <dt>
+                    <input type="checkbox" name="c1" value="1" checked>
+                </dt>
+                <dd style="width: 650px;height:100%;">
+                    &nbsp;淘宝电影&nbsp;&nbsp;手续费:&nbsp;&nbsp;固定价2.00元&nbsp;&nbsp;
+                    <input type="radio" name="r1" value="1" checked/>
+                    标准价加价
+                    <input size="3" name="price" value="2.00"/>
+                    &nbsp;元&nbsp;&nbsp;
+                    <input type="radio" name="r1" value="2"/>
+                    百分比加价
+                    <input size="3" name="price" disabled="true"/>
+                    &nbsp;%
+                </dd>
+            </dl>
+        </fieldset>
+
+    </div>
+    <div class="formBar">
+        <ul>
+            <li>
+                <div class="buttonActive">
+                    <div class="buttonContent">
+                        <button type="submit">
+                            保存
+                        </button>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="button">
+                    <div class="buttonContent">
+                        <button type="button" class="close">
+                            取消
+                        </button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</form>

@@ -1,0 +1,1546 @@
+<?xml version="1.0"
+	encoding="utf-8"?>
+<data version="1.0" result="0" message="">
+	<shows cinemaId="11051601" cinemaName="火凤凰测试影院" cinemaLinkId="999"
+		version="1.0">
+		<show hallId="5" hallName="5号厅" seqNo="99920140402067214"
+			showSeqNo="1" date="2014-11-21" time="1145" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="99920140402068498"
+			showSeqNo="1" date="2014-11-21" time="1255" updateLevel="0"
+			updateType="I">
+			<film id="07510082201301" filmUId="201309241135777" name="惊天魔盗团（数字）"
+				language="国语" title="惊天魔盗团（数字）" duration="115" imax="0" dimensional="2D"
+				code="075100822013" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="8" hallName="8号厅" seqNo="99920140402071066"
+			showSeqNo="1" date="2014-11-21" time="1300" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="40" name="普通区" />
+				<section id="02" standard="50" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="99920140402069568"
+			showSeqNo="1" date="2014-11-21" time="1310" updateLevel="0"
+			updateType="I">
+			<film id="00110516201301" filmUId="13110409462802101" name="光的棍"
+				language="国语" title="光的棍" duration="100" imax="0" dimensional="2D"
+				code="001105162013" />
+			<price lowest="0">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="99920140402067428"
+			showSeqNo="2" date="2014-11-21" time="1400" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="贵宾厅" seqNo="99920140402066144"
+			showSeqNo="1" date="2014-11-21" time="1440" updateLevel="0"
+			updateType="I">
+			<film id="0011729601" filmUId="" name="观音山（数字）" language="国语"
+				title="观音山（数字）" duration="100" imax="0" dimensional="2D" code="00117296" />
+			<price lowest="0">
+				<section id="01" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="99920140402064860"
+			showSeqNo="1" date="2014-11-21" time="1450" updateLevel="0"
+			updateType="I">
+			<film id="05110071201201" filmUId="201309271003841" name="人狼大战（数字）"
+				language="国语" title="人狼大战（数字）" duration="100" imax="0" dimensional="2D"
+				code="051100712012" />
+			<price lowest="40">
+				<section id="01" standard="80" name="普通区" />
+				<section id="02" standard="85" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="99920140402069782"
+			showSeqNo="2" date="2014-11-21" time="1520" updateLevel="0"
+			updateType="I">
+			<film id="00110516201301" filmUId="13110409462802101" name="光的棍"
+				language="国语" title="光的棍" duration="100" imax="0" dimensional="2D"
+				code="001105162013" />
+			<price lowest="0">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号厅" seqNo="99920140402063790"
+			showSeqNo="1" date="2014-11-21" time="1520" updateLevel="0"
+			updateType="I">
+			<film id="05120072201201" filmUId="13146743373345234" name="黑衣人３（数字３Ｄ）"
+				language="国语" title="黑衣人３（数字３Ｄ）" duration="100" imax="0"
+				dimensional="2D" code="051200722012" />
+			<price lowest="40">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="99920140402062506"
+			showSeqNo="1" date="2014-11-21" time="1600" updateLevel="0"
+			updateType="I">
+			<film id="001103332012CN" filmUId="201309271008851" name="二次曝光"
+				language="国语" title="二次曝光" duration="100" imax="0" dimensional="2D"
+				code="001103332012" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+				<section id="02" standard="40" name="情侣区" />
+				<section id="04" standard="35" name="会员区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="8" hallName="8号厅" seqNo="99920140402071280"
+			showSeqNo="2" date="2014-11-21" time="1600" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="40" name="普通区" />
+				<section id="02" standard="50" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="99920140402068712"
+			showSeqNo="2" date="2014-11-21" time="1605" updateLevel="0"
+			updateType="I">
+			<film id="07510082201301" filmUId="201309241135777" name="惊天魔盗团（数字）"
+				language="国语" title="惊天魔盗团（数字）" duration="115" imax="0" dimensional="2D"
+				code="075100822013" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="贵宾厅" seqNo="99920140402066358"
+			showSeqNo="2" date="2014-11-21" time="1630" updateLevel="0"
+			updateType="I">
+			<film id="0011729601" filmUId="" name="观音山（数字）" language="国语"
+				title="观音山（数字）" duration="100" imax="0" dimensional="2D" code="00117296" />
+			<price lowest="0">
+				<section id="01" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="99920140402067642"
+			showSeqNo="3" date="2014-11-21" time="1635" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="99920140402065074"
+			showSeqNo="2" date="2014-11-21" time="1710" updateLevel="0"
+			updateType="I">
+			<film id="05110071201201" filmUId="201309271003841" name="人狼大战（数字）"
+				language="国语" title="人狼大战（数字）" duration="100" imax="0" dimensional="2D"
+				code="051100712012" />
+			<price lowest="40">
+				<section id="01" standard="80" name="普通区" />
+				<section id="02" standard="85" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号厅" seqNo="99920140402064004"
+			showSeqNo="2" date="2014-11-21" time="1720" updateLevel="0"
+			updateType="I">
+			<film id="05120072201201" filmUId="13146743373345234" name="黑衣人３（数字３Ｄ）"
+				language="国语" title="黑衣人３（数字３Ｄ）" duration="100" imax="0"
+				dimensional="2D" code="051200722012" />
+			<price lowest="40">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="99920140402069996"
+			showSeqNo="3" date="2014-11-21" time="1730" updateLevel="0"
+			updateType="I">
+			<film id="00110516201301" filmUId="13110409462802101" name="光的棍"
+				language="国语" title="光的棍" duration="100" imax="0" dimensional="2D"
+				code="001105162013" />
+			<price lowest="0">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="99920140402062720"
+			showSeqNo="2" date="2014-11-21" time="1820" updateLevel="0"
+			updateType="I">
+			<film id="001103332012CN" filmUId="201309271008851" name="二次曝光"
+				language="国语" title="二次曝光" duration="100" imax="0" dimensional="2D"
+				code="001103332012" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+				<section id="02" standard="40" name="情侣区" />
+				<section id="04" standard="35" name="会员区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="贵宾厅" seqNo="99920140402066572"
+			showSeqNo="3" date="2014-11-21" time="1850" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="99920140402070210"
+			showSeqNo="4" date="2014-11-21" time="1920" updateLevel="0"
+			updateType="I">
+			<film id="00110516201301" filmUId="13110409462802101" name="光的棍"
+				language="国语" title="光的棍" duration="100" imax="0" dimensional="2D"
+				code="001105162013" />
+			<price lowest="0">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号厅" seqNo="99920140402064218"
+			showSeqNo="3" date="2014-11-21" time="1920" updateLevel="0"
+			updateType="I">
+			<film id="05120072201201" filmUId="13146743373345234" name="黑衣人３（数字３Ｄ）"
+				language="国语" title="黑衣人３（数字３Ｄ）" duration="100" imax="0"
+				dimensional="2D" code="051200722012" />
+			<price lowest="40">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="8" hallName="8号厅" seqNo="99920140402071494"
+			showSeqNo="3" date="2014-11-21" time="1920" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="40" name="普通区" />
+				<section id="02" standard="50" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="99920140402068926"
+			showSeqNo="3" date="2014-11-21" time="1920" updateLevel="0"
+			updateType="I">
+			<film id="07510082201301" filmUId="201309241135777" name="惊天魔盗团（数字）"
+				language="国语" title="惊天魔盗团（数字）" duration="115" imax="0" dimensional="2D"
+				code="075100822013" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="99920140402065288"
+			showSeqNo="3" date="2014-11-21" time="1925" updateLevel="0"
+			updateType="I">
+			<film id="05110071201201" filmUId="201309271003841" name="人狼大战（数字）"
+				language="国语" title="人狼大战（数字）" duration="100" imax="0" dimensional="2D"
+				code="051100712012" />
+			<price lowest="40">
+				<section id="01" standard="80" name="普通区" />
+				<section id="02" standard="85" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="99920140402067856"
+			showSeqNo="4" date="2014-11-21" time="1925" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="99920140402062934"
+			showSeqNo="3" date="2014-11-21" time="2020" updateLevel="0"
+			updateType="I">
+			<film id="001103332012CN" filmUId="201309271008851" name="二次曝光"
+				language="国语" title="二次曝光" duration="100" imax="0" dimensional="2D"
+				code="001103332012" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+				<section id="02" standard="40" name="情侣区" />
+				<section id="04" standard="35" name="会员区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="99920140402070424"
+			showSeqNo="5" date="2014-11-21" time="2115" updateLevel="0"
+			updateType="I">
+			<film id="00110516201301" filmUId="13110409462802101" name="光的棍"
+				language="国语" title="光的棍" duration="100" imax="0" dimensional="2D"
+				code="001105162013" />
+			<price lowest="0">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="贵宾厅" seqNo="99920140402066786"
+			showSeqNo="4" date="2014-11-21" time="2135" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号厅" seqNo="99920140402064432"
+			showSeqNo="4" date="2014-11-21" time="2145" updateLevel="0"
+			updateType="I">
+			<film id="05120072201201" filmUId="13146743373345234" name="黑衣人３（数字３Ｄ）"
+				language="国语" title="黑衣人３（数字３Ｄ）" duration="100" imax="0"
+				dimensional="2D" code="051200722012" />
+			<price lowest="40">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="99920140402068070"
+			showSeqNo="5" date="2014-11-21" time="2150" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="99920140402065502"
+			showSeqNo="4" date="2014-11-21" time="2210" updateLevel="0"
+			updateType="I">
+			<film id="05110071201201" filmUId="201309271003841" name="人狼大战（数字）"
+				language="国语" title="人狼大战（数字）" duration="100" imax="0" dimensional="2D"
+				code="051100712012" />
+			<price lowest="40">
+				<section id="01" standard="80" name="普通区" />
+				<section id="02" standard="85" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="8" hallName="8号厅" seqNo="99920140402071708"
+			showSeqNo="4" date="2014-11-21" time="2240" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="40" name="普通区" />
+				<section id="02" standard="50" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="99920140402063148"
+			showSeqNo="4" date="2014-11-21" time="2245" updateLevel="0"
+			updateType="I">
+			<film id="001103332012CN" filmUId="201309271008851" name="二次曝光"
+				language="国语" title="二次曝光" duration="100" imax="0" dimensional="2D"
+				code="001103332012" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+				<section id="02" standard="40" name="情侣区" />
+				<section id="04" standard="35" name="会员区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="99920140402069140"
+			showSeqNo="4" date="2014-11-21" time="2255" updateLevel="0"
+			updateType="I">
+			<film id="07510082201301" filmUId="201309241135777" name="惊天魔盗团（数字）"
+				language="国语" title="惊天魔盗团（数字）" duration="115" imax="0" dimensional="2D"
+				code="075100822013" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="99920140402070638"
+			showSeqNo="6" date="2014-11-21" time="2350" updateLevel="0"
+			updateType="I">
+			<film id="00110516201301" filmUId="13110409462802101" name="光的棍"
+				language="国语" title="光的棍" duration="100" imax="0" dimensional="2D"
+				code="001105162013" />
+			<price lowest="0">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="99920140402065716"
+			showSeqNo="5" date="2014-11-22" time="10" updateLevel="0" updateType="I">
+			<film id="05110071201201" filmUId="201309271003841" name="人狼大战（数字）"
+				language="国语" title="人狼大战（数字）" duration="100" imax="0" dimensional="2D"
+				code="051100712012" />
+			<price lowest="40">
+				<section id="01" standard="80" name="普通区" />
+				<section id="02" standard="85" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="贵宾厅" seqNo="99920140402067000"
+			showSeqNo="5" date="2014-11-22" time="30" updateLevel="0" updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="99920140402068284"
+			showSeqNo="6" date="2014-11-22" time="35" updateLevel="0" updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="99920140402063362"
+			showSeqNo="5" date="2014-11-22" time="100" updateLevel="0"
+			updateType="I">
+			<film id="001103332012CN" filmUId="201309271008851" name="二次曝光"
+				language="国语" title="二次曝光" duration="100" imax="0" dimensional="2D"
+				code="001103332012" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+				<section id="02" standard="40" name="情侣区" />
+				<section id="04" standard="35" name="会员区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="8" hallName="8号厅" seqNo="99920140402071922"
+			showSeqNo="5" date="2014-11-22" time="120" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="40" name="普通区" />
+				<section id="02" standard="50" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="99920140402069354"
+			showSeqNo="5" date="2014-11-22" time="145" updateLevel="0"
+			updateType="I">
+			<film id="07510082201301" filmUId="201309241135777" name="惊天魔盗团（数字）"
+				language="国语" title="惊天魔盗团（数字）" duration="115" imax="0" dimensional="2D"
+				code="075100822013" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="99920140402070852"
+			showSeqNo="7" date="2014-11-22" time="155" updateLevel="0"
+			updateType="I">
+			<film id="00110516201301" filmUId="13110409462802101" name="光的棍"
+				language="国语" title="光的棍" duration="100" imax="0" dimensional="2D"
+				code="001105162013" />
+			<price lowest="0">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="99920140402065930"
+			showSeqNo="6" date="2014-11-22" time="205" updateLevel="0"
+			updateType="I">
+			<film id="05110071201201" filmUId="201309271003841" name="人狼大战（数字）"
+				language="国语" title="人狼大战（数字）" duration="100" imax="0" dimensional="2D"
+				code="051100712012" />
+			<price lowest="40">
+				<section id="01" standard="80" name="普通区" />
+				<section id="02" standard="85" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号厅" seqNo="99920140402064646"
+			showSeqNo="5" date="2014-11-22" time="215" updateLevel="0"
+			updateType="I">
+			<film id="05120072201201" filmUId="13146743373345234" name="黑衣人３（数字３Ｄ）"
+				language="国语" title="黑衣人３（数字３Ｄ）" duration="100" imax="0"
+				dimensional="2D" code="051200722012" />
+			<price lowest="40">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="99920140402063576"
+			showSeqNo="6" date="2014-11-22" time="300" updateLevel="0"
+			updateType="I">
+			<film id="001103332012CN" filmUId="201309271008851" name="二次曝光"
+				language="国语" title="二次曝光" duration="100" imax="0" dimensional="2D"
+				code="001103332012" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+				<section id="02" standard="40" name="情侣区" />
+				<section id="04" standard="35" name="会员区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="99920140402067215"
+			showSeqNo="1" date="2014-11-22" time="1145" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="99920140402068499"
+			showSeqNo="1" date="2014-11-22" time="1255" updateLevel="0"
+			updateType="I">
+			<film id="07510082201301" filmUId="201309241135777" name="惊天魔盗团（数字）"
+				language="国语" title="惊天魔盗团（数字）" duration="115" imax="0" dimensional="2D"
+				code="075100822013" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="8" hallName="8号厅" seqNo="99920140402071067"
+			showSeqNo="1" date="2014-11-22" time="1300" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="40" name="普通区" />
+				<section id="02" standard="50" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="99920140402069569"
+			showSeqNo="1" date="2014-11-22" time="1310" updateLevel="0"
+			updateType="I">
+			<film id="00110516201301" filmUId="13110409462802101" name="光的棍"
+				language="国语" title="光的棍" duration="100" imax="0" dimensional="2D"
+				code="001105162013" />
+			<price lowest="0">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="99920140402067429"
+			showSeqNo="2" date="2014-11-22" time="1400" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="贵宾厅" seqNo="99920140402066145"
+			showSeqNo="1" date="2014-11-22" time="1440" updateLevel="0"
+			updateType="I">
+			<film id="0011729601" filmUId="" name="观音山（数字）" language="国语"
+				title="观音山（数字）" duration="100" imax="0" dimensional="2D" code="00117296" />
+			<price lowest="0">
+				<section id="01" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="99920140402064861"
+			showSeqNo="1" date="2014-11-22" time="1450" updateLevel="0"
+			updateType="I">
+			<film id="05110071201201" filmUId="201309271003841" name="人狼大战（数字）"
+				language="国语" title="人狼大战（数字）" duration="100" imax="0" dimensional="2D"
+				code="051100712012" />
+			<price lowest="40">
+				<section id="01" standard="80" name="普通区" />
+				<section id="02" standard="85" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="99920140402069783"
+			showSeqNo="2" date="2014-11-22" time="1520" updateLevel="0"
+			updateType="I">
+			<film id="00110516201301" filmUId="13110409462802101" name="光的棍"
+				language="国语" title="光的棍" duration="100" imax="0" dimensional="2D"
+				code="001105162013" />
+			<price lowest="0">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号厅" seqNo="99920140402063791"
+			showSeqNo="1" date="2014-11-22" time="1520" updateLevel="0"
+			updateType="I">
+			<film id="05120072201201" filmUId="13146743373345234" name="黑衣人３（数字３Ｄ）"
+				language="国语" title="黑衣人３（数字３Ｄ）" duration="100" imax="0"
+				dimensional="2D" code="051200722012" />
+			<price lowest="40">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="99920140402062507"
+			showSeqNo="1" date="2014-11-22" time="1600" updateLevel="0"
+			updateType="I">
+			<film id="001103332012CN" filmUId="201309271008851" name="二次曝光"
+				language="国语" title="二次曝光" duration="100" imax="0" dimensional="2D"
+				code="001103332012" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+				<section id="02" standard="40" name="情侣区" />
+				<section id="04" standard="35" name="会员区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="8" hallName="8号厅" seqNo="99920140402071281"
+			showSeqNo="2" date="2014-11-22" time="1600" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="40" name="普通区" />
+				<section id="02" standard="50" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="99920140402068713"
+			showSeqNo="2" date="2014-11-22" time="1605" updateLevel="0"
+			updateType="I">
+			<film id="07510082201301" filmUId="201309241135777" name="惊天魔盗团（数字）"
+				language="国语" title="惊天魔盗团（数字）" duration="115" imax="0" dimensional="2D"
+				code="075100822013" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="贵宾厅" seqNo="99920140402066359"
+			showSeqNo="2" date="2014-11-22" time="1630" updateLevel="0"
+			updateType="I">
+			<film id="0011729601" filmUId="" name="观音山（数字）" language="国语"
+				title="观音山（数字）" duration="100" imax="0" dimensional="2D" code="00117296" />
+			<price lowest="0">
+				<section id="01" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="99920140402067643"
+			showSeqNo="3" date="2014-11-22" time="1635" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="99920140402065075"
+			showSeqNo="2" date="2014-11-22" time="1710" updateLevel="0"
+			updateType="I">
+			<film id="05110071201201" filmUId="201309271003841" name="人狼大战（数字）"
+				language="国语" title="人狼大战（数字）" duration="100" imax="0" dimensional="2D"
+				code="051100712012" />
+			<price lowest="40">
+				<section id="01" standard="80" name="普通区" />
+				<section id="02" standard="85" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号厅" seqNo="99920140402064005"
+			showSeqNo="2" date="2014-11-22" time="1720" updateLevel="0"
+			updateType="I">
+			<film id="05120072201201" filmUId="13146743373345234" name="黑衣人３（数字３Ｄ）"
+				language="国语" title="黑衣人３（数字３Ｄ）" duration="100" imax="0"
+				dimensional="2D" code="051200722012" />
+			<price lowest="40">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="99920140402069997"
+			showSeqNo="3" date="2014-11-22" time="1730" updateLevel="0"
+			updateType="I">
+			<film id="00110516201301" filmUId="13110409462802101" name="光的棍"
+				language="国语" title="光的棍" duration="100" imax="0" dimensional="2D"
+				code="001105162013" />
+			<price lowest="0">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="99920140402062721"
+			showSeqNo="2" date="2014-11-22" time="1820" updateLevel="0"
+			updateType="I">
+			<film id="001103332012CN" filmUId="201309271008851" name="二次曝光"
+				language="国语" title="二次曝光" duration="100" imax="0" dimensional="2D"
+				code="001103332012" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+				<section id="02" standard="40" name="情侣区" />
+				<section id="04" standard="35" name="会员区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="贵宾厅" seqNo="99920140402066573"
+			showSeqNo="3" date="2014-11-22" time="1850" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世���（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="99920140402070211"
+			showSeqNo="4" date="2014-11-22" time="1920" updateLevel="0"
+			updateType="I">
+			<film id="00110516201301" filmUId="13110409462802101" name="光的棍"
+				language="国语" title="光的棍" duration="100" imax="0" dimensional="2D"
+				code="001105162013" />
+			<price lowest="0">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号厅" seqNo="99920140402064219"
+			showSeqNo="3" date="2014-11-22" time="1920" updateLevel="0"
+			updateType="I">
+			<film id="05120072201201" filmUId="13146743373345234" name="黑衣人３（数字３Ｄ）"
+				language="国语" title="黑衣人３（数字３Ｄ）" duration="100" imax="0"
+				dimensional="2D" code="051200722012" />
+			<price lowest="40">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="99920140402068927"
+			showSeqNo="3" date="2014-11-22" time="1920" updateLevel="0"
+			updateType="I">
+			<film id="07510082201301" filmUId="201309241135777" name="惊天魔盗团（数字）"
+				language="国语" title="惊天魔盗团（数字）" duration="115" imax="0" dimensional="2D"
+				code="075100822013" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="8" hallName="8号厅" seqNo="99920140402071495"
+			showSeqNo="3" date="2014-11-22" time="1920" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="40" name="普通区" />
+				<section id="02" standard="50" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="99920140402065289"
+			showSeqNo="3" date="2014-11-22" time="1925" updateLevel="0"
+			updateType="I">
+			<film id="05110071201201" filmUId="201309271003841" name="人狼大战（数字）"
+				language="国语" title="人狼大战（数字）" duration="100" imax="0" dimensional="2D"
+				code="051100712012" />
+			<price lowest="40">
+				<section id="01" standard="80" name="普通区" />
+				<section id="02" standard="85" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="99920140402067857"
+			showSeqNo="4" date="2014-11-22" time="1925" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="99920140402062935"
+			showSeqNo="3" date="2014-11-22" time="2020" updateLevel="0"
+			updateType="I">
+			<film id="001103332012CN" filmUId="201309271008851" name="二次曝光"
+				language="国语" title="二次曝光" duration="100" imax="0" dimensional="2D"
+				code="001103332012" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+				<section id="02" standard="40" name="情侣区" />
+				<section id="04" standard="35" name="会员区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="99920140402070425"
+			showSeqNo="5" date="2014-11-22" time="2115" updateLevel="0"
+			updateType="I">
+			<film id="00110516201301" filmUId="13110409462802101" name="光的棍"
+				language="国语" title="光的棍" duration="100" imax="0" dimensional="2D"
+				code="001105162013" />
+			<price lowest="0">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="贵宾厅" seqNo="99920140402066787"
+			showSeqNo="4" date="2014-11-22" time="2135" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号厅" seqNo="99920140402064433"
+			showSeqNo="4" date="2014-11-22" time="2145" updateLevel="0"
+			updateType="I">
+			<film id="05120072201201" filmUId="13146743373345234" name="黑衣人３（数字３Ｄ）"
+				language="国语" title="黑衣人３（数字３Ｄ）" duration="100" imax="0"
+				dimensional="2D" code="051200722012" />
+			<price lowest="40">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="99920140402068071"
+			showSeqNo="5" date="2014-11-22" time="2150" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="99920140402065503"
+			showSeqNo="4" date="2014-11-22" time="2210" updateLevel="0"
+			updateType="I">
+			<film id="05110071201201" filmUId="201309271003841" name="人狼大战（数字）"
+				language="国语" title="人狼大战（数字）" duration="100" imax="0" dimensional="2D"
+				code="051100712012" />
+			<price lowest="40">
+				<section id="01" standard="80" name="普通区" />
+				<section id="02" standard="85" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="8" hallName="8号厅" seqNo="99920140402071709"
+			showSeqNo="4" date="2014-11-22" time="2240" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="40" name="普通区" />
+				<section id="02" standard="50" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="99920140402063149"
+			showSeqNo="4" date="2014-11-22" time="2245" updateLevel="0"
+			updateType="I">
+			<film id="001103332012CN" filmUId="201309271008851" name="二次曝光"
+				language="国语" title="二次曝光" duration="100" imax="0" dimensional="2D"
+				code="001103332012" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+				<section id="02" standard="40" name="情侣区" />
+				<section id="04" standard="35" name="会员区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="99920140402069141"
+			showSeqNo="4" date="2014-11-22" time="2255" updateLevel="0"
+			updateType="I">
+			<film id="07510082201301" filmUId="201309241135777" name="惊天魔盗团（数字）"
+				language="国语" title="惊天魔盗团（数字）" duration="115" imax="0" dimensional="2D"
+				code="075100822013" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="99920140402070639"
+			showSeqNo="6" date="2014-11-22" time="2350" updateLevel="0"
+			updateType="I">
+			<film id="00110516201301" filmUId="13110409462802101" name="光的棍"
+				language="国语" title="光的棍" duration="100" imax="0" dimensional="2D"
+				code="001105162013" />
+			<price lowest="0">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="99920140402065717"
+			showSeqNo="5" date="2014-11-23" time="10" updateLevel="0" updateType="I">
+			<film id="05110071201201" filmUId="201309271003841" name="人狼大战（数字）"
+				language="国语" title="人狼大战（数字）" duration="100" imax="0" dimensional="2D"
+				code="051100712012" />
+			<price lowest="40">
+				<section id="01" standard="80" name="普通区" />
+				<section id="02" standard="85" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="贵宾厅" seqNo="99920140402067001"
+			showSeqNo="5" date="2014-11-23" time="30" updateLevel="0" updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="99920140402068285"
+			showSeqNo="6" date="2014-11-23" time="35" updateLevel="0" updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="99920140402063363"
+			showSeqNo="5" date="2014-11-23" time="100" updateLevel="0"
+			updateType="I">
+			<film id="001103332012CN" filmUId="201309271008851" name="二次曝光"
+				language="国语" title="二次曝光" duration="100" imax="0" dimensional="2D"
+				code="001103332012" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+				<section id="02" standard="40" name="情侣区" />
+				<section id="04" standard="35" name="会员区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="8" hallName="8号厅" seqNo="99920140402071923"
+			showSeqNo="5" date="2014-11-23" time="120" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="40" name="普通区" />
+				<section id="02" standard="50" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="99920140402069355"
+			showSeqNo="5" date="2014-11-23" time="145" updateLevel="0"
+			updateType="I">
+			<film id="07510082201301" filmUId="201309241135777" name="惊天魔盗团（数字）"
+				language="国语" title="惊天魔盗团（数字）" duration="115" imax="0" dimensional="2D"
+				code="075100822013" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="99920140402070853"
+			showSeqNo="7" date="2014-11-23" time="155" updateLevel="0"
+			updateType="I">
+			<film id="00110516201301" filmUId="13110409462802101" name="光的棍"
+				language="国语" title="光的棍" duration="100" imax="0" dimensional="2D"
+				code="001105162013" />
+			<price lowest="0">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="99920140402065931"
+			showSeqNo="6" date="2014-11-23" time="205" updateLevel="0"
+			updateType="I">
+			<film id="05110071201201" filmUId="201309271003841" name="人狼大战（数字）"
+				language="国语" title="人狼大战（数字）" duration="100" imax="0" dimensional="2D"
+				code="051100712012" />
+			<price lowest="40">
+				<section id="01" standard="80" name="普通区" />
+				<section id="02" standard="85" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号厅" seqNo="99920140402064647"
+			showSeqNo="5" date="2014-11-23" time="215" updateLevel="0"
+			updateType="I">
+			<film id="05120072201201" filmUId="13146743373345234" name="黑衣人３（数字３Ｄ）"
+				language="国语" title="黑衣人３（数字３Ｄ）" duration="100" imax="0"
+				dimensional="2D" code="051200722012" />
+			<price lowest="40">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="99920140402063577"
+			showSeqNo="6" date="2014-11-23" time="300" updateLevel="0"
+			updateType="I">
+			<film id="001103332012CN" filmUId="201309271008851" name="二次曝光"
+				language="国语" title="二次曝光" duration="100" imax="0" dimensional="2D"
+				code="001103332012" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+				<section id="02" standard="40" name="情侣区" />
+				<section id="04" standard="35" name="会员区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="99920140402067216"
+			showSeqNo="1" date="2014-11-23" time="1145" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="99920140402068500"
+			showSeqNo="1" date="2014-11-23" time="1255" updateLevel="0"
+			updateType="I">
+			<film id="07510082201301" filmUId="201309241135777" name="惊天魔盗团（数字）"
+				language="国语" title="惊天魔盗团（数字）" duration="115" imax="0" dimensional="2D"
+				code="075100822013" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="8" hallName="8号厅" seqNo="99920140402071068"
+			showSeqNo="1" date="2014-11-23" time="1300" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="40" name="普通区" />
+				<section id="02" standard="50" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="99920140402069570"
+			showSeqNo="1" date="2014-11-23" time="1310" updateLevel="0"
+			updateType="I">
+			<film id="00110516201301" filmUId="13110409462802101" name="光的棍"
+				language="国语" title="光的棍" duration="100" imax="0" dimensional="2D"
+				code="001105162013" />
+			<price lowest="0">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="99920140402067430"
+			showSeqNo="2" date="2014-11-23" time="1400" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="贵宾厅" seqNo="99920140402066146"
+			showSeqNo="1" date="2014-11-23" time="1440" updateLevel="0"
+			updateType="I">
+			<film id="0011729601" filmUId="" name="观音山（数��）" language="国语"
+				title="观音山（数字）" duration="100" imax="0" dimensional="2D" code="00117296" />
+			<price lowest="0">
+				<section id="01" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="99920140402064862"
+			showSeqNo="1" date="2014-11-23" time="1450" updateLevel="0"
+			updateType="I">
+			<film id="05110071201201" filmUId="201309271003841" name="人狼大战（数字）"
+				language="国语" title="人狼大战（数字）" duration="100" imax="0" dimensional="2D"
+				code="051100712012" />
+			<price lowest="40">
+				<section id="01" standard="80" name="普通区" />
+				<section id="02" standard="85" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="99920140402069784"
+			showSeqNo="2" date="2014-11-23" time="1520" updateLevel="0"
+			updateType="I">
+			<film id="00110516201301" filmUId="13110409462802101" name="光的棍"
+				language="国语" title="光的棍" duration="100" imax="0" dimensional="2D"
+				code="001105162013" />
+			<price lowest="0">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号厅" seqNo="99920140402063792"
+			showSeqNo="1" date="2014-11-23" time="1520" updateLevel="0"
+			updateType="I">
+			<film id="05120072201201" filmUId="13146743373345234" name="黑衣人３（数字３Ｄ）"
+				language="国语" title="黑衣人３（数字３Ｄ）" duration="100" imax="0"
+				dimensional="2D" code="051200722012" />
+			<price lowest="40">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="99920140402062508"
+			showSeqNo="1" date="2014-11-23" time="1600" updateLevel="0"
+			updateType="I">
+			<film id="001103332012CN" filmUId="201309271008851" name="二次曝光"
+				language="国语" title="二次曝光" duration="100" imax="0" dimensional="2D"
+				code="001103332012" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+				<section id="02" standard="40" name="情侣区" />
+				<section id="04" standard="35" name="会员区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="8" hallName="8号厅" seqNo="99920140402071282"
+			showSeqNo="2" date="2014-11-23" time="1600" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="40" name="普通区" />
+				<section id="02" standard="50" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="99920140402068714"
+			showSeqNo="2" date="2014-11-23" time="1605" updateLevel="0"
+			updateType="I">
+			<film id="07510082201301" filmUId="201309241135777" name="惊天魔盗团（数字）"
+				language="国语" title="惊天魔盗团（数字）" duration="115" imax="0" dimensional="2D"
+				code="075100822013" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="贵宾厅" seqNo="99920140402066360"
+			showSeqNo="2" date="2014-11-23" time="1630" updateLevel="0"
+			updateType="I">
+			<film id="0011729601" filmUId="" name="观音山（数字）" language="国语"
+				title="观音山（数字）" duration="100" imax="0" dimensional="2D" code="00117296" />
+			<price lowest="0">
+				<section id="01" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="99920140402067644"
+			showSeqNo="3" date="2014-11-23" time="1635" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="99920140402065076"
+			showSeqNo="2" date="2014-11-23" time="1710" updateLevel="0"
+			updateType="I">
+			<film id="05110071201201" filmUId="201309271003841" name="人狼大战（数字）"
+				language="国语" title="人狼大战（数字）" duration="100" imax="0" dimensional="2D"
+				code="051100712012" />
+			<price lowest="40">
+				<section id="01" standard="80" name="普通区" />
+				<section id="02" standard="85" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号厅" seqNo="99920140402064006"
+			showSeqNo="2" date="2014-11-23" time="1720" updateLevel="0"
+			updateType="I">
+			<film id="05120072201201" filmUId="13146743373345234" name="黑衣人３（数字３Ｄ）"
+				language="国语" title="黑衣人３（数字３Ｄ）" duration="100" imax="0"
+				dimensional="2D" code="051200722012" />
+			<price lowest="40">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="99920140402069998"
+			showSeqNo="3" date="2014-11-23" time="1730" updateLevel="0"
+			updateType="I">
+			<film id="00110516201301" filmUId="13110409462802101" name="光的棍"
+				language="国语" title="光的棍" duration="100" imax="0" dimensional="2D"
+				code="001105162013" />
+			<price lowest="0">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="99920140402062722"
+			showSeqNo="2" date="2014-11-23" time="1820" updateLevel="0"
+			updateType="I">
+			<film id="001103332012CN" filmUId="201309271008851" name="二次曝光"
+				language="国语" title="二次曝光" duration="100" imax="0" dimensional="2D"
+				code="001103332012" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+				<section id="02" standard="40" name="情侣区" />
+				<section id="04" standard="35" name="会员区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="贵宾厅" seqNo="99920140402066574"
+			showSeqNo="3" date="2014-11-23" time="1850" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="99920140402070212"
+			showSeqNo="4" date="2014-11-23" time="1920" updateLevel="0"
+			updateType="I">
+			<film id="00110516201301" filmUId="13110409462802101" name="光的棍"
+				language="国语" title="光的棍" duration="100" imax="0" dimensional="2D"
+				code="001105162013" />
+			<price lowest="0">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号厅" seqNo="99920140402064220"
+			showSeqNo="3" date="2014-11-23" time="1920" updateLevel="0"
+			updateType="I">
+			<film id="05120072201201" filmUId="13146743373345234" name="黑衣人３（数字３Ｄ）"
+				language="国语" title="黑衣人３（数字３Ｄ）" duration="100" imax="0"
+				dimensional="2D" code="051200722012" />
+			<price lowest="40">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="99920140402068928"
+			showSeqNo="3" date="2014-11-23" time="1920" updateLevel="0"
+			updateType="I">
+			<film id="07510082201301" filmUId="201309241135777" name="惊天魔盗团（数字）"
+				language="国语" title="惊天魔盗团（数字）" duration="115" imax="0" dimensional="2D"
+				code="075100822013" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="8" hallName="8号厅" seqNo="99920140402071496"
+			showSeqNo="3" date="2014-11-23" time="1920" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="40" name="普通区" />
+				<section id="02" standard="50" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="99920140402065290"
+			showSeqNo="3" date="2014-11-23" time="1925" updateLevel="0"
+			updateType="I">
+			<film id="05110071201201" filmUId="201309271003841" name="人狼大战（数字）"
+				language="国语" title="人狼大战（数字）" duration="100" imax="0" dimensional="2D"
+				code="051100712012" />
+			<price lowest="40">
+				<section id="01" standard="80" name="普通区" />
+				<section id="02" standard="85" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="99920140402067858"
+			showSeqNo="4" date="2014-11-23" time="1925" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="99920140402062936"
+			showSeqNo="3" date="2014-11-23" time="2020" updateLevel="0"
+			updateType="I">
+			<film id="001103332012CN" filmUId="201309271008851" name="二次曝光"
+				language="国语" title="二次曝光" duration="100" imax="0" dimensional="2D"
+				code="001103332012" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+				<section id="02" standard="40" name="情侣区" />
+				<section id="04" standard="35" name="会员区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="99920140402070426"
+			showSeqNo="5" date="2014-11-23" time="2115" updateLevel="0"
+			updateType="I">
+			<film id="00110516201301" filmUId="13110409462802101" name="光的棍"
+				language="国语" title="光的棍" duration="100" imax="0" dimensional="2D"
+				code="001105162013" />
+			<price lowest="0">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="贵宾厅" seqNo="99920140402066788"
+			showSeqNo="4" date="2014-11-23" time="2135" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号厅" seqNo="99920140402064434"
+			showSeqNo="4" date="2014-11-23" time="2145" updateLevel="0"
+			updateType="I">
+			<film id="05120072201201" filmUId="13146743373345234" name="黑衣人３（数字３Ｄ）"
+				language="国语" title="黑衣人３（数字３Ｄ）" duration="100" imax="0"
+				dimensional="2D" code="051200722012" />
+			<price lowest="40">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="99920140402068072"
+			showSeqNo="5" date="2014-11-23" time="2150" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="99920140402065504"
+			showSeqNo="4" date="2014-11-23" time="2210" updateLevel="0"
+			updateType="I">
+			<film id="05110071201201" filmUId="201309271003841" name="人狼大战（数字）"
+				language="国语" title="人狼大战（数字）" duration="100" imax="0" dimensional="2D"
+				code="051100712012" />
+			<price lowest="40">
+				<section id="01" standard="80" name="普通区" />
+				<section id="02" standard="85" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="8" hallName="8号厅" seqNo="99920140402071710"
+			showSeqNo="4" date="2014-11-23" time="2240" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="40" name="普通区" />
+				<section id="02" standard="50" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="99920140402063150"
+			showSeqNo="4" date="2014-11-23" time="2245" updateLevel="0"
+			updateType="I">
+			<film id="001103332012CN" filmUId="201309271008851" name="二次曝光"
+				language="国语" title="二次曝光" duration="100" imax="0" dimensional="2D"
+				code="001103332012" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+				<section id="02" standard="40" name="情侣区" />
+				<section id="04" standard="35" name="会员区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="99920140402069142"
+			showSeqNo="4" date="2014-11-23" time="2255" updateLevel="0"
+			updateType="I">
+			<film id="07510082201301" filmUId="201309241135777" name="惊天魔盗团（数字）"
+				language="国语" title="惊天魔盗团（数字）" duration="115" imax="0" dimensional="2D"
+				code="075100822013" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="99920140402070640"
+			showSeqNo="6" date="2014-11-23" time="2350" updateLevel="0"
+			updateType="I">
+			<film id="00110516201301" filmUId="13110409462802101" name="光的棍"
+				language="国语" title="光的棍" duration="100" imax="0" dimensional="2D"
+				code="001105162013" />
+			<price lowest="0">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="99920140402065718"
+			showSeqNo="5" date="2014-11-24" time="10" updateLevel="0" updateType="I">
+			<film id="05110071201201" filmUId="201309271003841" name="人狼大战（数字）"
+				language="国语" title="人狼大战（数字）" duration="100" imax="0" dimensional="2D"
+				code="051100712012" />
+			<price lowest="40">
+				<section id="01" standard="80" name="普通区" />
+				<section id="02" standard="85" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="贵宾厅" seqNo="99920140402067002"
+			showSeqNo="5" date="2014-11-24" time="30" updateLevel="0" updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="99920140402068286"
+			showSeqNo="6" date="2014-11-24" time="35" updateLevel="0" updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="99920140402063364"
+			showSeqNo="5" date="2014-11-24" time="100" updateLevel="0"
+			updateType="I">
+			<film id="001103332012CN" filmUId="201309271008851" name="二次曝光"
+				language="国语" title="二次曝光" duration="100" imax="0" dimensional="2D"
+				code="001103332012" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+				<section id="02" standard="40" name="情侣区" />
+				<section id="04" standard="35" name="会员区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="8" hallName="8号厅" seqNo="99920140402071924"
+			showSeqNo="5" date="2014-11-24" time="120" updateLevel="0"
+			updateType="I">
+			<film id="05120095201301" filmUId="13110102074102061" name="雷神２：黑暗世界（数字"
+				language="国语" title="雷神２：黑暗世界（数字３Ｄ）" duration="111" imax="0"
+				dimensional="2D" code="051200952013" />
+			<price lowest="0.01">
+				<section id="01" standard="40" name="普通区" />
+				<section id="02" standard="50" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="99920140402069356"
+			showSeqNo="5" date="2014-11-24" time="145" updateLevel="0"
+			updateType="I">
+			<film id="07510082201301" filmUId="201309241135777" name="惊天魔盗团（数字）"
+				language="国语" title="惊天魔盗团（数字）" duration="115" imax="0" dimensional="2D"
+				code="075100822013" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="99920140402070854"
+			showSeqNo="7" date="2014-11-24" time="155" updateLevel="0"
+			updateType="I">
+			<film id="00110516201301" filmUId="13110409462802101" name="光的棍"
+				language="国语" title="光的棍" duration="100" imax="0" dimensional="2D"
+				code="001105162013" />
+			<price lowest="0">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="99920140402065932"
+			showSeqNo="6" date="2014-11-24" time="205" updateLevel="0"
+			updateType="I">
+			<film id="05110071201201" filmUId="201309271003841" name="人狼大战（数字）"
+				language="国语" title="人狼大战（数字）" duration="100" imax="0" dimensional="2D"
+				code="051100712012" />
+			<price lowest="40">
+				<section id="01" standard="80" name="普通区" />
+				<section id="02" standard="85" name="情侣区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号厅" seqNo="99920140402064648"
+			showSeqNo="5" date="2014-11-24" time="215" updateLevel="0"
+			updateType="I">
+			<film id="05120072201201" filmUId="13146743373345234" name="黑衣人３（数字３Ｄ）"
+				language="国语" title="黑衣人３（数字３Ｄ）" duration="100" imax="0"
+				dimensional="2D" code="051200722012" />
+			<price lowest="40">
+				<section id="01" standard="40" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号厅" seqNo="99920140402063578"
+			showSeqNo="6" date="2014-11-24" time="300" updateLevel="0"
+			updateType="I">
+			<film id="001103332012CN" filmUId="201309271008851" name="二次曝光"
+				language="国语" title="二次曝光" duration="100" imax="0" dimensional="2D"
+				code="001103332012" />
+			<price lowest="0">
+				<section id="01" standard="30" name="普通区" />
+				<section id="02" standard="40" name="情侣区" />
+				<section id="04" standard="35" name="会员区" />
+			</price>
+			<through flag="N" />
+		</show>
+	</shows>
+</data>

@@ -1,0 +1,70 @@
+<div class="page">
+    <div class="pageContent">
+        <form method="post" action="ajaxDone.html" class="pageForm required-validate" onsubmit="return validateCallback(this, dialogAjaxDone);">
+        <div class="panel collapse" defH="118">
+            <h1>用户信息</h1>
+            <div>
+                <div class="pageFormContent">
+                    <dl>
+                        <dt>用户名：</dt>
+                        <dd><input size="30" name="name" maxlength="20" class="required" value="test"/></dd>
+                    </dl>
+                    <dl>
+                        <dt>姓名：</dt>
+                        <dd><input size="30" name="username" maxlength="20" class="required" value="测试"/></dd>
+                    </dl>
+                    <dl>
+                        <dt>手机：</dt>
+                        <dd><input size="30" name="phone" maxlength="20" class="required" value="13658756952"/></dd>
+                    </dl>
+                    <dl>
+                        <dt>邮箱：</dt>
+                        <dd><input size="30" name="email" maxlength="20" class="required" value="test@test.com"/></dd>
+                    </dl>
+                </div>
+                <div class="formBar">
+                    <ul>
+                        <li>
+                            <div class="buttonActive">
+                                <div class="buttonContent">
+                                    <button type="submit">保存</button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </form>
+        <div class="panel collapse" defH="410">
+            <h1>职务信息</h1>
+            <div>
+                <div class="panelBar">
+                    <ul class="toolBar">
+                        <li>
+                            <a href="system/actor-add.html" target="dialog" rel="actor-add" mask="true" title="新增职务" class="hitbtn"><span class="a09">新增职务</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <table class="table" width="100%">
+                    <thead>
+                        <tr>
+                            <th align="center">职务名称</th>
+                            <th align="center" width="200">关联机构</th>
+                            <th align="center" width="200">关联角色</th>
+                            <th align="center" width="200">操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>管理员</td>
+                            <td>系统根机构</td>
+                            <td>院线管理员</td>
+                            <td><a href="system/actor-edit.html" target="dialog" rel="actor-edit" mask="true" title="编辑职务">编辑</a>&nbsp;|&nbsp;<a href="ajaxDone.html" target="ajaxTodo" title="您是否确定要删除该职务？">删除</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

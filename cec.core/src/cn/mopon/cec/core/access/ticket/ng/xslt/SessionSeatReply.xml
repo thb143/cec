@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OnlineTicketingServiceReply Version="1.0"
+	Datetime="2014-04-12T22:02:52">
+	<QuerySessionSeatReply ErrorCode="" ErrorMessage=""
+		Id="ID_QuerySessionSeatReply" Status="Success">
+		<SessionSeat CinemaCode="36090702" SessionCode="0002">
+			<Seat>
+				<Code>1</Code>
+				<RowNum>2</RowNum>
+				<ColumnNum>3</ColumnNum>
+				<Status>Available</Status>
+			</Seat>
+			<Seat>
+				<Code>2</Code>
+				<RowNum>2</RowNum>
+				<ColumnNum>3</ColumnNum>
+				<Status>Locked</Status>
+			</Seat>
+			<Seat>
+				<Code>3</Code>
+				<RowNum>2</RowNum>
+				<ColumnNum>3</ColumnNum>
+				<Status>Sold</Status>
+			</Seat>
+			<Seat>
+				<Code>4</Code>
+				<RowNum>2</RowNum>
+				<ColumnNum>3</ColumnNum>
+				<Status>Booked</Status>
+			</Seat>
+			<Seat>
+				<Code>5</Code>
+				<RowNum>2</RowNum>
+				<ColumnNum>3</ColumnNum>
+				<Status>Unavailable</Status>
+			</Seat>
+		</SessionSeat>
+	</QuerySessionSeatReply>
+</OnlineTicketingServiceReply>

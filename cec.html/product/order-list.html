@@ -1,0 +1,89 @@
+<div class="page">
+    <div class="pageHeader">
+        <div class="searchBar">
+            <div class="subBar">
+                <ul>
+                    <li style="text-align:center;padding-top:5px;">
+                        销售渠道：
+                    </li>
+                    <li>
+                        <select class="combox" name="province" ref="w_combox_city" refUrl="">
+                            <option value="all">所有渠道</option>
+                            <option value="bj">淘宝电影票</option>
+                            <option value="sh">京东电影票</option>
+                            <option value="sh">网易电影票</option>
+                        </select>
+                    </li>
+                    <li>
+                        <input type="text" name="search" class="textInput">
+                    </li>
+                    <li>
+                        <div class="buttonActive">
+                            <div class="buttonContent">
+                                <button type="submit">
+                                    检索
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="pageContent">
+        <table class="table" width="100%" layoutH="125">
+            <thead>
+                <tr>
+                    <th width="30px" align="center">序号</th>
+                    <th width="130px"align="center">订单号</th>
+                    <th width="130px" align="center">渠道订单号</th>
+                    <th width="60px" align="center">订单状态</th>
+                    <th width="60px" align="center">凭证状态</th>
+                    <th width="130px" align="center">下单时间</th>
+                    <th width="60px" align="center">销售金额</th>
+                    <th width="60px" align="center">结算金额</th>
+                    <th width="60px" align="center">活动价</th>
+                    <th width="60px" align="center">活动补贴</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>1</td>
+                <td>D1234567845 </td>
+                <td>T123456737</td>
+                <td>已退款</td>
+                <td>未使用</td>
+                <td>2014-01-01 10:30:56</td>
+                <td class="text-right">80.00</td>
+                <td class="text-right">60.00</td>
+                <td class="text-right">20.00</td>
+                <td class="text-right">60.00</td>
+            </tbody>
+        </table>
+        <div class="panelBar">
+            <div class="pages">
+                <span>显示</span>
+                <select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                    <option value="200">200</option>
+                </select>
+                <span>条，共4条</span>
+            </div>
+            <div class="pagination" targetType="navTab" totalCount="1" numPerPage="20" pageNumShown="10" currentPage="1"></div>
+        </div>
+        <div class="formBar">
+            <ul>
+                <li>
+                    <div class="button">
+                        <div class="buttonContent">
+                            <button type="button" class="close">
+                                取消
+                            </button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

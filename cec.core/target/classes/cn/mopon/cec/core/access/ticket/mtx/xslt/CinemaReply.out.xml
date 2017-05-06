@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetCinemaResult>
+	<ResultCode>0</ResultCode>
+	<cinemas>
+		<cinema>
+			<code>gzxxx</code>
+			<name>cmts电影城</name>
+			<enabled>true</enabled>
+		</cinema>
+		<cinema>
+			<code>cmtshrba</code>
+			<name>CmtsHrbA</name>
+			<enabled>true</enabled>
+		</cinema>
+		<cinema>
+			<code>cmtshrbb</code>
+			<name>CmtsHrbB</name>
+			<enabled>true</enabled>
+		</cinema>
+		<cinema>
+			<code>10020030</code>
+			<name>南昌万达八一店</name>
+			<enabled>false</enabled>
+		</cinema>
+		<cinema>
+			<code>bjcmtsa</code>
+			<name>测试影院A</name>
+			<enabled>false</enabled>
+		</cinema>
+		<cinema>
+			<code>bjcmtsb</code>
+			<name>测试影院B</name>
+			<enabled>false</enabled>
+		</cinema>
+		<cinema>
+			<code>cmtstest</code>
+			<name>富丽通测试影院</name>
+			<enabled>false</enabled>
+		</cinema>
+		<cinema>
+			<code>bjcmtsc</code>
+			<name>北京12版测试影院</name>
+			<enabled>false</enabled>
+		</cinema>
+	</cinemas>
+</GetCinemaResult>

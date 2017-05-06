@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<status>1</status>
+	<errorMessage></errorMessage>
+	<errorCode></errorCode>
+	<data>
+		<movieInfo>
+			<item>
+				<cineMovieId>267</cineMovieId>
+				<cineMovieNum>051400252014</cineMovieNum>
+				<movieName>极品飞车（数字IMAX3D）</movieName>
+				<movieSubtitle>中文</movieSubtitle>
+				<movieLanguage>英语</movieLanguage>
+				<movieFormat>数字</movieFormat>
+				<movieDimensional>3D</movieDimensional>
+				<movieSize>IMAX</movieSize>
+			</item>
+		</movieInfo>
+		<startTime>2014-11-25 01:15:00</startTime>
+		<endTime>2014-11-25 03:25:00</endTime>
+		<hallName>1号厅</hallName>
+		<cinemaName>cine24</cinemaName>
+		<ticketInfo>
+			<item>
+				<no>1000000000151546</no>
+				<printed>0</printed>
+				<printTime>0000-00-00 00:00:00</printTime>
+				<row>1</row>
+				<column>14</column>
+				<type>成人票</type>
+				<price>63.00</price>
+				<handleFee>0</handleFee>
+				<sellTime>2014-11-23 18:47:08</sellTime>
+				<seller>inner</seller>
+			</item>
+		</ticketInfo>
+	</data>
+</root>

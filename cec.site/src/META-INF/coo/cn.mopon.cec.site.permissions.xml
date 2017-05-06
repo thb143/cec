@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+    <permission-group name="运营管理" order="2">
+    	<permission id="10" name="查看影院" code="CINEMA_VIEW" depends=""/>
+        <permission id="11" name="管理影院" code="CINEMA_MANAGE" depends=""/>
+        <permission id="12" name="启用/停用影院" code="CINEMA_SWITCH" depends=""/>
+        <permission id="13" name="设置影院" code="CINEMA_SET" depends=""/>
+        
+        <permission id="15" name="查看影片" code="FILM_VIEW" depends=""/>
+        <permission id="16" name="管理影片" code="FILM_MANAGE" depends=""/>
+        <permission id="19" name="设置参数" code="CIRCUITSETTINGS_MANAGE" depends=""/>
+        
+        <permission id="20" name="查看渠道" code="CHANNEL_VIEW" depends=""/>
+        <permission id="21" name="管理渠道" code="CHANNEL_MANAGE" depends=""/>
+        <permission id="22" name="开放/关闭渠道" code="CHANNEL_SWITCH" depends=""/>
+        <permission id="23" name="设置渠道" code="CHANNEL_SET" depends=""/>
+    </permission-group>
+    <permission-group name="价格管理" order="3">
+        <permission id="40" name="查看策略" code="POLICY_VIEW" depends=""/>
+        <permission id="41" name="管理策略" code="POLICY_MANAGE" depends=""/>
+        <permission id="42" name="启用/停用策略" code="POLICY_SWITCH" depends=""/>
+        <permission id="43" name="审核策略" code="POLICY_AUDIT" depends=""/>
+        <permission id="44" name="审批策略" code="POLICY_APPROVE" depends=""/>
+    </permission-group>
+    <permission-group name="产品管理" order="4">
+        <permission id="70" name="查看产品" code="PRODUCT_VIEW" depends=""/>
+        <permission id="71" name="管理产品" code="PRODUCT_MANAGE" depends=""/>
+        <permission id="72" name="上架/下架产品" code="PRODUCT_SWITCH" depends=""/>
+        <permission id="73" name="权益卡类审核" code="BENEFITCARDTYPE_AUDIT" depends=""/>
+        <permission id="74" name="权益卡类审批" code="BENEFITCARDTYPE_APPROVE" depends=""/>
+    </permission-group>
+    <permission-group name="订单管理" order="6">
+        <permission id="80" name="查看订单" code="ORDER_VIEW" depends=""/>
+        <permission id="81" name="管理订单" code="ORDER_MANAGE" depends=""/>
+    </permission-group>
+    <permission-group name="统计分析" order="7">
+        <permission id="100" name="影院销售统计" code="CINEMA_SALE_STAT" depends=""/>
+        <permission id="101" name="影院结算统计" code="CINEMA_SETTLE_STAT" depends=""/>
+        <permission id="102" name="渠道销售统计" code="CHANNEL_SALE_STAT" depends=""/>
+        <permission id="103" name="渠道结算统计" code="CHANNEL_SETTLE_STAT" depends=""/>
+    </permission-group>
+</permissions>

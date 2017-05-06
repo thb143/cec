@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<status>1</status>
+	<errorMessage />
+	<errorCode />
+	<ticketOrder>
+		<orderItems>
+			<ticketOrderItem>
+				<ticketCode>1000000000002571</ticketCode>
+				<seatRow>1</seatRow>
+				<seatCol>5</seatCol>
+			</ticketOrderItem>
+		</orderItems>
+	</ticketOrder>
+</root>

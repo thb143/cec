@@ -1,0 +1,102 @@
+<div class="page">
+    <div class="pageContent">
+        <form method="post" action="ajaxDone1.html" class="pageForm required-validate" onsubmit="return validateCallback(this, dialogAjaxDone);">
+            <div class="pageFormContent" layoutH="60">
+                <dl>
+                    <dt>
+                        通兑票编码：
+                    </dt>
+                    <dd>
+                        122121
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        通兑票名称:
+                    </dt>
+                    <dd>
+                        单家通兑
+                    </dd>
+                </dl>
+                <dl class="nowrap">
+                    <dt>
+                        通兑票类型：
+                    </dt>
+                    <dd>
+                        <input type="radio" name="type" value="2D" checked/>
+                        2D
+                        <input type="radio" name="type" value="3D"/>
+                        3D
+                        <input type="radio" name="type" value="IMAX" />
+                        IMAX
+                        <input type="radio" name="type" value="MAX3D"/>
+                        IMAX3D
+                        <input type="radio" name="type" value="4D"/>
+                        4D
+                    </dd>
+                </dl>
+                <dl class="nowrap">
+                    <dt>
+                        有效期：
+                    </dt>
+                    <dd>
+                        <input type="radio" name="period" checked/>
+                        固定天数&nbsp;&nbsp;
+                        <input size="5" name="day" class="required number" value="30" disabled="true"/>
+                        &nbsp;&nbsp;
+                        <input type="radio" name="period"/>
+                        时间范围&nbsp;&nbsp;
+                        <input size="20" name="startTime" class="date" disabled="true"/>
+                        至
+                        <input size="20" name="endTime" class="date" disabled="true"/>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        最大销售数量:
+                    </dt>
+                    <dd>
+                        0
+                        &nbsp;张
+                    </dd>
+                </dl>
+                <dl class="nowrap">
+                    <dt>
+                        影院范围：
+                    </dt>
+                    <dd>
+                        最高结算价：30.00 元&nbsp;&nbsp;&nbsp;&nbsp;最低结算价：20.00 元&nbsp;&nbsp;&nbsp;&nbsp;平均结算价：25.00 元
+                        <br/>
+                                                           中影XXXX影城（20.00元）
+                                                            中影XXXX影城（20.00元）
+                                                            中影XXXX影城（20.00元）
+                                                            中影XXXX影城（25.00元）
+                                                            中影XXXX影城（25.00元）
+                                                            中影XXXX影城（25.00元）
+                                                            中影XXXX影城（30.00元）
+                                                            中影XXXX影城（30.00元）
+                                                            中影XXXX影城（30.00元)
+                    </dd>
+                </dl>
+            </div>
+            <div class="formBar">
+                <ul>
+                    <li>
+                        <div class="button">
+                            <div class="buttonContent">
+                                <button type="button" class="close">
+                                    取消
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function(){
+        $("input:radio").attr("disabled","disabled");
+    });
+</script>

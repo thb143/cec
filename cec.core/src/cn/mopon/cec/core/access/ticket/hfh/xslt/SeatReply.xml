@@ -1,0 +1,542 @@
+<?xml version="1.0"	encoding="utf-8"?>
+<data version="1.0">
+	<seatPlan cinemaId="33044101" hallId="2" seatUpdateTime="2013-02-26"
+		result="0" message="">
+		<effective date="2013-02-26">
+			<section id="0000000000000001" name="普通区">
+				<seat rowId="1" rowNum="1" columnId="01" columnNum="4" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="02" columnNum="5" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="03" columnNum="6" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="04" columnNum="7" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="05" columnNum="8" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="06" columnNum="9" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="07" columnNum="10"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="08" columnNum="11"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="09" columnNum="12"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="10" columnNum="13"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="11" columnNum="14"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="12" columnNum="15"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="13" columnNum="16"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="14" columnNum="17"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="01" columnNum="4" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="02" columnNum="5" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="03" columnNum="6" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="04" columnNum="7" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="05" columnNum="8" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="06" columnNum="9" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="07" columnNum="10"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="08" columnNum="11"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="09" columnNum="12"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="10" columnNum="13"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="11" columnNum="14"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="12" columnNum="15"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="13" columnNum="16"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="14" columnNum="17"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="01" columnNum="4" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="02" columnNum="5" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="03" columnNum="6" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="04" columnNum="7" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="05" columnNum="8" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="06" columnNum="9" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="07" columnNum="10"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="08" columnNum="11"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="09" columnNum="12"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="10" columnNum="13"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="11" columnNum="14"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="12" columnNum="15"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="13" columnNum="16"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="01" columnNum="4" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="02" columnNum="5" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="03" columnNum="6" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="04" columnNum="7" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="05" columnNum="8" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="06" columnNum="9" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="07" columnNum="10"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="08" columnNum="11"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="09" columnNum="12"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="10" columnNum="13"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="11" columnNum="14"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="12" columnNum="15"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="13" columnNum="16"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="01" columnNum="4" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="02" columnNum="5" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="03" columnNum="6" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="04" columnNum="7" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="05" columnNum="8" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="06" columnNum="9" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="07" columnNum="10"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="08" columnNum="11"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="09" columnNum="12"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="10" columnNum="13"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="11" columnNum="14"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="12" columnNum="15"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="13" columnNum="16"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="14" columnNum="17"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="01" columnNum="4" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="02" columnNum="5" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="03" columnNum="6" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="04" columnNum="7" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="05" columnNum="8" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="06" columnNum="9" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="07" columnNum="10"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="08" columnNum="11"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="09" columnNum="12"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="10" columnNum="13"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="11" columnNum="14"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="12" columnNum="15"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="13" columnNum="16"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="14" columnNum="17"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="01" columnNum="4" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="02" columnNum="5" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="03" columnNum="6" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="04" columnNum="7" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="05" columnNum="8" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="06" columnNum="9" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="07" columnNum="10"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="08" columnNum="11"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="09" columnNum="12"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="10" columnNum="13"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="11" columnNum="14"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="12" columnNum="15"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="13" columnNum="16"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="14" columnNum="17"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="01" columnNum="1" typeInd="H"
+					damagedFlg="Y" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="02" columnNum="2" typeInd="H"
+					damagedFlg="Y" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="03" columnNum="4" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="04" columnNum="5" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="05" columnNum="6" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="06" columnNum="7" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="07" columnNum="8" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="08" columnNum="9" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="09" columnNum="10"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="10" columnNum="11"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="11" columnNum="12"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="12" columnNum="13"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="13" columnNum="14"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="14" columnNum="15"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="15" columnNum="16"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="16" columnNum="17"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="01" columnNum="1" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="02" columnNum="2" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="03" columnNum="3" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="04" columnNum="4" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="05" columnNum="5" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="06" columnNum="6" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="07" columnNum="7" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="08" columnNum="8" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="09" columnNum="9" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="10" columnNum="10"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="11" columnNum="11"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="12" columnNum="12"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="13" columnNum="13"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="14" columnNum="14"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="15" columnNum="15"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="16" columnNum="16"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="17" columnNum="17"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="18" columnNum="18"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="19" columnNum="19"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="20" columnNum="20"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+			</section>
+		</effective>
+		<effective date="2014-12-13">
+			<section id="0000000000000001" name="普通区">
+				<seat rowId="1" rowNum="1" columnId="01" columnNum="4" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="02" columnNum="5" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="03" columnNum="6" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="04" columnNum="7" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="05" columnNum="8" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="06" columnNum="9" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="07" columnNum="10"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="08" columnNum="11"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="09" columnNum="12"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="10" columnNum="13"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="11" columnNum="14"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="12" columnNum="15"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="13" columnNum="16"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="1" rowNum="1" columnId="14" columnNum="17"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="01" columnNum="4" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="02" columnNum="5" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="03" columnNum="6" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="04" columnNum="7" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="05" columnNum="8" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="06" columnNum="9" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="07" columnNum="10"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="08" columnNum="11"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="09" columnNum="12"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="10" columnNum="13"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="11" columnNum="14"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="12" columnNum="15"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="13" columnNum="16"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="2" rowNum="2" columnId="14" columnNum="17"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="01" columnNum="4" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="02" columnNum="5" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="03" columnNum="6" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="04" columnNum="7" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="05" columnNum="8" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="06" columnNum="9" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="07" columnNum="10"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="08" columnNum="11"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="09" columnNum="12"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="10" columnNum="13"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="11" columnNum="14"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="12" columnNum="15"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="3" rowNum="3" columnId="13" columnNum="16"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="01" columnNum="4" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="02" columnNum="5" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="03" columnNum="6" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="04" columnNum="7" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="05" columnNum="8" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="06" columnNum="9" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="07" columnNum="10"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="08" columnNum="11"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="09" columnNum="12"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="10" columnNum="13"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="11" columnNum="14"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="12" columnNum="15"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="4" rowNum="4" columnId="13" columnNum="16"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="01" columnNum="4" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="02" columnNum="5" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="03" columnNum="6" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="04" columnNum="7" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="05" columnNum="8" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="06" columnNum="9" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="07" columnNum="10"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="08" columnNum="11"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="09" columnNum="12"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="10" columnNum="13"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="11" columnNum="14"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="12" columnNum="15"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="13" columnNum="16"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="5" rowNum="5" columnId="14" columnNum="17"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="01" columnNum="4" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="02" columnNum="5" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="03" columnNum="6" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="04" columnNum="7" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="05" columnNum="8" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="06" columnNum="9" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="07" columnNum="10"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="08" columnNum="11"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="09" columnNum="12"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="10" columnNum="13"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="11" columnNum="14"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="12" columnNum="15"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="13" columnNum="16"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="6" rowNum="6" columnId="14" columnNum="17"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="01" columnNum="4" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="02" columnNum="5" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="03" columnNum="6" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="04" columnNum="7" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="05" columnNum="8" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="06" columnNum="9" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="07" columnNum="10"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="08" columnNum="11"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="09" columnNum="12"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="10" columnNum="13"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="11" columnNum="14"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="12" columnNum="15"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="13" columnNum="16"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="7" rowNum="7" columnId="14" columnNum="17"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="01" columnNum="1" typeInd="N"
+					damagedFlg="Y" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="02" columnNum="2" typeInd="N"
+					damagedFlg="Y" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="03" columnNum="4" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="04" columnNum="5" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="05" columnNum="6" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="06" columnNum="7" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="07" columnNum="8" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="08" columnNum="9" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="09" columnNum="10"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="10" columnNum="11"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="11" columnNum="12"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="12" columnNum="13"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="13" columnNum="14"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="14" columnNum="15"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="15" columnNum="16"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="8" rowNum="8" columnId="16" columnNum="17"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="01" columnNum="1" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="02" columnNum="2" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="03" columnNum="3" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="04" columnNum="4" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="05" columnNum="5" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="06" columnNum="6" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="07" columnNum="7" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="08" columnNum="8" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="09" columnNum="9" typeInd="N"
+					damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="10" columnNum="10"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="11" columnNum="11"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="12" columnNum="12"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="13" columnNum="13"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="14" columnNum="14"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="15" columnNum="15"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="16" columnNum="16"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="17" columnNum="17"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="18" columnNum="18"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="19" columnNum="19"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+				<seat rowId="9" rowNum="9" columnId="20" columnNum="20"
+					typeInd="N" damagedFlg="N" loveInd="0" />
+			</section>
+		</effective>
+	</seatPlan>
+</data>

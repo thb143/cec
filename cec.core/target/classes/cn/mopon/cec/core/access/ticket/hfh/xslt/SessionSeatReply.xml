@@ -1,0 +1,13 @@
+<data version="1.0">
+	<showSeats cinemaId="11051601" hallId="3" seatUpdateTime="2014-05-08"
+		version="1.0" result="0" message="">
+		<section id="01">
+			<seat rowId="A" columnId="01" />
+			<seat rowId="A" columnId="02" />
+			<seat rowId="A" columnId="03" />
+			<seat rowId="J" columnId="07" />
+			<seat rowId="J" columnId="08" />
+			<seat rowId="J" columnId="09" />
+		</section>
+	</showSeats>
+</data>

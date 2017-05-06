@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OnlineTicketingServiceReply Version="1.0"
+	Datetime="2014-05-22T17:32:08">
+	<RefundTicketReply Status="Success" ErrorCode=""
+		ErrorMessage="" Id="ID_RefundTicketReply">
+		<Order OrderCode="598C3B02181E4DE4" PrintNo="2014052215421379"
+			VerifyCode="80B7432EEE4C5847">
+			<Status>Yes</Status>
+			<RefundTime>2014-05-22 17:32:08</RefundTime>
+		</Order>
+	</RefundTicketReply>
+</OnlineTicketingServiceReply>

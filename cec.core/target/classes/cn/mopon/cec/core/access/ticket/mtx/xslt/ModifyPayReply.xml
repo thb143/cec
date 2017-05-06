@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetOrderStatusResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ResultCode>0</ResultCode>
+	<OrderNo>49780721</OrderNo>
+	<ValidCode>753482</ValidCode>
+	<OrderStatus>9</OrderStatus>
+</GetOrderStatusResult>

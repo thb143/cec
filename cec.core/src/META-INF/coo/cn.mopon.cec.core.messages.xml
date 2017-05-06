@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<!--=====================================运营管理===================================== -->
+	<!-- 接入类型 -->
+	<entry key="ticketAccessType.add.log">新增选座票接入类型[{0}]。</entry>
+	<entry key="ticketAccessType.edit.log">编辑选座票接入类型[{0}]。</entry>
+	<entry key="memberAccessType.add.log">新增会员接入类型[{0}]。</entry>
+	<entry key="memberAccessType.edit.log">编辑会员接入类型[{0}]。</entry>
+
+	<!-- 影院管理 -->
+	<entry key="cinema.add.exist">新增影院失败，影院编码已存在。 </entry>
+	<entry key="cinema.add.name.exist">新增影院失败，影院名称已存在。 </entry>
+	<entry key="cinema.edit.exist">编辑影院失败，影院编码已存在。 </entry>
+	<entry key="cinema.edit.name.exist">编辑影院失败，影院名称已存在。 </entry>
+
+	<entry key="cinema.edit.log">编辑影院[{0}][{1}]。</entry>
+	<entry key="cinema.add.log">新增影院[{0}][{1}]。</entry>
+	<entry key="cinema.enable.log">启用影院[{0}][{1}]。</entry>
+	<entry key="cinema.disable.log">停用影院[{0}][{1}]。</entry>
+	<entry key="cinema.open.salable.log">启售影院[{0}][{1}]。</entry>
+	<entry key="cinema.close.salable.log">停售影院[{0}][{1}]。</entry>
+	<entry key="cinemaSettings.save.log">设置影院[{0}][{1}]。</entry>
+
+	<entry key="hall.sync.no.settings">同步影厅失败，影院没有配置选座票接入设置。</entry>
+
+	<entry key="hall.enable.log">启用影厅[{0}][{1}]。</entry>
+	<entry key="hall.diable.log">停用影厅[{0}][{1}]。</entry>
+	<entry key="hall.edit.log">编辑影厅[{0}][{1}]。</entry>
+	<entry key="hall.sync.log">同步影厅[{0}][{1}]。</entry>
+
+	<!-- 影片管理 -->
+	<entry key="minPriceGroup.add.log">新增最低价分组[{0}][{1}]。 </entry>
+	<entry key="minPriceGroup.edit.log">编辑最低价分组[{0}][{1}]。 </entry>
+	<entry key="minPriceGroup.delete.log">删除最低价分组[{0}][{1}]。 </entry>
+	<entry key="minPriceRule.date.overlap">时间段重叠，请重新设置。 </entry>
+
+	<!-- 影厅类型 -->
+	<entry key="hallType.add.log">新增影厅类型[{0}]。</entry>
+	<entry key="hallType.edit.log">编辑影厅类型[{0}]。</entry>
+
+	<!-- 城市分组 -->
+	<entry key="cityGroup.add.exist">新增分组失败，分组名称已存在。 </entry>
+	<entry key="cityGroup.edit.name.exist">编辑分组失败，分组名称已存在。 </entry>
+	<entry key="cityGroup.add.log">新增城市分组[{0}]。</entry>
+	<entry key="cityGroup.edit.log">编辑城市分组[{0}]。</entry>
+	<entry key="cityGroup.delete.log">删除城市分组[{0}]。</entry>
+
+	<!-- 参数设置 -->
+	<entry key="circuitSettings.edit.log">设置院线参数。</entry>
+
+	<!-- 渠道管理 -->
+	<entry key="channel.add.exist">新增失败，渠道编号已存在。</entry>
+	<entry key="channel.edit.exist">编辑失败，渠道编号已存在。</entry>
+	<entry key="channel.add.name.exist">新增失败，渠道名称已存在。</entry>
+	<entry key="channel.edit.name.exist">编辑失败，渠道名称已存在。</entry>
+
+	<entry key="channel.add.log">新增渠道[{0}]。</entry>
+	<entry key="channel.edit.log">编辑渠道[{0}]。</entry>
+	<entry key="channel.open.log">开放渠道[{0}]。</entry>
+	<entry key="channel.close.log">关闭渠道[{0}]。</entry>
+	<entry key="channel.open.salable.log">开放渠道销售[{0}]。</entry>
+	<entry key="channel.close.salable.log">关闭渠道销售[{0}]。</entry>
+	<entry key="channelSettings.edit.log">设置渠道[{0}]。</entry>
+
+	<!--=====================================价格管理===================================== -->
+	<!-- 影院结算策略 -->
+	<entry key="cinemaPolicy.delete.notexpired">删除失败，已生效且未过期的策略不允许删除。</entry>
+	<entry key="cinemaPolicy.edit.valid">编辑失败，已生效的策略不允许编辑。</entry>
+	<entry key="cinemaPolicy.enable.invalid">启用失败，未生效的策略不允许启用。</entry>
+	<entry key="cinemaPolicy.disable.invalid">停用失败，未生效的策略不允许停用。</entry>
+	<entry key="cinemaPolicy.edit.approve">编辑失败，审批中的策略不允许编辑。</entry>
+	<entry key="cinemaPolicy.delete.approve">删除失败，审批中的策略不允许删除。</entry>
+	<entry key="cinemaPolicy.submit.repeat">提交失败，已提交的策略不允许重复提交。</entry>
+	<entry key="cinemaPolicy.audit.repeat">审核失败，已审核的策略不允许重复审核。</entry>
+	<entry key="cinemaPolicy.approve.repeat">审批失败，已审批的策略不允许重复审批。</entry>
+	<entry key="cinemaPolicy.audit.expired">提交审核失败，已过期的策略不允许提交审核。</entry>
+	<entry key="cinemaPolicy.audit.pass.unaudit">审核通过失败，策略中存在未标记的规则。</entry>
+	<entry key="cinemaPolicy.audit.pass.invalid">审核通过失败，策略中存在标记退回的规则。</entry>
+	<entry key="cinemaPolicy.approve.pass.unapprove">审批通过失败，策略中存在未标记的规则。</entry>
+	<entry key="cinemaPolicy.approve.pass.invalid">审批通过失败，策略中存在标记退回的规则。</entry>
+
+	<entry key="cinemaPolicy.add.log">新增策略[{0}][{1}]。</entry>
+	<entry key="cinemaPolicy.edit.log">编辑策略[{0}][{1}]。</entry>
+	<entry key="cinemaPolicy.delete.log">删除策略[{0}][{1}]。</entry>
+	<entry key="cinemaPolicy.up.log">上移策略[{0}][{1}]。</entry>
+	<entry key="cinemaPolicy.down.log">下移策略[{0}][{1}]。</entry>
+	<entry key="cinemaPolicy.enable.log">启用策略[{0}][{1}]。</entry>
+	<entry key="cinemaPolicy.disable.log">停用策略[{0}][{1}]。</entry>
+	<entry key="cinemaPolicy.copy.log">复制新增策略[{0}][{1}]。</entry>
+
+	<entry key="cinemaRule.edit.repeat">编辑失败，已生效的规则不允许重复编辑。</entry>
+	<entry key="cinemaRule.enable.invalid">启用失败，未生效的规则不允许启用。</entry>
+	<entry key="cinemaRule.disable.invalid">停用失败，未生效的规则不允许停用。</entry>
+	<entry key="cinemaRule.edit.approve">编辑失败，审批中的策略不允许编辑规则。</entry>
+	<entry key="cinemaRule.delete.approve">删除失败，审批中的策略不允许删除规则。</entry>
+	<entry key="cinemaRule.delete.valid">删除失败，已生效的规则不允许删除。</entry>
+	<entry key="cinemaRule.add.approve">新增失败，审批中的策略不允许新增规则。</entry>
+	<entry key="cinemaRule.copy.approve">复制失败，审批中的策略不允许复制规则。</entry>
+	<entry key="cinemaRule.sign.audit.invalid">标记失败，策略不处于待审核状态。</entry>
+	<entry key="cinemaRule.sign.approve.invalid">标记失败，策略不处于待审批状态。</entry>
+
+	<entry key="cinemaRule.enable.log">启用策略规则[{0}][{1}][{2}]。</entry>
+	<entry key="cinemaRule.disable.log">停用策略规则[{0}][{1}][{2}]。</entry>
+	<entry key="cinemaRule.delete.log">删除策略规则[{0}][{1}][{2}]。</entry>
+
+	<!-- 渠道结算策略 -->
+	<entry key="channelPolicy.submit.repeat">提交失败，已提交的策略不允许重复提交。</entry>
+	<entry key="channelPolicy.audit.expired">提交审核失败，已过期的策略不允许提交审核。</entry>
+	<entry key="channelPolicy.no.unvalid.rule">没有需要审核的规则不能提交。</entry>
+	<entry key="channelPolicy.audit.repeat">审核失败，已审核的策略不允许重复审核。</entry>
+	<entry key="channelPolicy.approve.repeat">审批失败，已审批的策略不允许重复审批。</entry>
+	<entry key="channelPolicy.audit.pass.unaudit">审核通过失败，策略中存在未标记的规则。</entry>
+	<entry key="channelPolicy.audit.pass.invalid">审核通过失败，策略中存在标记退回的规则。</entry>
+	<entry key="channelPolicy.approve.pass.unaudit">审批通过失败，策略中存在未标记的规则。</entry>
+	<entry key="channelPolicy.approve.pass.invalid">审批通过失败，策略中存在标记退回的规则。</entry>
+	<entry key="channelPolicy.edit.valid">编辑失败，已生效的策略不允许编辑。</entry>
+	<entry key="channelPolicy.delete.notexpired">删除失败，已生效且未过期的策略不允许删除。</entry>
+	<entry key="channelPolicy.enable.invalid">启用失败，未生效的策略不允许启用。</entry>
+	<entry key="channelPolicy.disable.invalid">停用失败，未生效的策略不允许停用。</entry>
+	<entry key="channelPolicy.delete.approve">删除失败，审批中的策略不允许删除。</entry>
+	<entry key="channelPolicy.edit.approve">编辑失败，审批中的策略不允许编辑。</entry>
+
+	<entry key="channelPolicy.add.log">新增渠道结算策略[{0}][{1}]。</entry>
+	<entry key="channelPolicy.edit.log">编辑渠道结算策略[{0}][{1}]。</entry>
+	<entry key="channelPolicy.delete.log">删除渠道结算策略[{0}][{1}]。</entry>
+	<entry key="channelPolicy.up.log">上移渠道结算策略[{0}][{1}]。</entry>
+	<entry key="channelPolicy.down.log">下移渠道结算策略[{0}][{1}]。</entry>
+	<entry key="channelPolicy.enable.log">启用渠道结算策略[{0}][{1}]。</entry>
+	<entry key="channelPolicy.disable.log">停用渠道结算策略[{0}][{1}]。</entry>
+	<entry key="channelPolicy.copy.log">复制新增策略[{0}][{1}]。</entry>
+
+	<entry key="channelRuleGroup.delete.hasrules">删除失败，有规则的影院不允许删除。</entry>
+	<entry key="channelRuleGroup.add.approve">新增失败，审批中的策略不允许添加影院。</entry>
+	<entry key="channelRuleGroup.delete.approve">删除失败，审批中的策略不允许删除影院。</entry>
+	<entry key="channelRuleGroup.copy.approve">复制失败，审批中的策略不允许复制影院。</entry>
+	<entry key="channelRuleGroup.set.approve">设置失败，审批中的策略不允许影院开放设置。</entry>
+	<entry key="channelRuleGroup.set.invalid">设置失败，未生效的策略不允许影院开放设置。</entry>
+	<entry key="channelRuleGroup.connectFee.set.approve">设置失败，审批中的策略不允许影院接入费设置。</entry>
+
+	<entry key="channelPolicyRuleGroup.delete.log">删除渠道结算策略规则分组影院[{0}][{1}][{2}]。</entry>
+	<entry key="channelPolicyRuleGroup.open.log">开放渠道结算策略规则分组影院[{0}][{1}][{2}]。</entry>
+	<entry key="channelPolicyRuleGroup.close.log">关闭渠道结算策略规则分组影院[{0}][{1}][{2}]。</entry>
+	<entry key="channelPolicyRuleGroup.up.log">上移渠道结算策略规则分组影院[{0}][{1}][{2}]。</entry>
+	<entry key="channelPolicyRuleGroup.down.log">下移渠道结算策略规则分组影院[{0}][{1}][{2}]。</entry>
+	<entry key="channelPolicyRuleGroup.edit.log">修改渠道结算策略规则分组影院接入费[{0}][{1}][{2}]。</entry>
+
+	<entry key="channelPolicyRule.edit.approve">编辑失败，审批中的策略不允许编辑规则。</entry>
+	<entry key="channelPolicyRule.edit.repeat">编辑失败，已生效的规则不允许重复编辑。</entry>
+	<entry key="channelPolicyRule.delete.approve">删除失败，审批中的策略不允许删除规则。</entry>
+	<entry key="channelPolicyRule.delete.valid">删除失败，已生效的规则不允许删除。</entry>
+	<entry key="channelPolicyRule.enable.invalid">启用失败，未生效的规则不允许启用。</entry>
+	<entry key="channelPolicyRule.disable.invalid">停用失败，未生效的规则不允许停用。</entry>
+	<entry key="channelPolicyRule.add.approve">新增失败，审批中的策略不允许新增规则。</entry>
+	<entry key="channelPolicyRule.copy.approve">复制失败，审批中的策略不允许复制规则。</entry>
+	<entry key="channelPolicyRule.sign.audit.invalid">标记失败，策略不处于待审核状态。</entry>
+	<entry key="channelPolicyRule.sign.approve.invalid">标记失败，策略不处于待审批状态。</entry>
+
+	<entry key="channelPolicyRule.enable.log">启用渠道结算策略规则[{0}][{1}][{2}][{3}]。</entry>
+	<entry key="channelPolicyRule.disable.log">停用渠道结算策略规则[{0}][{1}][{2}][{3}]。</entry>
+	<entry key="channelPolicyRule.delete.log">删除渠道结算策略规则[{0}][{1}][{2}][{3}]。</entry>
+
+	<!--=====================================特殊定价策略管理===================================== -->
+	<entry key="specialPolicy.enable.invalid">启用失败，未生效的策略不允许启用。</entry>
+	<entry key="specialPolicy.disable.invalid">停用失败，未生效的策略不允许停用。</entry>
+	<entry key="specialPolicy.edit.approve">编辑失败，审批中的策略不允许编辑。</entry>
+	<entry key="specialPolicy.delete.notexpired">删除失败，已生效且未过期的策略不允许删除。</entry>
+	<entry key="specialPolicy.submit.repeat">提交失败，已提交的策略不允许重复提交。</entry>
+	<entry key="specialPolicy.delete.approve">删除失败，审批中的策略不允许删除。</entry>
+	<entry key="specialPolicy.audit.expired">提交审核失败，已过期的策略不允许提交审核。</entry>
+	<entry key="specialPolicy.audit.repeat">审核失败，已审核的策略不允许重复审核。</entry>
+	<entry key="specialPolicy.approve.repeat">审批失败，已审批的策略不允许重复审批。</entry>
+
+	<entry key="specialPolicy.add.log">新增策略[{0}]。</entry>
+	<entry key="specialPolicy.copy.log">复制策略[{0}]。</entry>
+	<entry key="specialPolicy.edit.log">编辑策略[{0}]。</entry>
+	<entry key="specialPolicy.delete.log">删除策略[{0}]。</entry>
+	<entry key="specialPolicy.up.log">上移策略[{0}]。</entry>
+	<entry key="specialPolicy.down.log">下移策略[{0}]。</entry>
+	<entry key="specialPolicy.enable.log">启用策略[{0}]。</entry>
+	<entry key="specialPolicy.disable.log">停用策略[{0}]。</entry>
+
+	<entry key="specialRule.edit.repeat">编辑失败，已生效的规则不允许重复编辑。</entry>
+	<entry key="specialRule.enable.invalid">启用失败，未生效的规则不允许启用。</entry>
+	<entry key="specialRule.disable.invalid">停用失败，未生效的规则不允许停用。</entry>
+	<entry key="specialRule.edit.approve">编辑失败，审批中的策略不允许编辑规则。</entry>
+	<entry key="specialRule.edit.fail">编辑失败，编辑过渠道的规则不允许编辑。</entry>
+	<entry key="specialRule.delete.approve">删除失败，审批中的策略不允许删除规则。</entry>
+	<entry key="specialRule.delete.valid">删除失败，已生效的规则不允许删除。</entry>
+	<entry key="specialRule.add.approve">新增失败，审批中的策略不允许新增规则。</entry>
+	<entry key="specialRule.copy.approve">复制失败，审批中的策略不允许复制规则。</entry>
+
+	<entry key="specialRule.up.log">上移特殊定价规则[{0}][{1}]。</entry>
+	<entry key="specialRule.down.log">下移特殊定价规则[{0}][{1}]。</entry>
+	<entry key="specialRule.enable.log">启用特殊定价规则[{0}][{1}]。</entry>
+	<entry key="specialRule.disable.log">停用特殊定价规则[{0}][{1}]。</entry>
+	<entry key="specialRule.delete.log">删除特殊定价规则[{0}][{1}]。</entry>
+
+	<entry key="specialChannel.open.invalid">开放失败，未生效的渠道不允许开放。</entry>
+	<entry key="specialChannel.close.invalid">关闭失败，未生效的渠道不允许关闭。</entry>
+	<entry key="specialChannel.add.repeat">新增失败，已存在的渠道不允许重复添加。</entry>
+	<entry key="specialChannel.edit.repeat">编辑失败，已生效的渠道不允许重复编辑。</entry>
+	<entry key="specialChannel.eidt.approve">编辑失败，审批中的策略不允许编辑渠道。</entry>
+	<entry key="specialChannel.copy.approve">复制失败，审批中的策略不允许复制渠道。</entry>
+	<entry key="specialChannel.delete.approve">删除失败，审批中的策略不允许删除渠道。</entry>
+	<entry key="specialChannel.delete.valid">删除失败，已生效的渠道不允许删除。</entry>
+
+	<entry key="specialChannel.delete.log">删除特殊定价规则渠道[{0}][{1}][{2}]。</entry>
+	<entry key="specialChannel.open.log">开放特殊定价规则渠道[{0}][{1}][{2}]。</entry>
+	<entry key="specialChannel.close.log">关闭特殊定价规则渠道[{0}][{1}][{2}]。</entry>
+
+	<!--=====================================产品管理===================================== -->
+	<!-- 影院排期管理 -->
+	<entry key="show.sync.cinema.no.ticket.settings">同步排期指定的影院没有配置选座票接入设置。</entry>
+	<entry key="show.sync.cinema.disabled">同步排期失败，该影院已停用。</entry>
+	<entry key="show.sync.no.shows">影院没有排期。</entry>
+	<entry key="show.sync.through.not.support">暂时不支持连场排期。</entry>
+	<entry key="show.sync.film.code.invalid">影片编码为空或无效[{0}]。</entry>
+	<entry key="show.sync.film.not.exist">没有找到对应的影片。</entry>
+	<entry key="show.sync.hall.not.exist">没有找到对应的影厅。</entry>
+	<entry key="show.sync.hall.not.enabled">影厅[{0}]不是启用状态。</entry>
+	<entry key="show.sync.showtype.invalid">无效的放映类型。</entry>
+	<entry key="show.sync.showtype.not.provide">不供应放映类型[{0}]。</entry>
+	<entry key="show.sync.minPrice.invalid">最低价[{0}]无效。</entry>
+	<entry key="show.sync.stdPrice.invalid">标准价[{0}]低于最低价[{1}]。</entry>
+
+	<entry key="show.add.log">新增排期[{0}][{1}]。</entry>
+	<entry key="show.update.log">更新排期[{0}][{1}]。</entry>
+	<entry key="show.delete.log">删除排期[{0}][{1}]。</entry>
+
+	<!-- 渠道排期管理 -->
+	<entry key="channelShow.enable.unvalid">上架渠道排期失败，渠道排期已失效。</entry>
+	<entry key="channelShow.disable.unvalid">下架渠道排期失败，渠道排期已失效。</entry>
+
+	<entry key="channelShow.enable.log">上架渠道排期[{0}][{1}][{2}][{3}]。</entry>
+	<entry key="channelShow.disable.log">下架渠道排期[{0}][{1}][{2}][{3}]。</entry>
+	<entry key="channelShow.batch.enable.log">批量上架渠道排期。</entry>
+	<entry key="channelShow.batch.disable.log">批量下架渠道排期。</entry>
+	
+	<!-- 卖品分类管理 -->
+	<entry key="snackGroup.add.exist">卖品分类已存在。</entry>
+	
+	<entry key="snackGroup.add.log">新增卖品分类[{0}]。</entry>
+	<entry key="snackGroup.edit.log">修改卖品分类[{0}]。</entry>
+
+	<!-- 卖品类型管理 -->
+	<entry key="snackType.image.none">请选择图片。</entry>
+	<entry key="snackType.snackTypeIds.none">请选择卖品类型。</entry>
+	
+	<entry key="snackType.add.log">新增卖品类型[{0}][{1}][{2}]。</entry>
+	<entry key="snackType.edit.log">修改卖品类型[{0}][{1}][{2}]。</entry>
+
+	<!-- 卖品管理 -->
+	<entry key="snack.delete.valid">已设置价格的卖品不能删除。</entry>
+	
+	<entry key="snack.add.log">新增卖品[{0}][{1}][{2}]。</entry>
+	<entry key="snack.edit.log">修改卖品价格[{0}][{1}][{2}]。</entry>
+	<entry key="snack.enable.log">上架卖品[{0}][{1}][{2}]。</entry>
+	<entry key="snack.disable.log">下架卖品[{0}][{1}][{2}]。</entry>
+	<entry key="snack.delete.log">删除卖品[{0}][{1}][{2}]。</entry>
+	
+	<!-- 卖品渠道管理 -->
+	<entry key="snackChannel.add.repeat">新增失败，已存在的渠道不允许重复添加。</entry>
+	
+	<entry key="snackChannel.add.log">新增卖品渠道[{0}][{1}][{2}]。</entry>
+	<entry key="snackChannel.edit.log">编辑卖品渠道[{0}][{1}][{2}]。</entry>
+	<entry key="snackChannel.open.log">开放卖品渠道[{0}][{1}][{2}]。</entry>
+	<entry key="snackChannel.close.log">关闭卖品渠道[{0}][{1}][{2}]。</entry>
+
+	<!-- 权益卡管理 -->
+	<entry key="benefitCard.disable.log">冻结权益卡[{0}]。</entry>
+	<entry key="benefitCard.enable.log">解冻权益卡[{0}]。</entry>
+	<entry key="benefitCard.delay.log">延期权益卡[{0}]。</entry>
+
+	<!-- 权益卡类管理 -->
+	<entry key="benefitCardType.add.log">添加权益卡类[{0}]。</entry>
+	<entry key="benefitCardType.update.log">编辑权益卡类[{0}]。</entry>
+	<entry key="benefitCardType.enable.log">启用权益卡类[{0}]。</entry>
+	<entry key="benefitCardType.disabled.log">停用权益卡类[{0}]。</entry>
+
+	<entry key="benefitCardType.add.exist">添加失败，卡类编号已经存在。</entry>
+	<entry key="benefitCardType.add.prefix.exist">添加失败，卡类前缀已经存在。</entry>
+	<entry key="benefitCardType.add.name.exist">添加失败，卡类名称已经存在。</entry>
+	
+	<entry key="benefitCardType.edit.exist">编辑失败，卡类编号已经存在。</entry>
+	<entry key="benefitCardType.edit.prefix.exist">编辑失败，卡类前缀已经存在。</entry>
+	<entry key="benefitCardType.edit.name.exist">编辑失败，卡类名称已经存在。</entry>
+	
+    <entry key="benefitCardType.submit.repeat">提交失败，已提交的卡类不允许重复提交。</entry>
+	<entry key="benefitCardType.audit.repeat">审核失败，已审核的卡类不允许重复审核。</entry>
+	<entry key="benefitCardType.approve.repeat">审批失败，已审批的卡类不允许重复审批。</entry>
+	<entry key="benefitCardType.disable.invalid">停用失败，未生效的卡类不允许停用。</entry>
+	<entry key="benefitCardType.enable.invalid">启用失败，未生效的卡类不允许启用。</entry>
+	<entry key="benefitCardType.delete.valid">删除失败，生效状态的卡类不允许删除。</entry>
+	<entry key="benefitCardType.delete.hascard">删除失败，已经有卡的卡类不允许删除。</entry>
+
+	<entry key="benefitCardTypeRule.disabled.log">停用权益卡类规则[{0}][{1}]。</entry>
+	<entry key="benefitCardTypeRule.delete.log">删除权益卡类规则[{0}][{1}]。</entry>
+	<entry key="benefitCardTypeRule.enabled.log">启用权益卡类规则[{0}][{1}]。</entry>
+
+	<entry key="benefitCardTypeRule.edit.approve">编辑失败，审批中的卡类不允许编辑规则。</entry>
+	<entry key="benefitCardTypeRule.edit.repeat">编辑失败，已生效的卡类不允许重复编辑。</entry>
+	<entry key="benefitCardTypeRule.delete.valid">删除失败，生效状态的卡类不允许删除。</entry>
+	<entry key="benefitCardTypeRule.disable.invalid">停用失败，未生效的规则不允许停用。</entry>
+	<entry key="benefitCardTypeRule.enable.invalid">启用失败，未生效的规则不允许启用。</entry>
+
+
+
+	<!--=====================================订单管理===================================== -->
+	<!-- 选座票 -->
+	<entry key="ticketOrder.status.invalid">选座票订单状态不符。</entry>
+	<entry key="ticketOrder.revoke.failed">影院地面系统退票失败。</entry>
+	<entry key="ticketVoucher.status.invalid">选座票凭证状态不符。</entry>
+
+	<entry key="ticketOrder.mark.failed.log">选座票订单标记出票失败[{0}]。</entry>
+	<entry key="ticketOrder.revoke.log">选座票订单退票[{0}]。</entry>
+	<entry key="ticketOrder.mark.revoke.log">选座票订单标记退票[{0}]。</entry>
+	<entry key="ticketVoucher.reset.log">重置凭证[{0}]。</entry>
+
+	<!--=====================================系统管理===================================== -->
+	<entry key="ticketOrder.stat.sync.log">报表日结维护[{0}~{1}]。</entry>
+	<entry key="sale.stat.day.log">销售趋势统计维护[{0}~{1}]。</entry>
+	<entry key="sale.stat.all.log">累计订单信息维护。</entry>
+	<entry key="sale.stat.today.log">当天销售排行维护。</entry>
+	<entry key="sale.stat.max.log">重置最高订单日。</entry>
+</properties>

@@ -1,0 +1,19 @@
+-- 创建系统根机构
+insert into CEC_Organ (id, parentId, name, creatorId, createDate, modifierId, modifyDate)
+values ('ADMINOID-0000-0000-0000-000000000000', null, '系统根机构', 'ADMINUID-0000-0000-0000-000000000000', NOW(), 'ADMINUID-0000-0000-0000-000000000000', NOW());
+-- 创建系统管理员用户
+insert into CEC_User (id, name, username, password, enabled, creatorId, createDate, modifierId, modifyDate)
+values ('ADMINUID-0000-0000-0000-000000000000', '系统管理员', 'admin', 'j6Xdj208bRekjd8a9acwQJL5IbHiws3ncNkgO6Gh9HY=', 1, 'ADMINUID-0000-0000-0000-000000000000', NOW(), 'ADMINUID-0000-0000-0000-000000000000', NOW());
+-- 创建系统管理员角色
+insert into CEC_Role (id, name, permissions, creatorId, createDate, modifierId, modifyDate)
+values('ADMINRID-0000-0000-0000-000000000000', '系统管理员', '111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111', 'ADMINUID-0000-0000-0000-000000000000', NOW(), 'ADMINUID-0000-0000-0000-000000000000', NOW());
+-- 创建系统根机构管理员职务
+insert into CEC_Actor (id, organId, userId, roleId, name, creatorId, createDate, modifierId, modifyDate)
+values ('ADMINAID-0000-0000-0000-000000000000', 'ADMINOID-0000-0000-0000-000000000000', 'ADMINUID-0000-0000-0000-000000000000', 'ADMINRID-0000-0000-0000-000000000000', '系统根机构管理员', 'ADMINUID-0000-0000-0000-000000000000', NOW(), 'ADMINUID-0000-0000-0000-000000000000', NOW());
+-- 创建系统管理员用户设置
+insert into CEC_UserSettings (id, defaultActorId, phone, email, receiveEmail, receiveSms)
+values ('ADMINUID-0000-0000-0000-000000000000', 'ADMINAID-0000-0000-0000-000000000000', '13530714984', 'hesong.sz@mopon.cn', '0', '0');
+
+-- 创建院线设置
+insert into CEC_CircuitSettings (id, settleRuleTypes, lockSeatTime, defaultMinPrice, dayStatTime)
+values ('CIRCUIID-0000-0000-0000-000000000000', '1,2,3,4,5,6,7', 15, '{"normal2d":15.0,"normal3d":15.0,"max2d":15.0,"max3d":15.0,"dmax":15.0}',0);

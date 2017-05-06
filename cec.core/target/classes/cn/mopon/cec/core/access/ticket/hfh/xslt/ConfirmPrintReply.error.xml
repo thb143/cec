@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?>
+<ticketPrint version="1.0">
+	<result>1</result>
+	<messages>
+		<message>影票已经设置打印，无法重复打印。</message>
+	</messages>
+</ticketPrint>

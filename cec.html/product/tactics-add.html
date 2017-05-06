@@ -1,0 +1,66 @@
+<script>
+	function dialogAjaxResult(json) {
+	    if (json.statusCode == DWZ.statusCode.ok){
+          $(".accordionContent>ul", window.parent.document).append("<li>"+$('#name').val()+"<a href=\"#\">【启用】</a><a href=\"#\" class=\"up\">上移</a><a href=\"#\" class=\"down\">下移</a></li>");
+        }
+	    dialogAjaxDone(json);
+	}
+</script>
+<div class="page">
+    <div class="pageContent">
+        <form method="post" action="ajaxDone1.html" class="pageForm required-validate" onsubmit="return validateCallback(this, dialogAjaxResult);">
+            <div class="pageFormContent" layoutH="60">
+                <h2 style="font-size:14px;line-height:30px;margin-left:5px;">中影益田假日影城</h2>
+                <div style="width:100%;height:1px;margin:0px auto;padding:0px;background-color:#D5D5D5;overflow:hidden;"></div>
+                <dl class="nowrap">
+                    <dt>
+                        <span>策略名称：</span>
+                    </dt>
+                    <dd>
+                        <input type="text" name="cinema.name" id="name" size="30" maxlength="16" class="required"/>
+                    </dd>
+                </dl>
+                <dl class="nowrap">
+                    <dt>
+                        <span>有效日期：</span>
+                    </dt>
+                    <dd>
+                        <input size="20" name="cinema.startTime" readonly="true" dateFmt="yyyy年MM月dd日" class="required date"/>
+                        至
+                        <input size="20" name="cinema.endTime" readonly="true" dateFmt="yyyy年MM月dd日" class="required date"/>
+                    </dd>
+                </dl>
+                <dl class="nowrap">
+                    <dt>
+                        影院简介：
+                    </dt>
+                    <dd>
+                        <textarea name="cinema.intro" cols="80" rows="5"/>
+                    </dd>
+                </dl>
+            </div>
+            <div class="formBar">
+                <ul>
+                    <li>
+                        <div class="buttonActive">
+                            <div class="buttonContent">
+                                <button type="submit">
+                                    保存
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="button">
+                            <div class="buttonContent">
+                                <button type="button" class="close">
+                                    取消
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </div>
+</div>

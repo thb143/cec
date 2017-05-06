@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reply>
+	<code>001</code>
+	<msg>操作成功。</msg>
+	<seats>
+		<seat>
+			<code>0300000300100101</code>
+			<groupCode>0201010071000003</groupCode>
+			<rowNum>1</rowNum>
+			<colNum>1</colNum>
+			<xCoord>1</xCoord>
+			<yCoord>1</yCoord>
+			<type>1</type>
+			<status>0</status>
+			<loveCode />
+		</seat>
+	</seats>
+</reply>

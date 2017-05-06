@@ -1,0 +1,7 @@
+<data version="1.0">
+	<bookingCancel version="1.0" result="104" message="退票订单单号不存在或订单信息错误">
+		<bookingId></bookingId>
+		<confirmationId></confirmationId>
+		<seats />
+	</bookingCancel>
+</data>

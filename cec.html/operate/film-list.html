@@ -1,0 +1,79 @@
+<div class="page">
+    <div class="pageHeader">
+        <div class="searchBar">
+            <div class="subBar">
+                <ul>
+                    <li><input name="search"/></li>
+                    <li><div class="buttonActive"><div class="buttonContent"><button type="submit">检索 </button></div></div></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="pageContent">
+        <div class="panelBar">
+            <ul class="toolBar">
+                <li>
+                    <a href="operate/film-add.html" target="dialog" rel="film-add" mask="true" title="新增影片" width="850" height="600"><span class="a09">新增</span></a>
+                </li>
+                <li>
+                    <a href="operate/film-sync.html" target="dialog" rel="film-sync-page" mask="true" title="手动同步影片" width="550" height="300"><span class="a34">手动同步影片</span></a>
+                </li>
+            </ul>
+        </div>
+        <table class="table" width="100%" layoutH="112">
+            <thead>
+                <tr>
+                    <th width="30px" align="center">序号</th>
+                    <th width="150px" align="center">影片编号</th>
+                    <th align="center">影片名称</th>
+                    <th width="150px" align="center">国家</th>
+                    <th width="150px" align="center">放映类型</th>
+                    <th width="150px" align="center">公映日期</th>
+                    <th width="200px" align="center">操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr target="sid_user" rel="1">
+                    <td>1</td>
+                    <td>423443434322443</td>
+                    <td>十月围城</td>
+                    <td>中国</td>
+                    <td>3D</td>
+                    <td>2012-11-22</td>
+                    <td><a href="operate/film-edit.html" target="dialog" mask="true" rel="film-edit" width="850" height="600" title="编辑影片">编辑</a></td>
+                </tr>
+                <tr target="sid_user" rel="1">
+                    <td>2</td>
+                    <td>423443434322443</td>
+                    <td>十月围城</td>
+                    <td>中国</td>
+                    <td>3D</td>
+                    <td>2012-11-22</td>
+                    <td><a href="operate/film-edit.html" target="dialog" mask="true" rel="film-edit" width="850" height="600" title="编辑影片">编辑</a></td>
+                </tr>
+                <tr target="sid_user" rel="1">
+                    <td>3</td>
+                    <td>423443434322443</td>
+                    <td>十月围城</td>
+                    <td>中国</td>
+                    <td>3D</td>
+                    <td>2012-11-22</td>
+                    <td><a href="operate/film-edit.html" target="dialog" mask="true" rel="film-edit" width="850" height="600" title="编辑影片">编辑</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="panelBar">
+            <div class="pages">
+                <span>显示</span>
+                <select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                    <option value="200">200</option>
+                </select>
+                <span>条，共1条</span>
+            </div>
+            <div class="pagination" targetType="navTab" totalCount="1" numPerPage="20" pageNumShown="10" currentPage="1"></div>
+        </div>
+    </div>
+</div>

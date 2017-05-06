@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data version="1.0" result="0" message="订单处理成功(OPS:Order Processed Successfully)">
+  <bookingId>99914090238134</bookingId>
+  <confirmationId>66618071</confirmationId>
+  <seats>
+    <seat ticketNo="9991409081181" rowId="0" columnId="01" sectionId="" statusInd="" printedFlg="" lastModifyTime=""/>
+    <seat ticketNo="9991409081182" rowId="0" columnId="02" sectionId="" statusInd="" printedFlg="" lastModifyTime=""/>
+  </seats>
+  <card>
+    <balance>473860.78</balance>
+    <cumulationMarking>1281</cumulationMarking>
+    <tradeMarking>1281</tradeMarking>
+    <availableTimes>0</availableTimes>
+  </card>
+</data>

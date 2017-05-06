@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OnlineTicketingServiceReply Version="1.0"
+	Datetime="2014-11-27T17:40:21">
+	<DQuerySessionReply ErrorCode="" ErrorMessage=""
+		Id="ID_DQuerySessionReply" Status="Success">
+		<Sessions CinemaCode="31133208">
+			<Session ScreenCode="0000000000000012">
+				<Code>0514112701200019</Code>
+				<StartTime>2014-11-27T23:55:00</StartTime>
+				<PlaythroughFlag>No</PlaythroughFlag>
+				<Films>
+					<Film>
+						<Code>001105972014</Code>
+						<Name>&#x6590;&#x6d4e;99°&#x7684;&#x7231;&#x60c5;</Name>
+						<Duration>100</Duration>
+						<Language>&#x97e9;&#x8bed;</Language>
+						<Sequence>1</Sequence>
+					</Film>
+				</Films>
+				<Price>
+					<LowestPrice>15.00</LowestPrice>
+					<StandardPrice>25.00</StandardPrice>
+					<GuidePrice>25.00</GuidePrice>
+				</Price>
+			</Session>
+			<Session ScreenCode="0132052611000026">
+				<Code>0514112702600017</Code>
+				<StartTime>2014-11-27T23:55:00</StartTime>
+				<PlaythroughFlag>No</PlaythroughFlag>
+				<Films>
+					<Film>
+						<Code>001105972014</Code>
+						<Name>&#x6590;&#x6d4e;99°&#x7684;&#x7231;&#x60c5;</Name>
+						<Duration>100</Duration>
+						<Language>&#x666e;&#x901a;&#x8bdd;</Language>
+						<Sequence>1</Sequence>
+					</Film>
+				</Films>
+				<Price>
+					<LowestPrice>15.00</LowestPrice>
+					<StandardPrice>25.00</StandardPrice>
+					<GuidePrice>25.00</GuidePrice>
+				</Price>
+			</Session>
+			<Session ScreenCode="0132052611000016">
+				<Code>0514112701600018</Code>
+				<StartTime>2014-11-27T23:55:00</StartTime>
+				<PlaythroughFlag>No</PlaythroughFlag>
+				<Films>
+					<Film>
+						<Code>001105972014</Code>
+						<Name>&#x6590;&#x6d4e;99°&#x7684;&#x7231;&#x60c5;</Name>
+						<Duration>100</Duration>
+						<Language>&#x82f1;&#x8bed;</Language>
+						<Sequence>1</Sequence>
+					</Film>
+				</Films>
+				<Price>
+					<LowestPrice>15.00</LowestPrice>
+					<StandardPrice>25.00</StandardPrice>
+					<GuidePrice>25.00</GuidePrice>
+				</Price>
+			</Session>
+		</Sessions>
+	</DQuerySessionReply>
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod
+				Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments" />
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+			<ds:Reference URI="#ID_DQuerySessionReply">
+				<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<ds:DigestValue>EFZvlNo/OXcjHNqTRLF2fAODLtw=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue></ds:SignatureValue>
+	</ds:Signature>
+</OnlineTicketingServiceReply>

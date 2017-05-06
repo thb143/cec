@@ -1,0 +1,98 @@
+<div class="page">
+    <div class="pageHeader">
+        <div class="searchBar">
+            <div class="subBar">
+                <ul>
+                    <li>
+                       操作类型： 
+                        <select name="type">
+                            <option value="1">全部</option>
+                            <option value="2">重发</option>
+                            <option value="2">重置</option>
+                            <option value="1">更换</option>
+                            <option value="1">重打印</option>
+                        </select>
+                    </li>
+                    <li><input type="text" name="search"/></li>
+                    <li>
+                        <div class="buttonActive">
+                            <div class="buttonContent">
+                                <button type="submit">检索 </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="pageContent">
+        <table class="table" width="100%" layoutH="87">
+            <thead>
+                <tr>
+                    <th width="30px" align="center">序号</th>
+                    <th width="130px" align="center">凭证编号</th>
+                    <th width="130px" align="center">订单号</th>
+                    <th width="80px" align="center">操作人</th>
+                    <th width="130px" align="center">操作时间</th>
+                    <th width="80px" align="center">操作类型</th>
+                    <th width="150px" align="center">操作原因</th>
+                    <th align="center">备注</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr target="sid_user" rel="1">
+                    <td>1</td>
+                    <td>
+                        <a href="order/ticketOrder-view.html" target="dialog" rel="ticketOrder-view"
+                         mask="true" title="查看凭证" width="850" height="550">D12345678</a>
+                    </td>
+                    <td>45154512511</td>
+                    <td>张三</td>
+                    <td>2014-04-19 10:30:59</td>
+                    <td>更换</td>
+                    <td>测试测试</td>
+                    <td>原凭证号：451551145，现凭证号：541512151</td>
+                </tr>
+                 <tr target="sid_user" rel="1">
+                     <td>2</td>
+                    <td>
+                        <a href="order/ticketOrder-view.html" target="dialog" rel="ticketOrder-view"
+                         mask="true" title="查看订单" width="850" height="550">D12345679</a>
+                    </td>
+                    <td>45154512511</td>
+                    <td>张三</td>
+                    <td>2014-04-19 10:30:59</td>
+                    <td>重置</td>
+                    <td>测试测试</td>
+                    <td></td>
+                </tr>
+                <tr target="sid_user" rel="1">
+                     <td>3</td>
+                    <td>
+                        <a href="order/ticketOrder-view.html" target="dialog" rel="ticketOrder-view"
+                         mask="true" title="查看凭证" width="750" height="500">D12345679</a>
+                    </td>
+                    <td>45154512511</td>
+                    <td>张三</td>
+                    <td>2014-04-19 10:30:59</td>
+                    <td>重发</td>
+                    <td>测试测试</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="panelBar">
+            <div class="pages">
+                <span>显示</span>
+                <select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                    <option value="200">200</option>
+                </select>
+                <span>条，共1条</span>
+            </div>
+            <div class="pagination" targetType="navTab" totalCount="1" numPerPage="20" pageNumShown="10" currentPage="1"></div>
+        </div>
+    </div>
+</div>

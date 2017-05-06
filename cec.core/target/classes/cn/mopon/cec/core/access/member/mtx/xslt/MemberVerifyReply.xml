@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SellTicketResult>
+	<ResultCode>0</ResultCode>
+	<Order>
+		<cinemaOrderCode>38871520</cinemaOrderCode>
+		<printCode>224901</printCode>
+	</Order>
+</SellTicketResult>

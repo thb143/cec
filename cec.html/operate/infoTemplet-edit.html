@@ -1,0 +1,127 @@
+<div class="pageContent">
+    <form method="post" action="ajaxDone1.html" class="pageForm required-validate"
+        onsubmit="return validateCallback(this, dialogAjaxDone);">
+        <div class="pageFormContent" layoutH="60">
+            <dl style="width:100%;">
+                <dt>模板名称：</dt>
+                <dd><input name="username" size="30" maxlength="20" class="required" value="test" disabled="true"/></dd>
+            </dl>
+            <dl style="width:100%;">
+                <dt>短信参数选择：</dt>
+                <dd>
+                    <a href="javascript:;" style="text-decoration:underline;" 
+                    onclick="javascript:setSMSValue('(address)');">订单号</a>&nbsp;
+                    <a href="javascript:;" style="text-decoration:underline;" 
+                    onclick="javascript:setSMSValue('(address)');">地点</a>&nbsp;
+                    <a href="javascript:;" style="text-decoration:underline;" 
+                    onclick="javascript:setSMSValue('(price)');">金额</a>&nbsp;
+                    <a href="javascript:;" style="text-decoration:underline;" 
+                    onclick="javascript:setSMSValue('(cinemaName)');">影院名称</a>&nbsp;
+                </dd>
+            </dl>
+            <dl style="height:110px;width:100%;">
+                <dt>短信内容：</dt>
+                <dd>
+                    <textarea id="infoContent" name="infoContent" rows="6"  
+                    onselect="setCaret(this);" onclick="setCaret(this);"  
+                    onkeyup="setCaret(this);" cols="37">asdf</textarea>
+                </dd>
+            </dl>
+            <input type="hidden" name="textfield" id="textfield" style="width:220px;" />  
+            <input type="button" id="click" name="click" style="display:none;" 
+            onclick="insertAtCaret(form.infoContent,this.form.textfield.value);"/>  
+            <dl style="width:100%;">
+                <dt>彩信参数选择：</dt>
+                <dd>
+                    <a href="javascript:;" style="text-decoration:underline;" 
+                    onclick="javascript:setMMSValue('(address)');" >订单号</a>&nbsp;
+                    <a href="javascript:;" style="text-decoration:underline;" 
+                    onclick="javascript:setMMSValue('(address)');">地点</a>&nbsp;
+                    <a href="javascript:;" style="text-decoration:underline;" 
+                    onclick="javascript:setMMSValue('(price)');">金额</a>&nbsp;
+                    <a href="javascript:;" style="text-decoration:underline;" 
+                    onclick="javascript:setMMSValue('(cinemaName)');">影院名称</a>&nbsp;
+                </dd>
+            </dl>
+            <dl>
+                <dt>彩信内容：</dt>
+                <dd>
+                    <textarea id="infoMMSContent" name="infoMMSContent" rows="6" 
+                     onselect="setCaret(this);" onclick="setCaret(this);"  
+                     onkeyup="setCaret(this);" cols="37">asdf</textarea>
+                </dd>
+            </dl>
+            <input type="hidden" name="textfieldMMS" id="textfieldMMS" style="width:220px;"/>  
+            <input type="button" id="clickMMS" name="clickMMS" style="display:none;" 
+            onclick="insertAtCaret(form.infoMMSContent,this.form.textfieldMMS.value);"/>  
+        </div>
+        <div class="formBar">
+            <ul>
+                <li>
+                    <div class="buttonActive">
+                        <div class="buttonContent">
+                            <button type="submit">保存</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="button">
+                        <div class="buttonContent">
+                            <button type="button" class="close">取消</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </form>
+</div>
+<script type="text/javascript" charset="utf-8">
+    //初始化文本域焦点位置
+    $(function(){
+        var oInput = $('#infoContent');
+        var oInputMMS = $('#infoMMSContent');
+        oInput.focus();
+        oInput.html("ddd");
+        oInput.blur();
+        oInputMMS.focus();
+        oInputMMS.html("ddd");
+        oInputMMS.blur();
+    }); 
+    //短信相关参数赋值到隐藏域,并触发事件处理参数到文本域中
+    function setSMSValue(value){
+        $('#textfield').val(value);
+        $('#click').click();
+    }
+    //彩信相关参数赋值到隐藏域,并触发事件处理参数到文本域中
+    function setMMSValue(value){
+        $('#textfieldMMS').val(value);
+        $('#clickMMS').click();
+    }
+    function setCaret(textObj) {
+        if (textObj.createTextRange) {
+            textObj.caretPos = document.selection.createRange().duplicate();
+        }
+    }
+    //插入值到文本域中
+    function insertAtCaret(textObj, textFeildValue) {
+        if (document.all) {
+            if (textObj.createTextRange && textObj.caretPos) {
+                var caretPos = textObj.caretPos;
+                caretPos.text = caretPos.text.charAt(caretPos.text.length - 1) == '   ' ?
+                    textFeildValue + '   ' : textFeildValue;
+            } else {
+                textObj.value = textFeildValue;
+            }
+        } else {
+            if (textObj.setSelectionRange) {
+                var rangeStart = textObj.selectionStart;
+                var rangeEnd = textObj.selectionEnd;
+                var tempStr1 = textObj.value.substring(0, rangeStart);
+                var tempStr2 = textObj.value.substring(rangeEnd);
+                textObj.value = tempStr1 + textFeildValue + tempStr2;
+            } else {
+                alert("This   version   of   Mozilla   based   browser   does   not   support   setSelectionRange");
+            }
+        }
+    } 
+</script>

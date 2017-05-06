@@ -1,0 +1,46 @@
+<script>
+    function addActivity() {
+        var checked = $('input[name="activity.type"]:checked').first();
+        $('#addActivity').attr("href", "activity/" + checked.val() + ".html");
+        $('#addActivity').attr("rel", checked.val());
+        $('#addActivity').attr("title", '新增' + checked.parent().text());
+    }
+</script>
+<div class="page">
+    <div class="pageContent">
+        <form method="post" action="ajaxDone1.html" class="pageForm required-validate" onsubmit="return validateCallback(this, dialogAjaxResult);">
+            <div class="pageFormContent" layoutH="60">
+                <dl class="nowrap">
+                    <dd>
+                       <label><input type="radio" name="activity.type" value="showActivity-add" checked />特殊场次活动</label>
+                    </dd>
+                    <dd>
+                       <label><input type="radio" name="activity.type" value="filmActivity-add" />特殊影片活动</label>
+                    </dd>
+                    <dd>
+                       <label><input type="radio" name="activity.type"  />预售活动</label>
+                    </dd>
+                    <dd>
+                       <label><input type="radio" name="activity.type"  value="sellActivity-add"/>促销活动</label>
+                    </dd>
+                </dl>
+            </div>
+            <div class="formBar">
+                <ul>
+                    <li>
+                       <a class="button" id="addActivity" href="activity/showActivity-add.html" target="dialog" rel="showActivity-add" onclick="addActivity()" mask="true" title="新增"  width='850' height='550'><span>确定</span></a>
+                    </li>
+                    <li>
+                        <div class="button">
+                            <div class="buttonContent">
+                                <button type="button" class="close">
+                                    取消
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </div>
+</div>

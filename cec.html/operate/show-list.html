@@ -1,0 +1,94 @@
+<div class="page">
+    <div class="pageHeader">
+        <div class="searchBar">
+            <div class="subBar">
+                <ul>
+                    <li>放映区间：<input type="text" name="beginDate" class="date"/></li>
+                    <li>至：<input type="text" name="endDate" class="date"/></li>
+                    <li><input name="search"/></li>
+                    <li><div class="buttonActive"><div class="buttonContent"><button type="submit">检索 </button></div></div></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="pageContent">
+        <div class="panelBar">
+            <ul class="toolBar">
+                <li>
+                    <a href="operate/show-sync.html" target="dialog" rel="film-sync" mask="true" title="同步排期" width="550" height="300"><span class="a34">同步排期</span></a>
+                </li>
+            </ul>
+        </div>
+        <table class="table" width="100%" layoutH="112">
+            <thead>
+                <tr>
+                    <th width="40px" align="center">序号</th>
+                    <th width="150px" align="center">排期编码</th>
+                    <th width="200px" align="center">影院名称</th>
+                    <th width="150px" align="center">影厅名称</th>
+                    <th width="150px" align="center">影片名称</th>
+                    <th width="100px" align="center">放映类型</th>
+                    <th width="50px" align="center">语言</th>
+                    <th width="150px" align="center">放映开始时间</th>
+                    <th width="100px" align="center">是否连场</th>
+                    <th width="100px" align="center">最低票价</th>
+                    <th width="200px" align="center">标准票价</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr target="sid_user" rel="1">
+                    <td>1</td>
+                    <td><a href="operate/show-view.html" target="dialog" mask="true" rel="show-view" width="850" height="300" title="查看排期">8123456781234567</a></td>
+                    <td>五棵松耀龙国际影城</td>
+                    <td>十四号厅</td>
+                    <td><a href="operate/film-view.html" target="dialog" mask="true" rel="film-view" width="850" height="500" title="查看影片">特种部队</a></td>
+                    <td>3D</td>
+                    <td>国语</td>
+                    <td>2012-12-14 09:00:00</td>
+                    <td>是</td>
+                    <td style="text-align: right">20.00</td>
+                    <td style="text-align: right">25.00</td>
+                </tr>
+                  <tr target="sid_user" rel="1">
+                      <td>2</td>
+                   <td><a href="operate/show-view.html" target="dialog" mask="true" rel="show-view" width="850" height="300" title="查看排期">8123456781234567</a></td>
+                    <td>五棵松耀龙国际影城</td>
+                    <td>十四号厅</td>
+                    <td><a href="operate/film-view.html" target="dialog" mask="true" rel="film-view" width="850" height="500" title="查看影片">特种部队</a></td>
+                    <td>3D</td>
+                    <td>粤语</td>
+                    <td>2012-12-14 09:00:00</td>
+                    <td>是</td>
+                    <td style="text-align: right">20.00</td>
+                    <td style="text-align: right">25.00</td>
+                </tr>
+                  <tr target="sid_user" rel="1">
+                      <td>3</td>
+                    <td><a href="operate/show-view.html" target="dialog" mask="true" rel="show-view" width="850" height="300" title="查看排期">8123456781234567</a></td>
+                    <td>五棵松耀龙国际影城</td>
+                    <td>十四号厅</td>
+                        <td><a href="operate/film-view.html" target="dialog" mask="true" rel="film-view" width="850" height="500" title="查看影片">特种部队</a></td>
+                    <td>3D</td>
+                    <td>英语</td>
+                    <td>2012-12-14 09:00:00</td>
+                    <td>是</td>
+                    <td style="text-align: right">20.00</td>
+                    <td style="text-align: right">25.00</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="panelBar">
+            <div class="pages">
+                <span>显示</span>
+                <select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                    <option value="200">200</option>
+                </select>
+                <span>条，共1条</span>
+            </div>
+            <div class="pagination" targetType="navTab" totalCount="1" numPerPage="20" pageNumShown="10" currentPage="1"></div>
+        </div>
+    </div>
+</div>

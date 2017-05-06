@@ -1,0 +1,87 @@
+<div class="page">
+    <div class="pageHeader">
+        <div class="searchBar">
+            <div class="subBar">
+                <ul>
+                    <li>同步日期：<input type="text" name="beginDate" class="date" dateFmt="yyyy-MM-dd HH:mm"/></li>
+                    <li>至：<input type="text" name="endDate" class="date" dateFmt="yyyy-MM-dd HH:mm"/></li>
+                    <li><input type="text" name="search"/></li>
+                    <li><div class="buttonActive"><div class="buttonContent"><button type="submit">检索 </button></div></div></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="pageContent">
+        <table class="table" width="100%" layoutH="87">
+            <thead>
+                <tr>
+                    <th width="40px" align="center">序号</th>
+                    <th width="200px" align="center">同步时间</th>
+                    <th width="200px" align="center">影院名称</th>
+                    <th width="150px" align="center">开始日期</th>
+                    <th width="150px" align="center">结束日期</th>
+                    <th width="150px" align="center">总数量</th>
+                    <th width="100px" align="center">插入数量</th>
+                    <th width="100px" align="center">更新数量</th>
+                    <th width="100px" align="center">异常数量</th>
+                    <th width="100px" align="center">同步状态</th>
+                    <th width="200px" align="center">操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr target="sid_user" rel="1">
+                    <td>1</td>
+                    <td>2012-12-14 09:00:00</td>
+                    <td>五棵松耀龙国际影城</td>
+                    <td>2012-12-14</td>
+                    <td>2012-12-17</td>
+                    <td>242</td>
+                    <td>240</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>同步成功</td>
+                    <td><a href="operate/showErrorLog-list.html" target="dialog" mask="true" rel="showSyncLog-error-view" width="850" height="500" title="查看异常信息">查看异常信息</a></td>
+                </tr>
+                 <tr target="sid_user" rel="1">
+                    <td>1</td>
+                    <td>2012-12-14 09:00:00</td>
+                    <td>五棵松耀龙国际影城</td>
+                    <td>2012-12-14</td>
+                    <td>2012-12-17</td>
+                    <td>242</td>
+                    <td>240</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>同步失败</td>
+                    <td><a href="operate/showErrorLog-list.html" target="dialog" mask="true" rel="showSyncLog-error-view" width="850" height="500" title="查看异常信息">查看异常信息</a></td>
+                </tr>
+                 <tr target="sid_user" rel="1">
+                    <td>1</td>
+                    <td>2012-12-14 09:00:00</td>
+                    <td>五棵松耀龙国际影城</td>
+                    <td>2012-12-14</td>
+                    <td>2012-12-17</td>
+                    <td>242</td>
+                    <td>240</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>数据异常</td>
+                    <td><a href="operate/showErrorLog-list.html" target="dialog" mask="true" rel="showSyncLog-error-view" width="850" height="500" title="查看异常信息">查看异常信息</a></td>
+                </tr>
+            </tbody>
+        </table>
+      <div class="panelBar">
+            <div class="pages">
+                <span>显示</span>
+                <select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                    <option value="200">200</option>
+                </select>
+                <span>条，共1条</span>
+            </div>
+            <div class="pagination" targetType="navTab" totalCount="1" numPerPage="20" pageNumShown="10" currentPage="1"></div>
+        </div>
+    </div>
+</div>

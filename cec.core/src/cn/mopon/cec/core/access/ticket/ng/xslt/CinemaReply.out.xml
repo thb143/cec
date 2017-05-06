@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OnlineTicketingServiceReply Version="1.0"
+	Datetime="2014-04-12T20:58:02">
+	<QueryCinemaReply ErrorCode="" ErrorMessage=""
+		Id="ID_QueryCinemaReply" Status="Success">
+		<Cinema>
+			<code>36090702</code>
+			<name>NG</name>
+			<address />
+			<hallCount>99</hallCount>
+			<halls>
+				<Hall>
+					<code>1007814032100001</code>
+					<name>1号厅</name>
+					<seatCount>315</seatCount>
+				</Hall>
+				<Hall>
+					<code>1007814032101056</code>
+					<name>2号厅</name>
+					<seatCount>140</seatCount>
+				</Hall>
+				<Hall>
+					<code>1007814032201057</code>
+					<name>3号厅</name>
+					<seatCount>144</seatCount>
+				</Hall>
+			</halls>
+		</Cinema>
+	</QueryCinemaReply>
+</OnlineTicketingServiceReply>

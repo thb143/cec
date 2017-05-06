@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RealCheckSeatStateResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ResultCode>0</ResultCode>
+	<OrderNo>49777469</OrderNo>
+	<SeatInfos>
+		<SeatInfo>
+			<SeatNo>04010103</SeatNo>
+			<TicketPrice>81.0</TicketPrice>
+			<SeatRow>1</SeatRow>
+			<SeatCol>3</SeatCol>
+			<SeatPieceNo>01</SeatPieceNo>
+		</SeatInfo>
+	</SeatInfos>
+</RealCheckSeatStateResult>

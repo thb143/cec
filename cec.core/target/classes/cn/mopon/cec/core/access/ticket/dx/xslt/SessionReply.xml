@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<status>1</status>
+	<errorMessage />
+	<errorCode />
+	<shows>
+		<show>
+			<code>506420141124101154</code>
+			<hall>
+				<code>445</code>
+			</hall>
+			<filmCode>051200712013</filmCode>
+			<language>国语</language>
+			<showType>2</showType>
+			<showTime>2014-11-29 23:20:00</showTime>
+			<startTime>2014-11-29 23:20:00</startTime>
+			<endTime>2014-11-30 01:20:00</endTime>
+			<minPrice>25</minPrice>
+			<stdPrice>120</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>506520141124101154</code>
+			<hall>
+				<code>437</code>
+			</hall>
+			<filmCode>001106782010</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-29 23:50:00</showTime>
+			<startTime>2014-11-29 23:50:00</startTime>
+			<endTime>2014-11-30 01:25:00</endTime>
+			<minPrice>15</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>506620141124101154</code>
+			<hall>
+				<code>439</code>
+			</hall>
+			<filmCode>051400422014</filmCode>
+			<language>国语</language>
+			<showType>4</showType>
+			<showTime>2014-11-29 23:50:00</showTime>
+			<startTime>2014-11-29 23:50:00</startTime>
+			<endTime>2014-11-30 01:30:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>160</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>506720141124101154</code>
+			<hall>
+				<code>440</code>
+			</hall>
+			<filmCode>001104042014</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 00:05:00</showTime>
+			<startTime>2014-11-30 00:05:00</startTime>
+			<endTime>2014-11-30 01:55:00</endTime>
+			<minPrice>35</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>506820141124101154</code>
+			<hall>
+				<code>400</code>
+			</hall>
+			<filmCode>001104042014</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 00:25:00</showTime>
+			<startTime>2014-11-30 00:25:00</startTime>
+			<endTime>2014-11-30 02:15:00</endTime>
+			<minPrice>35</minPrice>
+			<stdPrice>1</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>506920141124101154</code>
+			<hall>
+				<code>487</code>
+			</hall>
+			<filmCode>001107962012</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 00:30:00</showTime>
+			<startTime>2014-11-30 00:30:00</startTime>
+			<endTime>2014-11-30 02:30:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>507020141124101154</code>
+			<hall>
+				<code>401</code>
+			</hall>
+			<filmCode>001104042014</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 00:35:00</showTime>
+			<startTime>2014-11-30 00:35:00</startTime>
+			<endTime>2014-11-30 02:25:00</endTime>
+			<minPrice>35</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>507120141124101154</code>
+			<hall>
+				<code>438</code>
+			</hall>
+			<filmCode>001105262013</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 00:35:00</showTime>
+			<startTime>2014-11-30 00:35:00</startTime>
+			<endTime>2014-11-30 02:35:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>507220141124101154</code>
+			<hall>
+				<code>453</code>
+			</hall>
+			<filmCode>001107962012</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 00:35:00</showTime>
+			<startTime>2014-11-30 00:35:00</startTime>
+			<endTime>2014-11-30 02:35:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>10</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>507320141124101154</code>
+			<hall>
+				<code>445</code>
+			</hall>
+			<filmCode>001107962012</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 01:25:00</showTime>
+			<startTime>2014-11-30 01:25:00</startTime>
+			<endTime>2014-11-30 03:25:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>507420141124101154</code>
+			<hall>
+				<code>440</code>
+			</hall>
+			<filmCode>001105262013</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 02:00:00</showTime>
+			<startTime>2014-11-30 02:00:00</startTime>
+			<endTime>2014-11-30 04:00:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>507520141124101154</code>
+			<hall>
+				<code>440</code>
+			</hall>
+			<filmCode>001102802014</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 04:05:00</showTime>
+			<startTime>2014-11-30 04:05:00</startTime>
+			<endTime>2014-11-30 05:35:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>512820141127193516</code>
+			<hall>
+				<code>400</code>
+			</hall>
+			<filmCode>001104042014</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 09:50:00</showTime>
+			<startTime>2014-11-30 09:50:00</startTime>
+			<endTime>2014-11-30 11:40:00</endTime>
+			<minPrice>35</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>512920141127193516</code>
+			<hall>
+				<code>439</code>
+			</hall>
+			<filmCode>001103552013</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 09:50:00</showTime>
+			<startTime>2014-11-30 09:50:00</startTime>
+			<endTime>2014-11-30 11:35:00</endTime>
+			<minPrice>1</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>513020141127193516</code>
+			<hall>
+				<code>401</code>
+			</hall>
+			<filmCode>051400422014</filmCode>
+			<language>国语</language>
+			<showType>4</showType>
+			<showTime>2014-11-30 10:00:00</showTime>
+			<startTime>2014-11-30 10:00:00</startTime>
+			<endTime>2014-11-30 11:40:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>160</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>513120141127193516</code>
+			<hall>
+				<code>438</code>
+			</hall>
+			<filmCode>001104242010</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 10:05:00</showTime>
+			<startTime>2014-11-30 10:05:00</startTime>
+			<endTime>2014-11-30 12:35:00</endTime>
+			<minPrice>35</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>513220141127193516</code>
+			<hall>
+				<code>437</code>
+			</hall>
+			<filmCode>001105262013</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 10:20:00</showTime>
+			<startTime>2014-11-30 10:20:00</startTime>
+			<endTime>2014-11-30 12:20:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>513320141127193516</code>
+			<hall>
+				<code>453</code>
+			</hall>
+			<filmCode>001107962012</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 10:30:00</showTime>
+			<startTime>2014-11-30 10:30:00</startTime>
+			<endTime>2014-11-30 12:30:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>513420141127193516</code>
+			<hall>
+				<code>440</code>
+			</hall>
+			<filmCode>001105262013</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 10:55:00</showTime>
+			<startTime>2014-11-30 10:55:00</startTime>
+			<endTime>2014-11-30 12:55:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>513520141127193516</code>
+			<hall>
+				<code>445</code>
+			</hall>
+			<filmCode>001103552013</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 11:10:00</showTime>
+			<startTime>2014-11-30 11:10:00</startTime>
+			<endTime>2014-11-30 12:55:00</endTime>
+			<minPrice>1</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>513620141127193516</code>
+			<hall>
+				<code>400</code>
+			</hall>
+			<filmCode>001104042014</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 11:55:00</showTime>
+			<startTime>2014-11-30 11:55:00</startTime>
+			<endTime>2014-11-30 13:45:00</endTime>
+			<minPrice>35</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>513720141127193516</code>
+			<hall>
+				<code>401</code>
+			</hall>
+			<filmCode>001104042014</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 12:00:00</showTime>
+			<startTime>2014-11-30 12:00:00</startTime>
+			<endTime>2014-11-30 13:50:00</endTime>
+			<minPrice>35</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>513820141127193516</code>
+			<hall>
+				<code>439</code>
+			</hall>
+			<filmCode>051400422014</filmCode>
+			<language>国语</language>
+			<showType>4</showType>
+			<showTime>2014-11-30 12:00:00</showTime>
+			<startTime>2014-11-30 12:00:00</startTime>
+			<endTime>2014-11-30 13:40:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>160</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>513920141127193516</code>
+			<hall>
+				<code>437</code>
+			</hall>
+			<filmCode>051400422014</filmCode>
+			<language>国语</language>
+			<showType>4</showType>
+			<showTime>2014-11-30 12:40:00</showTime>
+			<startTime>2014-11-30 12:40:00</startTime>
+			<endTime>2014-11-30 14:20:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>160</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>514020141127193516</code>
+			<hall>
+				<code>453</code>
+			</hall>
+			<filmCode>001107962012</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 12:45:00</showTime>
+			<startTime>2014-11-30 12:45:00</startTime>
+			<endTime>2014-11-30 14:45:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>514120141127193516</code>
+			<hall>
+				<code>438</code>
+			</hall>
+			<filmCode>001204112012</filmCode>
+			<language>国语</language>
+			<showType>2</showType>
+			<showTime>2014-11-30 12:50:00</showTime>
+			<startTime>2014-11-30 12:50:00</startTime>
+			<endTime>2014-11-30 14:30:00</endTime>
+			<minPrice>25</minPrice>
+			<stdPrice>120</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>514220141127193516</code>
+			<hall>
+				<code>440</code>
+			</hall>
+			<filmCode>001105262013</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 13:10:00</showTime>
+			<startTime>2014-11-30 13:10:00</startTime>
+			<endTime>2014-11-30 15:10:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>514320141127193516</code>
+			<hall>
+				<code>445</code>
+			</hall>
+			<filmCode>001104112012</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 13:35:00</showTime>
+			<startTime>2014-11-30 13:35:00</startTime>
+			<endTime>2014-11-30 15:15:00</endTime>
+			<minPrice>20</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>514420141127193516</code>
+			<hall>
+				<code>400</code>
+			</hall>
+			<filmCode>001104042014</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 14:00:00</showTime>
+			<startTime>2014-11-30 14:00:00</startTime>
+			<endTime>2014-11-30 15:50:00</endTime>
+			<minPrice>35</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>514520141127193516</code>
+			<hall>
+				<code>401</code>
+			</hall>
+			<filmCode>051400422014</filmCode>
+			<language>国语</language>
+			<showType>4</showType>
+			<showTime>2014-11-30 14:10:00</showTime>
+			<startTime>2014-11-30 14:10:00</startTime>
+			<endTime>2014-11-30 15:50:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>160</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>514620141127193516</code>
+			<hall>
+				<code>439</code>
+			</hall>
+			<filmCode>051400422014</filmCode>
+			<language>国语</language>
+			<showType>4</showType>
+			<showTime>2014-11-30 14:15:00</showTime>
+			<startTime>2014-11-30 14:15:00</startTime>
+			<endTime>2014-11-30 15:55:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>160</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>514720141127193516</code>
+			<hall>
+				<code>437</code>
+			</hall>
+			<filmCode>001104042014</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 14:40:00</showTime>
+			<startTime>2014-11-30 14:40:00</startTime>
+			<endTime>2014-11-30 16:30:00</endTime>
+			<minPrice>35</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>514820141127193516</code>
+			<hall>
+				<code>438</code>
+			</hall>
+			<filmCode>001204112012</filmCode>
+			<language>国语</language>
+			<showType>2</showType>
+			<showTime>2014-11-30 14:45:00</showTime>
+			<startTime>2014-11-30 14:45:00</startTime>
+			<endTime>2014-11-30 16:25:00</endTime>
+			<minPrice>25</minPrice>
+			<stdPrice>120</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>514920141127193516</code>
+			<hall>
+				<code>453</code>
+			</hall>
+			<filmCode>001107962012</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 15:00:00</showTime>
+			<startTime>2014-11-30 15:00:00</startTime>
+			<endTime>2014-11-30 17:00:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>515020141127193516</code>
+			<hall>
+				<code>440</code>
+			</hall>
+			<filmCode>001105262013</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 15:25:00</showTime>
+			<startTime>2014-11-30 15:25:00</startTime>
+			<endTime>2014-11-30 17:25:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>515120141127193516</code>
+			<hall>
+				<code>445</code>
+			</hall>
+			<filmCode>003102182012</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 15:50:00</showTime>
+			<startTime>2014-11-30 15:50:00</startTime>
+			<endTime>2014-11-30 17:40:00</endTime>
+			<minPrice>20</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>515220141127193516</code>
+			<hall>
+				<code>400</code>
+			</hall>
+			<filmCode>001104042014</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 16:05:00</showTime>
+			<startTime>2014-11-30 16:05:00</startTime>
+			<endTime>2014-11-30 17:55:00</endTime>
+			<minPrice>35</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>515320141127193516</code>
+			<hall>
+				<code>439</code>
+			</hall>
+			<filmCode>001204112012</filmCode>
+			<language>国语</language>
+			<showType>2</showType>
+			<showTime>2014-11-30 16:10:00</showTime>
+			<startTime>2014-11-30 16:10:00</startTime>
+			<endTime>2014-11-30 17:50:00</endTime>
+			<minPrice>25</minPrice>
+			<stdPrice>120</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>515420141127193516</code>
+			<hall>
+				<code>401</code>
+			</hall>
+			<filmCode>001302802014</filmCode>
+			<language>国语</language>
+			<showType>3</showType>
+			<showTime>2014-11-30 16:15:00</showTime>
+			<startTime>2014-11-30 16:15:00</startTime>
+			<endTime>2014-11-30 17:45:00</endTime>
+			<minPrice>35</minPrice>
+			<stdPrice>160</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>515520141127193516</code>
+			<hall>
+				<code>438</code>
+			</hall>
+			<filmCode>051400422014</filmCode>
+			<language>国语</language>
+			<showType>4</showType>
+			<showTime>2014-11-30 16:40:00</showTime>
+			<startTime>2014-11-30 16:40:00</startTime>
+			<endTime>2014-11-30 18:20:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>160</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>515620141127193516</code>
+			<hall>
+				<code>437</code>
+			</hall>
+			<filmCode>001104242010</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 16:50:00</showTime>
+			<startTime>2014-11-30 16:50:00</startTime>
+			<endTime>2014-11-30 19:20:00</endTime>
+			<minPrice>35</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>515720141127193516</code>
+			<hall>
+				<code>453</code>
+			</hall>
+			<filmCode>001107962012</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 17:15:00</showTime>
+			<startTime>2014-11-30 17:15:00</startTime>
+			<endTime>2014-11-30 19:15:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>515820141127193516</code>
+			<hall>
+				<code>440</code>
+			</hall>
+			<filmCode>001105262013</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 17:40:00</showTime>
+			<startTime>2014-11-30 17:40:00</startTime>
+			<endTime>2014-11-30 19:40:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>515920141127193516</code>
+			<hall>
+				<code>445</code>
+			</hall>
+			<filmCode>001102802014</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 17:55:00</showTime>
+			<startTime>2014-11-30 17:55:00</startTime>
+			<endTime>2014-11-30 19:25:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>516020141127193516</code>
+			<hall>
+				<code>439</code>
+			</hall>
+			<filmCode>001104112012</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 18:05:00</showTime>
+			<startTime>2014-11-30 18:05:00</startTime>
+			<endTime>2014-11-30 19:45:00</endTime>
+			<minPrice>20</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>516120141127193516</code>
+			<hall>
+				<code>400</code>
+			</hall>
+			<filmCode>001104042014</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 18:10:00</showTime>
+			<startTime>2014-11-30 18:10:00</startTime>
+			<endTime>2014-11-30 20:00:00</endTime>
+			<minPrice>35</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>516220141127193516</code>
+			<hall>
+				<code>401</code>
+			</hall>
+			<filmCode>001104042014</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 18:10:00</showTime>
+			<startTime>2014-11-30 18:10:00</startTime>
+			<endTime>2014-11-30 20:00:00</endTime>
+			<minPrice>35</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>516320141127193516</code>
+			<hall>
+				<code>438</code>
+			</hall>
+			<filmCode>001104242010</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 18:35:00</showTime>
+			<startTime>2014-11-30 18:35:00</startTime>
+			<endTime>2014-11-30 21:05:00</endTime>
+			<minPrice>35</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>516420141127193516</code>
+			<hall>
+				<code>453</code>
+			</hall>
+			<filmCode>001107962012</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 19:30:00</showTime>
+			<startTime>2014-11-30 19:30:00</startTime>
+			<endTime>2014-11-30 21:30:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>516520141127193516</code>
+			<hall>
+				<code>437</code>
+			</hall>
+			<filmCode>051400422014</filmCode>
+			<language>国语</language>
+			<showType>4</showType>
+			<showTime>2014-11-30 19:40:00</showTime>
+			<startTime>2014-11-30 19:40:00</startTime>
+			<endTime>2014-11-30 21:20:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>160</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>516620141127193516</code>
+			<hall>
+				<code>445</code>
+			</hall>
+			<filmCode>001102802014</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 19:45:00</showTime>
+			<startTime>2014-11-30 19:45:00</startTime>
+			<endTime>2014-11-30 21:15:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>516720141127193516</code>
+			<hall>
+				<code>440</code>
+			</hall>
+			<filmCode>051200712013</filmCode>
+			<language>国语</language>
+			<showType>2</showType>
+			<showTime>2014-11-30 19:55:00</showTime>
+			<startTime>2014-11-30 19:55:00</startTime>
+			<endTime>2014-11-30 21:55:00</endTime>
+			<minPrice>25</minPrice>
+			<stdPrice>120</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>516820141127193516</code>
+			<hall>
+				<code>439</code>
+			</hall>
+			<filmCode>001104112012</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 20:00:00</showTime>
+			<startTime>2014-11-30 20:00:00</startTime>
+			<endTime>2014-11-30 21:40:00</endTime>
+			<minPrice>20</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>516920141127193516</code>
+			<hall>
+				<code>400</code>
+			</hall>
+			<filmCode>001104042014</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 20:15:00</showTime>
+			<startTime>2014-11-30 20:15:00</startTime>
+			<endTime>2014-11-30 22:05:00</endTime>
+			<minPrice>35</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>517020141127193516</code>
+			<hall>
+				<code>401</code>
+			</hall>
+			<filmCode>051400422014</filmCode>
+			<language>国语</language>
+			<showType>4</showType>
+			<showTime>2014-11-30 20:20:00</showTime>
+			<startTime>2014-11-30 20:20:00</startTime>
+			<endTime>2014-11-30 22:00:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>160</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>517120141127193516</code>
+			<hall>
+				<code>438</code>
+			</hall>
+			<filmCode>051200712013</filmCode>
+			<language>国语</language>
+			<showType>2</showType>
+			<showTime>2014-11-30 21:20:00</showTime>
+			<startTime>2014-11-30 21:20:00</startTime>
+			<endTime>2014-11-30 23:20:00</endTime>
+			<minPrice>25</minPrice>
+			<stdPrice>120</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>517220141127193516</code>
+			<hall>
+				<code>445</code>
+			</hall>
+			<filmCode>001102802014</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 21:35:00</showTime>
+			<startTime>2014-11-30 21:35:00</startTime>
+			<endTime>2014-11-30 23:05:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>517320141127193516</code>
+			<hall>
+				<code>437</code>
+			</hall>
+			<filmCode>001104042014</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 21:40:00</showTime>
+			<startTime>2014-11-30 21:40:00</startTime>
+			<endTime>2014-11-30 23:30:00</endTime>
+			<minPrice>35</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>517420141127193516</code>
+			<hall>
+				<code>453</code>
+			</hall>
+			<filmCode>001107962012</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 21:45:00</showTime>
+			<startTime>2014-11-30 21:45:00</startTime>
+			<endTime>2014-11-30 23:45:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>517520141127193516</code>
+			<hall>
+				<code>439</code>
+			</hall>
+			<filmCode>001106782010</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 21:55:00</showTime>
+			<startTime>2014-11-30 21:55:00</startTime>
+			<endTime>2014-11-30 23:30:00</endTime>
+			<minPrice>15</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>517620141127193516</code>
+			<hall>
+				<code>440</code>
+			</hall>
+			<filmCode>051400422014</filmCode>
+			<language>国语</language>
+			<showType>4</showType>
+			<showTime>2014-11-30 22:10:00</showTime>
+			<startTime>2014-11-30 22:10:00</startTime>
+			<endTime>2014-11-30 23:50:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>160</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>517720141127193516</code>
+			<hall>
+				<code>401</code>
+			</hall>
+			<filmCode>001104042014</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 22:15:00</showTime>
+			<startTime>2014-11-30 22:15:00</startTime>
+			<endTime>2014-12-01 00:05:00</endTime>
+			<minPrice>35</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>517820141127193516</code>
+			<hall>
+				<code>400</code>
+			</hall>
+			<filmCode>001104042014</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 22:20:00</showTime>
+			<startTime>2014-11-30 22:20:00</startTime>
+			<endTime>2014-12-01 00:10:00</endTime>
+			<minPrice>35</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>517920141127193516</code>
+			<hall>
+				<code>445</code>
+			</hall>
+			<filmCode>051200712013</filmCode>
+			<language>国语</language>
+			<showType>2</showType>
+			<showTime>2014-11-30 23:20:00</showTime>
+			<startTime>2014-11-30 23:20:00</startTime>
+			<endTime>2014-12-01 01:20:00</endTime>
+			<minPrice>25</minPrice>
+			<stdPrice>120</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>518020141127193516</code>
+			<hall>
+				<code>437</code>
+			</hall>
+			<filmCode>001106782010</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-11-30 23:50:00</showTime>
+			<startTime>2014-11-30 23:50:00</startTime>
+			<endTime>2014-12-01 01:25:00</endTime>
+			<minPrice>15</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>518120141127193516</code>
+			<hall>
+				<code>439</code>
+			</hall>
+			<filmCode>051400422014</filmCode>
+			<language>国语</language>
+			<showType>4</showType>
+			<showTime>2014-11-30 23:50:00</showTime>
+			<startTime>2014-11-30 23:50:00</startTime>
+			<endTime>2014-12-01 01:30:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>160</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>518220141127193516</code>
+			<hall>
+				<code>487</code>
+			</hall>
+			<filmCode>051200712013</filmCode>
+			<language>国语</language>
+			<showType>2</showType>
+			<showTime>2014-12-01 00:00:00</showTime>
+			<startTime>2014-12-01 00:00:00</startTime>
+			<endTime>2014-12-01 02:00:00</endTime>
+			<minPrice>25</minPrice>
+			<stdPrice>120</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>518320141127193516</code>
+			<hall>
+				<code>440</code>
+			</hall>
+			<filmCode>001104042014</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-12-01 00:05:00</showTime>
+			<startTime>2014-12-01 00:05:00</startTime>
+			<endTime>2014-12-01 01:55:00</endTime>
+			<minPrice>35</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>518420141127193516</code>
+			<hall>
+				<code>400</code>
+			</hall>
+			<filmCode>001104042014</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-12-01 00:25:00</showTime>
+			<startTime>2014-12-01 00:25:00</startTime>
+			<endTime>2014-12-01 02:15:00</endTime>
+			<minPrice>35</minPrice>
+			<stdPrice>1</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>518520141127193516</code>
+			<hall>
+				<code>401</code>
+			</hall>
+			<filmCode>001104042014</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-12-01 00:35:00</showTime>
+			<startTime>2014-12-01 00:35:00</startTime>
+			<endTime>2014-12-01 02:25:00</endTime>
+			<minPrice>35</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>518620141127193516</code>
+			<hall>
+				<code>438</code>
+			</hall>
+			<filmCode>001105262013</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-12-01 00:35:00</showTime>
+			<startTime>2014-12-01 00:35:00</startTime>
+			<endTime>2014-12-01 02:35:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>518720141127193516</code>
+			<hall>
+				<code>453</code>
+			</hall>
+			<filmCode>001107962012</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-12-01 00:35:00</showTime>
+			<startTime>2014-12-01 00:35:00</startTime>
+			<endTime>2014-12-01 02:35:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>10</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>518820141127193516</code>
+			<hall>
+				<code>445</code>
+			</hall>
+			<filmCode>001107962012</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-12-01 01:25:00</showTime>
+			<startTime>2014-12-01 01:25:00</startTime>
+			<endTime>2014-12-01 03:25:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>518920141127193516</code>
+			<hall>
+				<code>440</code>
+			</hall>
+			<filmCode>001105262013</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-12-01 02:00:00</showTime>
+			<startTime>2014-12-01 02:00:00</startTime>
+			<endTime>2014-12-01 04:00:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+		<show>
+			<code>519020141127193516</code>
+			<hall>
+				<code>440</code>
+			</hall>
+			<filmCode>001102802014</filmCode>
+			<language>国语</language>
+			<showType>1</showType>
+			<showTime>2014-12-01 04:05:00</showTime>
+			<startTime>2014-12-01 04:05:00</startTime>
+			<endTime>2014-12-01 05:35:00</endTime>
+			<minPrice>30</minPrice>
+			<stdPrice>80</stdPrice>
+			<through>false</through>
+		</show>
+	</shows>
+</root>

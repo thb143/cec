@@ -1,0 +1,1 @@
+  <@pri.selectChannel  path="specialPolicy.channels"/> 

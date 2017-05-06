@@ -1,0 +1,63 @@
+<div class="page">
+    <div class="pageContent">
+        <form method="post" action="ajaxDone1.html" class="pageForm required-validate" onsubmit="return validateCallback(this, dialogAjaxDone);">
+        <div class="pageFormContent" layoutH="60">
+            <dl>
+                <dt>影院名称：</dt>
+                <dd><input type="text" name="cinema.name" size="30" value="大地数字影院" disabled="disabled"/></dd>
+            </dl>
+            <dl>
+                <dt>影厅编码:</dt>
+                <dd><input type="text" name="hall.code" size="30" value="546545" disabled="disabled"/></dd>             
+            </dl>
+             <dl>
+                <dt>影厅名称：</dt>
+                <dd><input type="text" name="hall.name" size="30" class="required" value="一号厅"/></dd>
+            </dl>
+            <dl>
+                <dt>影厅类型：</dt>
+                <dd>
+                    <select class="combox required" name="hall.type" size="40" class="required">
+                        <option value="1" selected="selected">Normal</option>
+                        <option value="2">3D</option>
+                        <option value="3">MAX</option>
+                        <option value="4">MAX3D</option>
+                    </select>
+                </dd>
+            </dl>
+            <dl>
+                <dt>是否贵宾厅：</dt>
+                <dd>
+                    <input type="radio" name="r1"/>是&nbsp;<input type="radio" name="r1" checked="checked"/>否
+                </dd>
+            </dl>
+            <dl>
+                <dt>座位数量：</dt>
+                <dd><input type="text" name="hall.seatCount" size="30" value="78" class="required"/></dd>
+            </dl>
+            <dl>
+                <dt>备注：</dt>
+                <dd><textarea name="hall.intro" cols="30" rows="5"/></dd>
+            </dl>
+        </div>
+        <div class="formBar">
+            <ul>
+                <li>
+                    <div class="buttonActive">
+                        <div class="buttonContent">
+                            <button type="submit">保存</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="button">
+                        <div class="buttonContent">
+                            <button type="button" class="close">取消</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,86 @@
+<div class="page">
+    <div class="pageHeader">
+        <div class="searchBar">
+            <div class="subBar">
+                <ul>
+                    <li><input name="search"/></li>
+                    <li><div class="buttonActive"><div class="buttonContent"><button type="submit">检索 </button></div></div></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="pageContent">
+        <form method="post" action="ajaxDone1.html" class="pageForm required-validate" onsubmit="return validateCallback(this, dialogAjaxResult);">
+            <div class="pageFormContent" layoutH="120">
+                <div id="w_list_print">
+                    <table class="list" width="98%" targetType="navTab" >
+                        <thead>
+                            <tr>
+                                <th colspan="2">广东省</th>
+                            </tr>
+                            <tr>
+                                <th colspan="2">深圳</th>
+                            </tr>
+                            <tr>
+                                <td width="80" orderField="name" >影院</th>
+                                <td width="100" orderField="num" >影厅</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr target="sid_user" rel="1">
+                                <td>兜有</td>
+                                <td><input type="checkbox" />1号厅、<input type="checkbox" />3号厅、<input type="checkbox" />5号厅</td>
+                            </tr>
+                            <tr target="sid_user" rel="1">
+                                <td>万达影院</td>
+                                <td><input type="checkbox" />11号厅、<input type="checkbox" />13号厅、<input type="checkbox" />15号厅</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="w_list_print">
+                    <table class="list" width="98%" targetType="navTab" >
+                        <thead>
+                            <tr>
+                                <th colspan="2">广东省</th>
+                            </tr>
+                            <tr>
+                                <th colspan="2">广州</th>
+                            </tr>
+                            <tr>
+                                <td width="80" orderField="name" >影院</th>
+                                <td width="100" orderField="num" >影厅</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr target="sid_user" rel="1">
+                                <td>兜有</td>
+                                <td><input type="checkbox" />1号厅、<input type="checkbox" />3号厅、<input type="checkbox" />5号厅</td>
+                            </tr>
+                            <tr target="sid_user" rel="1">
+                                <td>万达影院</td>
+                                <td><input type="checkbox" />11号厅、<input type="checkbox" />13号厅、<input type="checkbox" />15号厅</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="formBar">
+                <ul>
+                    <li>
+                       <a class="button"><span>确定</span></a>
+                    </li>
+                    <li>
+                        <div class="button">
+                            <div class="buttonContent">
+                                <button type="button" class="close">
+                                    取消
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </div>
+</div>

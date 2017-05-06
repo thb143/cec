@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SellTicketResult>
+	<ResultCode>0</ResultCode>
+	<Order>
+		<cinemaOrderCode>49780721</cinemaOrderCode>
+		<voucher>
+			<verifyCode>753482</verifyCode>
+			<printCode>49780721</printCode>
+		</voucher>
+		<orderItems>
+			<orderItem>
+				<ticketCode>49780721</ticketCode>
+			</orderItem>
+		</orderItems>
+	</Order>
+</SellTicketResult>

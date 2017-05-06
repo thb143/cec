@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OnlineTicketingServiceReply Version="1.0"
+	Datetime="2014-04-12T20:58:02">
+	<QuerySeatReply Status="Success" ErrorCode=""
+		ErrorMessage="" Id="ID_QuerySeatReply">
+		<Hall>
+			<code>1007814032100001</code>
+			<seats>
+				<Seat>
+					<code>01</code>
+					<groupCode>1</groupCode>
+					<rowNum>1</rowNum>
+					<columnNum>1</columnNum>
+					<xCoord>1</xCoord>
+					<yCoord>1</yCoord>
+					<status>true</status>
+					<Hall>
+						<code>1007814032100001</code>
+					</Hall>
+				</Seat>
+				<Seat>
+					<code>02</code>
+					<groupCode>2</groupCode>
+					<rowNum>2</rowNum>
+					<columnNum>2</columnNum>
+					<xCoord>2</xCoord>
+					<yCoord>2</yCoord>
+					<status>false</status>
+					<Hall>
+						<code>1007814032100001</code>
+					</Hall>
+				</Seat>
+			</seats>
+		</Hall>
+	</QuerySeatReply>
+</OnlineTicketingServiceReply>

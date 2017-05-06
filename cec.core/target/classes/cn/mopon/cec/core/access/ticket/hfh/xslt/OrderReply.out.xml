@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<result>0</result>
+	<message>交易成功，订单已经确认</message>
+	<Order>
+		<voucher>
+			<printCode>99914112943133</printCode>
+			<verifyCode>07970611</verifyCode>
+		</voucher>
+		<status>4</status>
+		<cinemaOrderCode>99914112943133</cinemaOrderCode>
+		<orderItems>
+			<orderItem>
+				<ticketCode>9991411087867</ticketCode>
+				<seatCode>A_03</seatCode>
+			</orderItem>
+		</orderItems>
+	</Order>
+</data>

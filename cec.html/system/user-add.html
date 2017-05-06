@@ -1,0 +1,73 @@
+<div class="page">
+    <div class="pageContent">
+        <form action="ajaxDone1.html" class="pageForm required-validate" onsubmit="return validateCallback(this,dialogAjaxDone)">
+        <div class="pageFormContent" layoutH="60">
+            <h2 class="contentTitle">用户信息</h2>
+            <div class="divider"/>
+            <dl>
+                <dt>用户名：</dt>
+                <dd><input size="30" maxlength="20" class="required"/></dd>
+            </dl>
+            <dl>
+                <dt>姓名：</dt>
+                <dd>
+                    <input name="user.name" size="30"  maxlength="20" class="required"/>
+                </dd>
+            </dl>
+            <dl>
+                <dt>手机：</dt>
+                <dd><input size="30" name="phone" class="required phone"/></dd>
+            </dl>
+            <dl>
+                <dt>邮箱：</dt>
+                <dd><input size="30" name="email" class="required email"/></dd>
+            </dl>
+            <div class="divider"/>
+            <h2 class="contentTitle">默认职务</h2>
+            <div class="divider"/>
+            <dl>
+                <dt>关联机构：</dt>
+                <dd>
+                    <select class="required combox" name="test" size="30">
+                        <option value="1" selected="selected">兜有院线</option>
+                        <option value="2">泰久</option>
+                    </select>
+                </dd>
+            </dl>
+            <dl>
+                <dt>关联角色：</dt>
+                <dd>
+                    <select class="combox required" name="test" size="40">
+                        <option value="1" selected="selected">院线管理员</option>
+                        <option value="2">普通用户</option>
+                    </select>
+                </dd>
+            </dl>
+            <dl>
+                <dt>职务名称：</dt>
+                <dd>
+                    <input name="actor.name" size="30" maxlength="20" class="required"/>
+                </dd>
+            </dl>
+        </div>
+        <div class="formBar">
+            <ul>
+                <li>
+                    <div class="buttonActive">
+                        <div class="buttonContent">
+                            <button type="submit">保存</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="button">
+                        <div class="buttonContent">
+                            <button type="button" class="close">取消</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        </form>
+    </div>
+</div>

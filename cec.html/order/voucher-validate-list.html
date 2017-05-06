@@ -1,0 +1,84 @@
+<div class="page">
+    <div class="pageHeader">
+        <div class="searchBar">
+            <div class="subBar">
+                <ul>
+                    <li><input name="search"/></li>
+                    <li>
+                        <div class="buttonActive">
+                            <div class="buttonContent">
+                                <button type="submit">检索 </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="pageContent">
+        <table class="table" width="100%" layoutH="87">
+            <thead>
+                <tr>
+                    <th width="30px" align="center">序号</th>
+                    <th width="150px" align="center">凭证号</th>
+                    <th width="150px" align="center">订单号</th>
+                    <th width="120px" align="center">业务类型</th>
+                    <th width="150px" align="center">手机号</th>
+                    <th width="150px" align="center">操作人</th>
+                    <th align="center">验证时间</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr target="sid_user" rel="1">
+                    <td>1</td>
+                    <td>
+                        <a href="order/ticketOrder-view.html" target="dialog" rel="ticketOrder-view"
+                         mask="true" title="查看凭证" width="850" height="550">D12386678</a>
+                    </td>
+                    <td>T123426789</td>
+                    <td>选座票</td>
+                    <td>13685495752</td>
+                    <td>系统管理员</td>
+                    <td>2014-01-01 10:30:56</td>
+                </tr>
+                <tr target="sid_user" rel="1">
+                    <td>2</td>
+                    <td>
+                        <a href="order/ticketOrder-view.html" target="dialog" rel="ticketOrder-view"
+                         mask="true" title="查看订单" width="750" height="500">D12345548</a>
+                    </td>
+                    <td>T1234552389</td>
+                    <td>选座票</td>
+                    <td>13685495752</td>
+                    <td>系统管理员</td>
+                    <td>2014-01-01 10:36:56</td>
+                </tr>
+                <tr target="sid_user" rel="1">
+                    <td>3</td>
+                    <td>
+                        <a href="order/ticketOrder-view.html" target="dialog" rel="ticketOrder-view"
+                         mask="true" title="查看订单" width="750" height="500">D12345654</a>
+                    </td>
+                    <td>T123456723</td>
+                    <td>选座票</td>
+                    <td>13685495752</td>
+                    <td>系统管理员</td>
+                    <td>2014-01-01 11:50:56</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="panelBar">
+            <div class="pages">
+                <span>显示</span>
+                <select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                    <option value="200">200</option>
+                </select>
+                <span>条，共1条</span>
+            </div>
+            <div class="pagination" targetType="navTab" totalCount="1" numPerPage="20" pageNumShown="10" currentPage="1"></div>
+        </div>
+    </div>
+</div>

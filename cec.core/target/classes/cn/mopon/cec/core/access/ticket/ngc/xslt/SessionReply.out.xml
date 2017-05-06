@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<code>001</code>
+	<msg>操作成功。</msg>
+	<shows>
+		<show>
+			<code>141000000003</code>
+			<cinema>
+				<code>2</code>
+			</cinema>
+			<hall>
+				<code>314</code>
+			</hall>
+			<filmCode>100142</filmCode>
+			<showType>1</showType>
+			<language>汉语普通话</language>
+			<showTime>2014-10-10 16:00:00</showTime>
+			<minPrice>20.0</minPrice>
+			<stdPrice>70.0</stdPrice>
+			<status>1</status>
+			<through>0</through>
+		</show>
+		<show>
+			<code>141000000002</code>
+			<cinema>
+				<code>2</code>
+			</cinema>
+			<hall>
+				<code>314</code>
+			</hall>
+			<filmCode>100142</filmCode>
+			<showType>1</showType>
+			<language>汉语普通话</language>
+			<showTime>2014-10-10 13:30:00</showTime>
+			<minPrice>20.0</minPrice>
+			<stdPrice>70.0</stdPrice>
+			<status>1</status>
+			<through>0</through>
+		</show>
+		<show>
+			<code>141000000001</code>
+			<cinema>
+				<code>2</code>
+			</cinema>
+			<hall>
+				<code>314</code>
+			</hall>
+			<filmCode>100142</filmCode>
+			<showType>1</showType>
+			<language>汉语普通话</language>
+			<showTime>2014-10-10 11:05:00</showTime>
+			<minPrice>20.0</minPrice>
+			<stdPrice>25.0</stdPrice>
+			<status>1</status>
+			<through>0</through>
+		</show>
+	</shows>
+</data>

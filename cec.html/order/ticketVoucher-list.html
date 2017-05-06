@@ -1,0 +1,101 @@
+<div class="page">
+    <div class="pageHeader">
+        <div class="searchBar">
+            <div class="subBar">
+                <ul>
+                    <li><input name="search"/></li>
+                    <li>
+                        <div class="buttonActive">
+                            <div class="buttonContent">
+                                <button type="submit">检索 </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="pageContent">
+        <table class="table" width="100%" layoutH="87">
+            <thead>
+                <tr>
+                    <th width="30px" align="center">序号</th>
+                    <th width="130px" align="center">凭证编号</th>
+                    <th width="130px" align="center">订单号</th>
+                    <th width="120px" align="center">手机号</th>
+                    <th width="130px" align="center">下发时间</th>
+                    <th width="100px" align="center">下发方式</th>
+                    <th width="70px" align="center">凭证状态</th>
+                    <th width="70px" align="center">打印状态</th>
+                    <th width="70px" align="center">重打印次数</th>
+                    <th align="center">操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr target="sid_user" rel="1">
+                    <td>1</td>
+                    <td>
+                        <a href="order/ticketOrder-view.html" target="dialog" rel="ticketOrder-view"
+                         mask="true" title="查看凭证" width="850" height="550">D12345678</a>
+                    </td>
+                    <td>45154512511</td>
+                    <td>13261120716</td>
+                    <td>2014-04-19 10:30:59</td>
+                    <td>短信彩信并发</td>
+                    <td>已使用</td>
+                    <td>不允许</td>
+                    <td>1</td>
+                    <td>
+                        <a href="order/ticketVoucher-reset.html" target="dialog" rel="ticketVoucher-reset" mask="true" title="重置凭证" height="500">重置凭证</a>&nbsp;|&nbsp;
+                        <a href="order/ticketVoucher-repeat.html" target="dialog" 
+                        rel="ticketVoucher-repeat" mask="true" title="重发凭证" 
+                        height="500">重发凭证</a>&nbsp;|&nbsp;
+                        
+                        <a href="order/ticketVoucher-change.html" target="dialog"
+                          rel="ticketVoucher-change.html" mask="true" title="更换凭证" 
+                          height="500">更换凭证</a>&nbsp;|&nbsp;
+                        <a href="ajaxdone.html" target="ajaxTodo" title="您是否确定要设置可重打印？">设置可重打印</a>
+                    </td>
+                </tr>
+                 <tr target="sid_user" rel="1">
+                    <td>2</td>
+                    <td>
+                        <a href="order/ticketOrder-view.html" target="dialog" rel="ticketOrder-view"
+                         mask="true" title="查看凭证" width="850" height="550">D12345678</a>
+                    </td>
+                    <td>45154512511</td>
+                    <td>13261120716</td>
+                    <td>2014-04-19 10:30:59</td>
+                    <td>普通短信</td>
+                    <td>未使用</td>
+                    <td>允许</td>
+                    <td>2</td>
+                    <td>
+                        <a href="order/ticketVoucher-reset.html" target="dialog" rel="ticketVoucher-reset" mask="true" title="重置凭证" height="500">重置凭证</a>&nbsp;|&nbsp;
+                        <a href="order/ticketVoucher-repeat.html" target="dialog" 
+                        rel="ticketVoucher-repeat" mask="true" title="重发凭证" 
+                        height="500">重发凭证</a>&nbsp;|&nbsp;
+                        
+                        <a href="order/ticketVoucher-change.html" target="dialog"
+                          rel="ticketVoucher-change.html" mask="true" title="更换凭证" 
+                          height="500">更换凭证</a>&nbsp;|&nbsp;
+                         <a href="ajaxdone.html" target="ajaxTodo" title="您是否确定要设置可重打印？">设置可重打印</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="panelBar">
+            <div class="pages">
+                <span>显示</span>
+                <select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                    <option value="200">200</option>
+                </select>
+                <span>条，共1条</span>
+            </div>
+            <div class="pagination" targetType="navTab" totalCount="1" numPerPage="20" pageNumShown="10" currentPage="1"></div>
+        </div>
+    </div>
+</div>

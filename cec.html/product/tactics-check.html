@@ -1,0 +1,232 @@
+<style type="text/css">
+	.divider {
+		margin-top: 5px;
+	}
+	.ticket-policy dt {
+		width: 80%;
+	}
+</style>
+<div class="pageContent">
+    <form  id="aduitForm" method="post" action="ajaxDone1.html" class="pageForm required-validate"
+    onsubmit="return validateCallback(this, dialogAjaxDone);">
+        <div class="pageFormContent" layoutH="60">
+            <dl style="height:1px;">
+                <dt>
+                    <h3>策略基本信息</h3>
+                </dt>
+            </dl>
+            <dl style="height:1px;width:100%;">
+                <div class="divider"></div>
+            </dl>
+            <dl>
+                <dt>
+                    策略名称：
+                </dt>
+                <dd>
+                    2014年幸福南海定价策略
+                </dd>
+            </dl>
+            <dl class="nowrap">
+                <dt>
+                    有效日期：
+                </dt>
+                <dd>
+                    2014-01-01至2014-12-31
+                </dd>
+            </dl>
+            <dl class="nowrap">
+                <dt>
+                    备注：
+                </dt>
+                <dd>
+                    幸福南海定价策略。
+                </dd>
+            </dl>
+            <dl style="height:1px;width:100%; ">
+                <dt>
+                    <h3>策略定价规则</h3>
+                </dt>
+            </dl>
+            <dl style="width:100%;height:1px;margin-bottom:10px;">
+                <div class="divider"></div>
+            </dl>
+            <div class="panel collapse" minH="100" id="rule_2">
+	            <h1>
+	            <input type="checkbox" name="rule" value="1" />
+	            1.&nbsp;【<span class="green">已生效</span>&nbsp;-&nbsp;<span class="green">启用</span>】2D常规销售规则
+	            <span style="line-height:28px;margin-right:20px;float:right;">
+	                <a href="product/ticket-rule-edit.html" target="dialog" width="850" height="500" rel="ticket-rule-add">[编辑]</a>
+	                <a href="#">[复制]</a>
+	                <a href="#">[删除]</a>
+	                <a href="#">[停用]</a>
+	                <a href="#" onclick="up('1')">[上移]</a>
+	                <a href="#" onclick="down('1')">[下移]</a>
+	            </span>
+	            </h1>
+	            <div>
+	            	<table class="list" width="98%">
+					  <tr>
+		                 <td width="70">放映类型：</td>
+		                 <td>2D</td>
+		              </tr>
+		              <tr>
+		              	 <td width="70">影厅范围：</td>
+		                 <td>一号厅、二号厅、三号厅</td>
+		              </tr>
+		              <tr>
+						 <td width="70"> 时间限制：</td>
+		                 <td>全部时段</td>
+		              </tr>
+		              <tr>
+						 <td width="70">结算价格：</td>
+		                 <td>6折</td>
+		              </tr>
+					</table>
+	            </div>
+                <div>
+                    <table class="list" width="98%">
+                        <thead>
+                            <tr>
+                                <th width="40px" align="center">序号</th>
+                                <th align="center">渠道名称</th>
+                                <th width="80px" align="center">开放状态</th>
+                                <th width="80px" align="center">生效状态</th>
+                                <th width="100px" align="center">渠道返点</th>
+                                <th width="100px" align="center">手续费</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr target="sid_user" rel="1">
+                                <td class="text-center">1</td>
+                                <td class="text-center">淘宝电影</td>
+                                <td class="text-center green">开放</td>
+                                <td class="text-center green">已生效</td>
+                                <td class="text-right">1.00</td>
+                                <td class="text-right">1.00</td>
+                            </tr>
+                            <tr target="sid_user" rel="1">
+                                <td class="text-center">2</td>
+                                <td class="text-center">QQ电影</td>
+                                <td class="text-center gray">关闭</td>
+                                <td class="text-center green">已生效</td>
+                                <td class="text-right">4.00</td>
+                                <td class="text-right">3.00</td>
+                            </tr>
+                            <tr target="sid_user" rel="1">
+                                <td class="text-center">3</td>
+                                <td class="text-center">网易电影</td>
+                                <td class="text-center gray">关闭</td>
+                                <td class="text-center red">未生效</td>
+                                <td class="text-right">5.00</td>
+                                <td class="text-right">2.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="panel collapse" minH="100" id="rule_2">
+                <h1>
+		            <input type="checkbox" name="rule" value="1" />
+		            2.&nbsp;【<span class="red">待审核</span>&nbsp;-&nbsp;<span class="green">已生效</span>&nbsp;-&nbsp;<span class="green">启用</span>】3D常规销售规则
+		            <span style="line-height:28px;margin-right:20px;float:right;">
+		                <a href="product/ticket-rule-edit.html" target="dialog" width="850" height="500" rel="ticket-rule-add">[编辑]</a>
+		                <a href="#">[复制]</a>
+		                <a href="#">[删除]</a>
+		                <a href="#">[停用]</a>
+		                <a href="#" onclick="up('2')">[上移]</a>
+		                <a href="#" onclick="down('2')">[下移]</a>
+		            </span>
+	            </h1>
+	            <div>
+	            	<table class="list" width="98%">
+					  <tr>
+		                 <td width="70">放映类型：</td>
+		                 <td>2D</td>
+		                 <td>2D</td>
+		              </tr>
+		              <tr>
+		              	 <td width="70">影厅范围：</td>
+		                 <td>一号厅、二号厅、三号厅</td>
+		                 <td>一号厅、二号厅、三号厅</td>
+		              </tr>
+		              <tr>
+						 <td width="70">时间限制：</td>
+		                 <td>全部时段</td>
+		                 <td>全部时段</td>
+		              </tr>
+		              <tr>
+						 <td width="70">结算价格：</td>
+		                 <td>6折</td>
+		                 <td>7折</td>
+		              </tr>
+					</table>
+	            </div>
+                <div>
+                    <table class="list" width="98%">
+                        <thead>
+                            <tr>
+                                <th width="40px" align="center">序号</th>
+                                <th align="center">渠道名称</th>
+                                <th width="80px" align="center">开放状态</th>
+                                <th width="80px" align="center">生效状态</th>
+                                <th width="100px" align="center">渠道返点</th>
+                                <th width="100px" align="center">手续费</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr target="sid_user" rel="1">
+                                <td class="text-center">1</td>
+                                <td class="text-center">网易电影</td>
+                                <td class="text-center gray">关闭</td>
+                                <td class="text-center red">未生效</td>
+                                <td class="text-right">5.00</td>
+                                <td class="text-right">2.00</td>
+                            </tr>
+                            <tr target="sid_user" rel="1">
+                                <td class="text-center">2</td>
+                                <td class="text-center">淘宝电影</td>
+                                <td class="text-center green">开放</td>
+                                <td class="text-center green">已生效</td>
+                                <td class="text-right">1.00</td>
+                                <td class="text-right">1.00</td>
+                            </tr>
+                            <tr target="sid_user" rel="1">
+                                <td class="text-center">3</td>
+                                <td class="text-center">QQ电影</td>
+                                <td class="text-center gray">关闭</td>
+                                <td class="text-center green">已生效</td>
+                                <td class="text-right">4.00</td>
+                                <td class="text-right">3.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+        	</div>
+        </div>
+        <div class="formBar">
+            <ul>
+                <li>
+                    <a id="auditReturn" class="button" href="product/aduit-option.html" target="dialog" rel="aduit-option" mask="true" title="审核退回"  height="230"><span>审核退回</span></a>
+                </li>
+                <li>
+                    <div class="buttonActive">
+                        <div class="buttonContent">
+                            <button type="submit">
+                                审核通过
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="button">
+                        <div class="buttonContent">
+                            <button type="button" class="close">
+                                取消
+                            </button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payDetail>
+  <account>80000</account>
+  <accountBalance>2142.84</accountBalance>
+  <accumulativeIntegral>559</accumulativeIntegral>
+  <availableIntegral>357</availableIntegral>
+  <cardStatus>正常</cardStatus>
+  <cardType>1</cardType>
+  <consumeIntegral>0</consumeIntegral>
+  <consumeIntegralPercent>100.0</consumeIntegralPercent>
+  <enableDate>2014-09-09</enableDate>
+  <orderNo>34757466947883780121</orderNo>
+  <owner>adad</owner>
+  <policyName>金卡2 500</policyName>
+  <responseCode>0</responseCode>
+  <totalPayMoney>0.0</totalPayMoney>
+  <validDate>2014-10-09</validDate>
+</payDetail>

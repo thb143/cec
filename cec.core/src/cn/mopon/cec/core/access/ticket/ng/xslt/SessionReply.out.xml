@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OnlineTicketingServiceReply Version="1.0" Datetime="2014-11-27T17:40:21">
+	<DQuerySessionReply ErrorCode="" ErrorMessage="" Id="ID_DQuerySessionReply" Status="Success">
+		<shows>
+			<Show>
+				<cinema>
+					<code>31133208</code>
+				</cinema>
+				<hall>
+					<code>0000000000000012</code>
+				</hall>
+				<code>0514112701200019</code>
+				<filmCode>001105972014</filmCode>
+				<showTime>2014-11-27T23:55:00</showTime>
+				<through>false</through>
+				<minPrice>15.00</minPrice>
+				<stdPrice>25.00</stdPrice>
+				<language>韩语</language>
+				<duration>100</duration>
+				<showType>1</showType>
+			</Show>
+			<Show>
+				<cinema>
+					<code>31133208</code>
+				</cinema>
+				<hall>
+					<code>0132052611000026</code>
+				</hall>
+				<code>0514112702600017</code>
+				<filmCode>001105972014</filmCode>
+				<showTime>2014-11-27T23:55:00</showTime>
+				<through>false</through>
+				<minPrice>15.00</minPrice>
+				<stdPrice>25.00</stdPrice>
+				<language>普通话</language>
+				<duration>100</duration>
+				<showType>1</showType>
+			</Show>
+			<Show>
+				<cinema>
+					<code>31133208</code>
+				</cinema>
+				<hall>
+					<code>0132052611000016</code>
+				</hall>
+				<code>0514112701600018</code>
+				<filmCode>001105972014</filmCode>
+				<showTime>2014-11-27T23:55:00</showTime>
+				<through>false</through>
+				<minPrice>15.00</minPrice>
+				<stdPrice>25.00</stdPrice>
+				<language>英语</language>
+				<duration>100</duration>
+				<showType>1</showType>
+			</Show>
+		</shows>
+	</DQuerySessionReply>
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod
+				Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments" />
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+			<ds:Reference URI="#ID_DQuerySessionReply">
+				<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<ds:DigestValue>EFZvlNo/OXcjHNqTRLF2fAODLtw=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue />
+	</ds:Signature>
+</OnlineTicketingServiceReply>

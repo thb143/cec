@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+		<link href="mail.css" rel="stylesheet" type="text/css" />
+		<title>排期同步失败通知</title>
+	</head>
+	<body>
+		<p class="title">排期同步失败通知</p>
+		<p class="header">智慧影院云平台提醒您：</p>
+		
+		<p class="content">
+			系统于<strong>2014-08-13 14:10:00</strong>同步<strong>火凤凰测试影院</strong>的排期失败，失败信息如下：
+		</p>
+		<pre>
+			coo.base.exception.BusinessException: 没有放映计划信息 at
+			cn.mopon.cec.core.access.ticket.std.StdServiceReply.setSoapMessage(StdServiceReply.java:70)
+			at
+			cn.mopon.cec.core.access.ticket.std.StdTicketService.parseReplyEntity(StdTicketService.java:253)
+			at
+			cn.mopon.cec.core.access.ticket.std.StdTicketService.execute(StdTicketService.java:207)
+			at
+			cn.mopon.cec.core.access.ticket.std.StdTicketService.getShows(StdTicketService.java:94)
+			at
+			cn.mopon.cec.core.service.ShowService.getExternalShows(ShowService.java:596)
+			at
+			cn.mopon.cec.core.service.ShowService.getExternalShowsModel(ShowService.java:541)
+			at
+			cn.mopon.cec.core.service.ShowService.syncShows(ShowService.java:286)
+			at
+			cn.mopon.cec.core.service.ShowService$$FastClassByCGLIB$$c6770ca1.invoke()
+			at
+			org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+			at
+			org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:713)
+			at
+			org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+			at
+			org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:98)
+			at
+			org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:262)
+			at
+			org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:95)
+			at
+			org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+			at
+			org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:646)
+			at
+			cn.mopon.cec.core.service.ShowService$$EnhancerByCGLIB$$a74f91ad.syncShows()
+			at cn.mopon.cec.core.task.ShowSyncTask.run(ShowSyncTask.java:26) at
+			java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+			at
+			java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+			at java.lang.Thread.run(Thread.java:619)
+		</pre>
+		<p class="content">本次同步未能获取排期，请及时处理，感谢您的配合。</p>
+		
+		<p class="footer">
+			智慧影院云平台<br /> 2014-08-13 09:30:00
+		</p>
+	</body>
+</html>

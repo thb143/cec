@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<result>0</result>
+	<message />
+	<showSeats>
+		<ShowSeat>
+			<code>A_01</code>
+			<rowNum>A</rowNum>
+			<colNum>01</colNum>
+		</ShowSeat>
+		<ShowSeat>
+			<code>A_02</code>
+			<rowNum>A</rowNum>
+			<colNum>02</colNum>
+		</ShowSeat>
+		<ShowSeat>
+			<code>A_03</code>
+			<rowNum>A</rowNum>
+			<colNum>03</colNum>
+		</ShowSeat>
+		<ShowSeat>
+			<code>J_07</code>
+			<rowNum>J</rowNum>
+			<colNum>07</colNum>
+		</ShowSeat>
+		<ShowSeat>
+			<code>J_08</code>
+			<rowNum>J</rowNum>
+			<colNum>08</colNum>
+		</ShowSeat>
+		<ShowSeat>
+			<code>J_09</code>
+			<rowNum>J</rowNum>
+			<colNum>09</colNum>
+		</ShowSeat>
+	</showSeats>
+</data>

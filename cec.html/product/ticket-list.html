@@ -1,0 +1,87 @@
+<div class="page">
+    <div class="pageHeader">
+        <div class="searchBar">
+            <div class="subBar">
+                <ul>
+                     <li>放映时间：<input type="text" name="beginDate" class="date" size="10"/></li>
+                    <li>至：<input type="text" name="endDate" class="date" size="10"/></li>
+                    <li>
+                        <input name="search"/>
+                    </li>
+                    <li>
+                        <div class="buttonActive">
+                            <div class="buttonContent">
+                                <button type="submit">
+                                    检索
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="pageContent">
+        <form  id ="ticketListForm" method="post" action="ajaxDone1.html" class="pageForm"
+        onsubmit="return validateCallback(this, dialogAjaxDone);">
+            <table class="table" width="100%" layoutH="85">
+                <thead>
+                    <tr>
+                        <th width="30px" align="center">序号</th>
+                        <th width="130px" align="center">排期编码</th>
+                        <th width="180px" align="center">影院名称</th>
+                        <th width="120px" align="center">影厅名称</th>
+                        <th align="center">影片名称</th>
+                        <th width="60px" align="center">放映类型</th>
+                        <th width="40px" align="center">语言</th>
+                        <th width="130px" align="center">放映时间</th>
+                        <th width="70px" align="center">标准价</th>
+                        <th width="50px" align="center">状态</th>
+                        <th width="250px" align="center">操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr target="sid_comTicket" rel="1">
+                        <td>1</td>
+                        <td><a href="product/ticket-info.html" target="dialog" mask="true" rel="ticket-info" width="850" height="400"title="排期详情">1234567891234567</a></td>
+                        <td>中影南方</td>
+                        <td>贵宾厅</td>
+                        <td>美国队长</td>
+                        <td>3D</td>
+                        <td>英语</td>
+                        <td>2014-01-01 09:30:00</td>
+                        <td class="text-right">60.00</td>
+                        <td class="gray">下架</td>
+                        <td><a>上架</a>&nbsp;|&nbsp;<a href="product/ticket-channel-list.html" target="dialog" mask="true" rel="ticket-channel-list" title="销售渠道管理" width="850" height="500">销售渠道</a>&nbsp;|&nbsp;<a href="product/order-list.html" target="dialog" mask="true" rel="order-list" width="850" height="500" title="订单记录列表">订单记录</a>&nbsp;|&nbsp;<a href="product/return-list.html" target="dialog" mask="true" rel="return-list" width="850" height="500" title="退款记录列表">退款记录</a></td>
+                    </tr>
+                    <tr target="sid_comTicket" rel="1">
+                        <td>2</td>
+                        <td><a href="product/ticket-info.html" target="dialog" mask="true" rel="ticket-info" width="850" height="400"title="排期详情">2234567891234569</a></td>
+                        <td>院线通</td>
+                        <td>一号厅</td>
+                        <td>整容日记</td>
+                        <td>2D</td>
+                        <td>国语</td>
+                        <td>2014-04-04 10:30:00</td>
+                        <td class="text-right">40.00</td>
+                        <td class="green">上架</td>
+                        <td><a>下架</a>&nbsp;|&nbsp;<a href="product/ticket-channel-list.html" target="dialog" mask="true" rel="ticket-channel-list" title="销售渠道管理" width="950" height="500">销售渠道</a>&nbsp;|&nbsp;<a href="product/order-list.html" target="dialog" mask="true" rel="order-list" width="850" height="500" title="订单记录列表">订单记录</a>&nbsp;|&nbsp;<a href="product/return-list.html" target="dialog" mask="true" rel="return-list" width="850" height="500" title="退款记录列表">退款记录</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        <div class="panelBar">
+            <div class="pages">
+                <span>显示</span>
+                <select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                    <option value="200">200</option>
+                </select>
+                <span>条，共4条</span>
+            </div>
+            <div class="pagination" targetType="navTab" totalCount="1" numPerPage="20" pageNumShown="10" currentPage="1"></div>
+        </div>
+    </div>
+</div>

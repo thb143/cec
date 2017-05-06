@@ -1,0 +1,1710 @@
+
+<data version="1.0" result="0" message="">
+	<shows cinemaId="34013201" cinemaName="幸福蓝海合肥港汇店" cinemaLinkId="240"
+		version="1.0">
+		<show hallId="3" hallName="3号厅" seqNo="2401512134L22R040Z"
+			showSeqNo="1" date="2015-12-13" time="1000" updateLevel="0"
+			updateType="I">
+			<film id="07410019201501" filmUId="15052809325423220" name="极速风流"
+				language="英语" title="极速流" duration="127" imax="0" dimensional="2D"
+				code="074100192015" />
+			<price lowest="20">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="2401512134DP2DV480"
+			showSeqNo="1" date="2015-12-13" time="1010" updateLevel="0"
+			updateType="I">
+			<film id="051c0089201502" filmUId="15112704063423058" name="海绵宝宝（中文）"
+				language="国语" title="海绵宝宝" duration="99" imax="0" dimensional="3D"
+				code="051c00892015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="24015121348HTFHR22"
+			showSeqNo="1" date="2015-12-13" time="1030" updateLevel="0"
+			updateType="I">
+			<film id="00110636201501" filmUId="15112402305722972" name="擦枪走火"
+				language="国语" title="擦枪走火" duration="102" imax="0" dimensional="2D"
+				code="001106362015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="2401512134R02N8H08"
+			showSeqNo="1" date="2015-12-13" time="1050" updateLevel="0"
+			updateType="I">
+			<film id="00110672201501" filmUId="15112311450322884" name="怦然动"
+				language="国语" title="怦然星动" duration="104" imax="0" dimensional="2D"
+				code="001106722015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号双机4K厅" seqNo="2401512134T8B8LNHR"
+			showSeqNo="1" date="2015-12-13" time="1120" updateLevel="0"
+			updateType="I">
+			<film id="05120083201501" filmUId="15111105351322634" name="火星救援"
+				language="英语" title="火星救援" duration="150" imax="0" dimensional="3D"
+				code="051200832015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="2401512132F4V42404"
+			showSeqNo="2" date="2015-12-13" time="1200" updateLevel="0"
+			updateType="I">
+			<film id="00310082201501" filmUId="15110203312522504" name="我的少女时代"
+				language="国语" title="我的少女时代" duration="141" imax="0" dimensional="2D"
+				code="003100822015" />
+			<price lowest="20">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="2401512132Z4XD4FXL"
+			showSeqNo="2" date="2015-12-13" time="1220" updateLevel="0"
+			updateType="I">
+			<film id="07410019201501" filmUId="15052809325423220" name="极速风流"
+				language="英语" title="极速风流" duration="127" imax="0" dimensional="2D"
+				code="074100192015" />
+			<price lowest="20">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号双机4K巨幕厅" seqNo="240151213266TJVSS7"
+			showSeqNo="1" date="2015-12-13" time="1225" updateLevel="0"
+			updateType="I">
+			<film id="05120083201501" filmUId="15111105351322634" name="火星救援"
+				language="英语" title="火救援" duration="150" imax="0" dimensional="3D"
+				code="051200832015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="100" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151213ZZ4866NH0"
+			showSeqNo="2" date="2015-12-13" time="1225" updateLevel="0"
+			updateType="I">
+			<film id="00110350201501" filmUId="15120110352923088" name="师父"
+				language="国语" title="师父" duration="115" imax="0" dimensional="2D"
+				code="001103502015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="240151213PVJ68ZHJ8"
+			showSeqNo="2" date="2015-12-13" time="1245" updateLevel="0"
+			updateType="I">
+			<film id="05120090201501" filmUId="15112704033823046" name="极盗者（３Ｄ）"
+				language="英语" title="极盗者" duration="119" imax="0" dimensional="3D"
+				code="051200902015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号双机4K厅" seqNo="2401512132F0Z26X8D"
+			showSeqNo="2" date="2015-12-13" time="1405" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151213H8428HBTT"
+			showSeqNo="3" date="2015-12-13" time="1430" updateLevel="0"
+			updateType="I">
+			<film id="00110350201501" filmUId="15120110352923088" name="师父"
+				language="国语" title="师父" duration="115" imax="0" dimensional="2D"
+				code="001103502015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="240151213B66262R4T"
+			showSeqNo="3" date="2015-12-13" time="1435" updateLevel="0"
+			updateType="I">
+			<film id="05120083201501" filmUId="15111105351322634" name="火星救援"
+				language="英语" title="火星救援" duration="150" imax="0" dimensional="3D"
+				code="051200832015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="240151213422V4TT0L"
+			showSeqNo="3" date="2015-12-13" time="1440" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="2401512130T486FNZL"
+			showSeqNo="3" date="2015-12-13" time="1500" updateLevel="0"
+			updateType="I">
+			<film id="05120090201501" filmUId="15112704033823046" name="极盗者（３Ｄ）"
+				language="英语" title="极盗者" duration="119" imax="0" dimensional="3D"
+				code="051200902015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号双机4K巨幕厅" seqNo="2401512134Z8JRPPT8"
+			showSeqNo="2" date="2015-12-13" time="1510" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="100" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号双机4K厅" seqNo="240151213LRZXNH44V"
+			showSeqNo="3" date="2015-12-13" time="1600" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="2401512138XP822R0H"
+			showSeqNo="4" date="2015-12-13" time="1635" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="2401512132H2PFVD44"
+			showSeqNo="4" date="2015-12-13" time="1640" updateLevel="0"
+			updateType="I">
+			<film id="00110350201501" filmUId="15120110352923088" name="师父"
+				language="国语" title="师父" duration="115" imax="0" dimensional="2D"
+				code="001103502015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号双机4K巨幕厅" seqNo="2401512130PLT8ZD02"
+			showSeqNo="3" date="2015-12-13" time="1705" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="100" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="2401512132BN2VXV24"
+			showSeqNo="4" date="2015-12-13" time="1710" updateLevel="0"
+			updateType="I">
+			<film id="05120090201501" filmUId="15112704033823046" name="极盗者（３Ｄ）"
+				language="英语" title="极盗者" duration="119" imax="0" dimensional="3D"
+				code="051200902015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="240151213DN468X0R8"
+			showSeqNo="4" date="2015-12-13" time="1715" updateLevel="0"
+			updateType="I">
+			<film id="05120083201501" filmUId="15111105351322634" name="火星救援"
+				language="英语" title="火星救援" duration="150" imax="0" dimensional="3D"
+				code="051200832015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号双机4K厅" seqNo="240151213RJ4BJ6VJ4"
+			showSeqNo="4" date="2015-12-13" time="1755" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="240151213P4FL22RF6"
+			showSeqNo="5" date="2015-12-13" time="1830" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="2401512134BZ6NT228"
+			showSeqNo="5" date="2015-12-13" time="1850" updateLevel="0"
+			updateType="I">
+			<film id="00110350201501" filmUId="15120110352923088" name="师父"
+				language="国语" title="师父" duration="115" imax="0" dimensional="2D"
+				code="001103502015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号双机4K巨幕厅" seqNo="24015121384T6ZL40T"
+			showSeqNo="4" date="2015-12-13" time="1900" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="100" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="240151213F02HTR0LZ"
+			showSeqNo="5" date="2015-12-13" time="1920" updateLevel="0"
+			updateType="I">
+			<film id="05120090201501" filmUId="15112704033823046" name="极盗者（３Ｄ）"
+				language="英语" title="极盗者" duration="119" imax="0" dimensional="3D"
+				code="051200902015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号双机4K厅" seqNo="24015121348VHHZL20"
+			showSeqNo="5" date="2015-12-13" time="1950" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="24015121384T0Z8420"
+			showSeqNo="5" date="2015-12-13" time="2000" updateLevel="0"
+			updateType="I">
+			<film id="00110350201501" filmUId="15120110352923088" name="师父"
+				language="国语" title="师父" duration="115" imax="0" dimensional="2D"
+				code="001103502015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="2401512132868ZP006"
+			showSeqNo="6" date="2015-12-13" time="2030" updateLevel="0"
+			updateType="I">
+			<film id="00310082201501" filmUId="15110203312522504" name="我的少女时代"
+				language="国语" title="我的少女时代" duration="141" imax="0" dimensional="2D"
+				code="003100822015" />
+			<price lowest="20">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号双机4K巨幕厅" seqNo="24015121304F02NP2B"
+			showSeqNo="5" date="2015-12-13" time="2055" updateLevel="0"
+			updateType="I">
+			<film id="05120083201501" filmUId="15111105351322634" name="火星救援"
+				language="英语" title="火星救援" duration="150" imax="0" dimensional="3D"
+				code="051200832015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="100" name="通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151213N0TV08P20"
+			showSeqNo="6" date="2015-12-13" time="2100" updateLevel="0"
+			updateType="I">
+			<film id="00110350201501" filmUId="15120110352923088" name="父"
+				language="国语" title="师父" duration="115" imax="0" dimensional="2D"
+				code="001103502015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="2401512138RT0B24N4"
+			showSeqNo="6" date="2015-12-13" time="2130" updateLevel="0"
+			updateType="I">
+			<film id="07410019201501" filmUId="15052809325423220" name="极速风流"
+				language="英语" title="极速风流" duration="127" imax="0" dimensional="2D"
+				code="074100192015" />
+			<price lowest="20">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号双机4K厅" seqNo="24015121322N6606V6"
+			showSeqNo="6" date="2015-12-13" time="2145" updateLevel="0"
+			updateType="I">
+			<film id="05120090201501" filmUId="15112704033823046" name="极盗者（３Ｄ）"
+				language="英语" title="极盗者" duration="119" imax="0" dimensional="3D"
+				code="051200902015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="2401512130FHD2ZZF8"
+			showSeqNo="6" date="2015-12-13" time="2210" updateLevel="0"
+			updateType="I">
+			<film id="00110350201501" filmUId="15120110352923088" name="师父"
+				language="国语" title="师父" duration="115" imax="0" dimensional="2D"
+				code="001103502015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号双机4K巨幕厅" seqNo="240151217MMWNIVISV"
+			showSeqNo="1" date="2015-12-18" time="0" updateLevel="0" updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="100" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="240151218CWP0EPO6J"
+			showSeqNo="1" date="2015-12-18" time="1000" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151218FK6ACWFQA"
+			showSeqNo="1" date="2015-12-18" time="1025" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="240151218NHDS0RVGC"
+			showSeqNo="1" date="2015-12-18" time="1105" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="240151218WNXKBPNE1"
+			showSeqNo="1" date="2015-12-18" time="1115" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="2401512186RZGUGWHR"
+			showSeqNo="2" date="2015-12-18" time="1220" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151218F6TDHJPRH"
+			showSeqNo="2" date="2015-12-18" time="1220" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="240151218N2HMG7E6D"
+			showSeqNo="2" date="2015-12-18" time="1310" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="240151218LOVRMI5VC"
+			showSeqNo="2" date="2015-12-18" time="1330" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151218Q94I10J9A"
+			showSeqNo="3" date="2015-12-18" time="1415" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="240151218X3868VG1X"
+			showSeqNo="3" date="2015-12-18" time="1445" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="240151218HYEASRYZI"
+			showSeqNo="3" date="2015-12-18" time="1505" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="240151218JDSALVVM2"
+			showSeqNo="3" date="2015-12-18" time="1555" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151218AF6J6Z9Z3"
+			showSeqNo="4" date="2015-12-18" time="1610" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="240151218Q7OHI8CZ7"
+			showSeqNo="4" date="2015-12-18" time="1700" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="2401512183MTDDGLL9"
+			showSeqNo="4" date="2015-12-18" time="1710" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号双机4K厅" seqNo="240151218YUZJA7WID"
+			showSeqNo="1" date="2015-12-18" time="1745" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151218TZDISD71E"
+			showSeqNo="5" date="2015-12-18" time="1805" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="240151218HQYQE1SC8"
+			showSeqNo="4" date="2015-12-18" time="1820" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="240151218Q5WMC0BHQ"
+			showSeqNo="5" date="2015-12-18" time="1855" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号双机4K巨幕厅" seqNo="240151218ZDBF311C2"
+			showSeqNo="1" date="2015-12-18" time="1900" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="100" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="240151218V1FM4X0SU"
+			showSeqNo="1" date="2015-12-18" time="1930" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="2401512187VDPP8GFX"
+			showSeqNo="5" date="2015-12-18" time="1935" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151218O73Q2P0FW"
+			showSeqNo="6" date="2015-12-18" time="2000" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号双机4K厅" seqNo="240151218LUT6ZUFSY"
+			showSeqNo="2" date="2015-12-18" time="2010" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="240151218AXLZAKFAS"
+			showSeqNo="5" date="2015-12-18" time="2045" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="240151218VEAM34G89"
+			showSeqNo="6" date="2015-12-18" time="2050" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号双机4K巨幕厅" seqNo="240151218C8G9G5B6F"
+			showSeqNo="2" date="2015-12-18" time="2125" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="100" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="2401512181U1MZ7LYI"
+			showSeqNo="7" date="2015-12-18" time="2150" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="2401512183JB5ES5AJ"
+			showSeqNo="6" date="2015-12-18" time="2200" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="2401512198LV04H8B8"
+			showSeqNo="1" date="2015-12-19" time="1000" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151219624448840"
+			showSeqNo="1" date="2015-12-19" time="1015" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="2401512196BP6ZFJ8Z"
+			showSeqNo="1" date="2015-12-19" time="1105" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="2401512190N482846J"
+			showSeqNo="1" date="2015-12-19" time="1140" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号双机4K巨幕厅" seqNo="2401512196L1ZRANIZ"
+			showSeqNo="1" date="2015-12-19" time="1145" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="100" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151219LRBH8VD62"
+			showSeqNo="2" date="2015-12-19" time="1210" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="240151219LLT2BVJXL"
+			showSeqNo="2" date="2015-12-19" time="1220" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号双机4K厅" seqNo="240151219KBO9MWYO6"
+			showSeqNo="1" date="2015-12-19" time="1255" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="240151219DZ48Z886P"
+			showSeqNo="2" date="2015-12-19" time="1330" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="2401512190P42J4444"
+			showSeqNo="2" date="2015-12-19" time="1335" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151219B6Z4X6VLF"
+			showSeqNo="3" date="2015-12-19" time="1405" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1双机4K巨幕厅" seqNo="2401512195XK1UB7MN"
+			showSeqNo="2" date="2015-12-19" time="1410" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="100" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="240151219LZ4402HH4"
+			showSeqNo="3" date="2015-12-19" time="1445" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号双机4K厅" seqNo="240151219UZ4ROAEJX"
+			showSeqNo="2" date="2015-12-19" time="1520" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="240151219JFT8N48Z0"
+			showSeqNo="3" date="2015-12-19" time="1530" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="2401512194DBVDPL40"
+			showSeqNo="3" date="2015-12-19" time="1555" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="2401512194BDPXP06X"
+			showSeqNo="4" date="2015-12-19" time="1605" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号双机4K巨幕厅" seqNo="240151219QWG3GHU2T"
+			showSeqNo="3" date="2015-12-19" time="1635" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="100" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="240151219ZNTHF424N"
+			showSeqNo="4" date="2015-12-19" time="1710" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="240151219V8HB8206T"
+			showSeqNo="4" date="2015-12-19" time="1725" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号双机4K厅" seqNo="2401512194N0H04TD0"
+			showSeqNo="3" date="2015-12-19" time="1745" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151219RR4LF20VD"
+			showSeqNo="5" date="2015-12-19" time="1800" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="2401512190N6VH0XF4"
+			showSeqNo="4" date="2015-12-19" time="1820" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="240151219SL9J7WPVS"
+			showSeqNo="1" date="2015-12-19" time="1840" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号双机4K巨幕厅" seqNo="2401512198Z40X6Z4V"
+			showSeqNo="4" date="2015-12-19" time="1900" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="100" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="240151219DVR402N04"
+			showSeqNo="5" date="2015-12-19" time="1920" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="240151219P622P400B"
+			showSeqNo="5" date="2015-12-19" time="1935" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151219FXZZHLDV0"
+			showSeqNo="6" date="2015-12-19" time="1955" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号双机4K厅" seqNo="2401512198L862N0H2"
+			showSeqNo="4" date="2015-12-19" time="2010" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="240151219ZFMYVGGQK"
+			showSeqNo="2" date="2015-12-19" time="2035" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="240151219P2B4RTTP0"
+			showSeqNo="5" date="2015-12-19" time="2045" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="240151219DP8HTV40T"
+			showSeqNo="6" date="2015-12-19" time="2115" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号双机4K巨幕厅" seqNo="240151219HP6V8Z8T8"
+			showSeqNo="5" date="2015-12-19" time="2125" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="100" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="24015121960VTD0P0L"
+			showSeqNo="7" date="2015-12-19" time="2150" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="24015121980008P886"
+			showSeqNo="6" date="2015-12-19" time="2200" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="240151220N6D206B8X"
+			showSeqNo="1" date="2015-12-20" time="1000" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="24015122004BZFF660"
+			showSeqNo="1" date="2015-12-20" time="1015" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="24015122066PDRF426"
+			showSeqNo="1" date="2015-12-20" time="1105" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="240151220T6444X4ZB"
+			showSeqNo="1" date="2015-12-20" time="1140" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号双机4K巨幕厅" seqNo="240151220Q9BPCZ8UO"
+			showSeqNo="1" date="2015-12-20" time="1145" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="100" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151220FJPZBT0B0"
+			showSeqNo="2" date="2015-12-20" time="1210" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="240151220B002TVTHL"
+			showSeqNo="2" date="2015-12-20" time="1220" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号双机4K厅" seqNo="240151220AQLT5SCZ9"
+			showSeqNo="1" date="2015-12-20" time="1255" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="2401512200DP26FL80"
+			showSeqNo="2" date="2015-12-20" time="1330" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="240151220RZV4B40RH"
+			showSeqNo="2" date="2015-12-20" time="1335" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151220R2T602NTL"
+			showSeqNo="3" date="2015-12-20" time="1405" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号双机4K巨幕厅" seqNo="240151220QYXKRA5VG"
+			showSeqNo="2" date="2015-12-20" time="1410" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="100" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="2401512200XBV2488V"
+			showSeqNo="3" date="2015-12-20" time="1445" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号双机4K厅" seqNo="2401512209330MY2N3"
+			showSeqNo="2" date="2015-12-20" time="1520" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="2401512200V6NB2D0X"
+			showSeqNo="3" date="2015-12-20" time="1530" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="24015122028X882RJN"
+			showSeqNo="3" date="2015-12-20" time="1555" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151220R886D60T8"
+			showSeqNo="4" date="2015-12-20" time="1600" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号双机4K巨幕厅" seqNo="240151220B7NYAZR83"
+			showSeqNo="3" date="2015-12-20" time="1635" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="100" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="2401512204LZ20V6HX"
+			showSeqNo="4" date="2015-12-20" time="1710" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="24015122044HL4204R"
+			showSeqNo="4" date="2015-12-20" time="1725" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号双机4K厅" seqNo="24015122066PLZPDZ8"
+			showSeqNo="3" date="2015-12-20" time="1745" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151220R46DP8VBL"
+			showSeqNo="5" date="2015-12-20" time="1755" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="240151220H286848J2"
+			showSeqNo="4" date="2015-12-20" time="1820" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="240151220UKCXKKV45"
+			showSeqNo="1" date="2015-12-20" time="1840" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号双机4K巨幕厅" seqNo="240151220468JFP2L2"
+			showSeqNo="4" date="2015-12-20" time="1900" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="100" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="240151220T6VRLV4J4"
+			showSeqNo="5" date="2015-12-20" time="1920" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号厅" seqNo="2401512200TTDX8HT4"
+			showSeqNo="5" date="2015-12-20" time="1935" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="24015122062XN0226L"
+			showSeqNo="6" date="2015-12-20" time="1950" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="2" hallName="2号双机4K厅" seqNo="240151220DJDB4PLX4"
+			showSeqNo="4" date="2015-12-20" time="2010" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="7" hallName="7号厅" seqNo="2401512209UCEA9Q8X"
+			showSeqNo="2" date="2015-12-20" time="2035" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="5" hallName="5号厅" seqNo="2401512200460ZB6Z6"
+			showSeqNo="5" date="2015-12-20" time="2045" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="3" hallName="3号厅" seqNo="240151220PX46806B0"
+			showSeqNo="6" date="2015-12-20" time="2115" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="1" hallName="1号双机4K巨幕厅" seqNo="2401512208X84V4620"
+			showSeqNo="5" date="2015-12-20" time="2125" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="100" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151220444RD446X"
+			showSeqNo="7" date="2015-12-20" time="2145" updateLevel="0"
+			updateType="I">
+			<film id="00110626201501" filmUId="15112303233222918" name="万万没想到"
+				language="国语" title="万万没想到" duration="101" imax="0" dimensional="2D"
+				code="001106262015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="4" hallName="4号" seqNo="240151220DTP0LP2D4"
+			showSeqNo="6" date="2015-12-20" time="2200" updateLevel="0"
+			updateType="I">
+			<film id="00120595201501" filmUId="15111909532022790" name="寻龙诀"
+				language="国语" title="寻龙诀" duration="132" imax="0" dimensional="3D"
+				code="001205952015" />
+			<price lowest="30">
+				<section id="0000000000000001" standard="80" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151224Z2CE4INGR"
+			showSeqNo="1" date="2015-12-24" time="1020" updateLevel="0"
+			updateType="I">
+			<film id="00110491201501" filmUId="15120711230223182" name="老炮儿"
+				language="国语" title="老炮儿" duration="144" imax="0" dimensional="2D"
+				code="001104912015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151224HNMDOEBQ6"
+			showSeqNo="2" date="2015-12-24" time="1255" updateLevel="0"
+			updateType="I">
+			<film id="00110491201501" filmUId="15120711230223182" name="炮儿"
+				language="国语" title="老炮儿" duration="144" imax="0" dimensional="2D"
+				code="001104912015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151224PQAQB53BA"
+			showSeqNo="3" date="2015-12-24" time="1530" updateLevel="0"
+			updateType="I">
+			<film id="00110491201501" filmUId="15120711230223182" name="老炮儿"
+				language="国语" title="老炮儿" duration="144" imax="0" dimensional="2D"
+				code="001104912015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="2401512242TXJI5KGJ"
+			showSeqNo="4" date="2015-12-24" time="1805" updateLevel="0"
+			updateType="I">
+			<film id="00110491201501" filmUId="15120711230223182" name="老炮儿"
+				language="国语" title="老炮儿" duration="144" imax="0" dimensional="2D"
+				code="001104912015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="2401512247NXLHSXM6"
+			showSeqNo="5" date="2015-12-24" time="2040" updateLevel="0"
+			updateType="I">
+			<film id="00110491201501" filmUId="15120711230223182" name="老炮儿"
+				language="国语" title="老炮儿" duration="144" imax="0" dimensional="2D"
+				code="001104912015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151225464X4H26B"
+			showSeqNo="1" date="2015-12-25" time="1020" updateLevel="0"
+			updateType="I">
+			<film id="00110491201501" filmUId="15120711230223182" name="老炮儿"
+				language="国语" title="老炮儿" duration="144" imax="0" dimensional="2D"
+				code="001104912015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151225LDR4FB02F"
+			showSeqNo="2" date="2015-12-25" time="1255" updateLevel="0"
+			updateType="I">
+			<film id="00110491201501" filmUId="15120711230223182" name="老炮儿"
+				language="国语" title="老炮儿" duration="144" imax="0" dimensional="2D"
+				code="001104912015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="24015122568040V4RL"
+			showSeqNo="3" date="2015-12-25" time="1530" updateLevel="0"
+			updateType="I">
+			<film id="00110491201501" filmUId="15120711230223182" name="老炮儿"
+				language="国语" title="老炮儿" duration="144" imax="0" dimensional="2D"
+				code="001104912015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="24015122540XJ04V04"
+			showSeqNo="4" date="2015-12-25" time="1805" updateLevel="0"
+			updateType="I">
+			<film id="00110491201501" filmUId="15120711230223182" name="老炮儿"
+				language="国语" title="老炮儿" duration="144" imax="0" dimensional="2D"
+				code="001104912015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="2401512256HTL4N2F2"
+			showSeqNo="5" date="2015-12-25" time="2040" updateLevel="0"
+			updateType="I">
+			<film id="00110491201501" filmUId="15120711230223182" name="老炮儿"
+				language="国语" title="老炮儿" duration="144" imax="0" dimensional="2D"
+				code="001104912015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151226V4D6N86Z2"
+			showSeqNo="1" date="2015-12-26" time="1020" updateLevel="0"
+			updateType="I">
+			<film id="00110491201501" filmUId="15120711230223182" name="老炮儿"
+				language="国语" title="老炮儿" duration="144" imax="0" dimensional="2D"
+				code="001104912015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="2401512260JFVDN624"
+			showSeqNo="2" date="2015-12-26" time="1255" updateLevel="0"
+			updateType="I">
+			<film id="00110491201501" filmUId="15120711230223182" name="老炮儿"
+				language="国语" title="老炮儿" duration="144" imax="0" dimensional="2D"
+				code="001104912015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="24015122662008F4T8"
+			showSeqNo="3" date="2015-12-26" time="1530" updateLevel="0"
+			updateType="I">
+			<film id="00110491201501" filmUId="15120711230223182" name="老炮儿"
+				language="国语" title="老炮儿" duration="144" imax="0" dimensional="2D"
+				code="001104912015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151226R824H042H"
+			showSeqNo="4" date="2015-12-26" time="1805" updateLevel="0"
+			updateType="I">
+			<film id="00110491201501" filmUId="15120711230223182" name="老炮儿"
+				language="国语" title="老炮儿" duration="144" imax="0" dimensional="2D"
+				code="001104912015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151226206HD8L66"
+			showSeqNo="5" date="2015-12-26" time="2040" updateLevel="0"
+			updateType="I">
+			<film id="00110491201501" filmUId="15120711230223182" name="老炮儿"
+				language="国语" title="老炮儿" duration="144" imax="0" dimensional="2D"
+				code="001104912015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151227ZXF02TLD6"
+			showSeqNo="1" date="2015-12-27" time="1020" updateLevel="0"
+			updateType="I">
+			<film id="00110491201501" filmUId="15120711230223182" name="老炮儿"
+				language="国语" title="老炮儿" duration="144" imax="0" dimensional="2D"
+				code="001104912015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="2401512272P26VT2N0"
+			showSeqNo="2" date="2015-12-27" time="1255" updateLevel="0"
+			updateType="I">
+			<film id="00110491201501" filmUId="15120711230223182" name="老炮儿"
+				language="国语" title="老炮儿" duration="144" imax="0" dimensional="2D"
+				code="001104912015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151227H66N2H28P"
+			showSeqNo="3" date="2015-12-27" time="1530" updateLevel="0"
+			updateType="I">
+			<film id="00110491201501" filmUId="15120711230223182" name="老炮儿"
+				language="国语" title="老炮儿" duration="144" imax="0" dimensional="2D"
+				code="001104912015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6厅" seqNo="240151227D640P626Z"
+			showSeqNo="4" date="2015-12-27" time="1805" updateLevel="0"
+			updateType="I">
+			<film id="00110491201501" filmUId="15120711230223182" name="老炮儿"
+				language="国语" title="老炮儿" duration="144" imax="0" dimensional="2D"
+				code="001104912015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+		<show hallId="6" hallName="6号厅" seqNo="240151227P28D46LTV"
+			showSeqNo="5" date="2015-12-27" time="2040" updateLevel="0"
+			updateType="I">
+			<film id="00110491201501" filmUId="15120711230223182" name="老炮儿"
+				language="国语" title="老炮儿" duration="144" imax="0" dimensional="2D"
+				code="001104912015" />
+			<price lowest="25">
+				<section id="0000000000000001" standard="60" name="普通区" />
+			</price>
+			<through flag="N" />
+		</show>
+	</shows>
+</data>

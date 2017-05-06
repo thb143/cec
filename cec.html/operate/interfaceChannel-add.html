@@ -1,0 +1,37 @@
+<div class="pageContent">
+    <form method="post" action="ajaxDone1.html" class="pageForm required-validate"
+        onsubmit="return validateCallback(this, dialogAjaxDone);">
+        <div class="pageFormContent" layoutH="60">
+            <dl style="width:100%;">
+                <dt>渠道名称：</dt>
+                <dd><input name="channel.name" size="30" maxlength="120" class="required"/></dd>
+            </dl>
+            <dl style="height:110px;width:100%;">
+                <dt>参数配置：</dt>
+                <dd><textarea name="channel.params" cols="37" rows="5" class="required"></textarea></dd>
+            </dl>
+            <dl style="height:110px;width:100%;">
+                <dt>备注：</dt>
+                <dd><textarea name="channel.remark" cols="37" rows="5"></textarea></dd>
+            </dl>
+        </div>
+        <div class="formBar">
+            <ul>
+                <li>
+                    <div class="buttonActive">
+                        <div class="buttonContent">
+                            <button type="submit">保存</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="button">
+                        <div class="buttonContent">
+                            <button type="button" class="close">取消</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </form>
+</div>

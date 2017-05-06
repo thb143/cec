@@ -1,0 +1,47 @@
+<div class="page">
+    <div class="pageContent">
+        <div class="pageFormContent">
+            <dl style="height:1px;width:100%;margin-bottom: 5px">
+                <dt><strong style="font-size:15px;">查询凭证</strong></dt>
+            </dl>
+            <dl style="height:1px;width:100%;">
+                <div class="divider"></div>
+            </dl>
+            <dl>
+                <table>
+                    <thead>
+                        <tr>
+                            <th width="100px">订单编号：</th>
+                            <th width="220px"><input type="text" size="30" class="required" /></th>
+                            <th><a class="button" href="javascript:;"><span>查询</span></a></th>
+                        </tr>
+                    </thead>
+                </table>
+            </dl>
+        </div>
+        <div class="pageFormContent" layoutH="60" style="display: none" id="hidden">
+            <dl style="height:1px;width:100%;margin-bottom: 5px">
+                <dt><strong style="font-size:15px;">凭证信息</strong></dt>
+            </dl>
+            <dl style="height:1px;width:100%;">
+                <div class="divider"></div>
+            </dl>
+            <dl>
+                <table>
+                    <thead>
+                        <tr>
+                            <th width="100px">订单编号：</th>
+                            <th width="220px"><input type="text" size="30" class="required" /></th>
+                            <th><a class="button" href="javascript:;"><span>查询</span></a></th>
+                        </tr>
+                    </thead>
+                </table>
+            </dl>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" charset="utf-8">
+    $(".button").click(function(){
+        $("#hidden").toggle();
+    });
+</script>

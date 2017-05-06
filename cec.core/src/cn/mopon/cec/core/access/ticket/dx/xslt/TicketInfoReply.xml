@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<status>1</status>
+	<errorMessage></errorMessage>
+	<errorCode></errorCode>
+	<data>
+		<movieInfo>
+			<item>
+				<cineMovieId>4</cineMovieId>
+				<cineMovieNum>001104042014</cineMovieNum>
+				<movieName>心花路放</movieName>
+				<movieSubtitle>中文</movieSubtitle>
+				<movieLanguage>国语</movieLanguage>
+				<movieFormat>数字</movieFormat>
+				<movieDimensional>2D</movieDimensional>
+				<movieSize>普通</movieSize>
+			</item>
+		</movieInfo>
+		<startTime>2014-12-01 00:35:00</startTime>
+		<endTime>2014-12-01 02:25:00</endTime>
+		<hallName>奔驰IMAX厅</hallName>
+		<cinemaName>测试-81</cinemaName>
+		<ticketInfo>
+			<item>
+				<no>1000000000002571</no>
+				<printed>0</printed>
+				<printTime>0000-00-00 00:00:00</printTime>
+				<row>1</row>
+				<column>5</column>
+				<type>成人票</type>
+				<price>75.00</price>
+				<handleFee>0</handleFee>
+				<sellTime>2014-11-29 22:56:28</sellTime>
+				<seller>inner</seller>
+			</item>
+		</ticketInfo>
+	</data>
+</root>

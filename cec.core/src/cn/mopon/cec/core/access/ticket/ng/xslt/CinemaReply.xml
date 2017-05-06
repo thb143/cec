@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OnlineTicketingServiceReply Version="1.0"
+	Datetime="2014-04-12T20:58:02">
+	<QueryCinemaReply ErrorCode="" ErrorMessage=""
+		Id="ID_QueryCinemaReply" Status="Success">
+		<Cinema Address="" Code="36090702" Name="NG" ScreenCount="99">
+			<Screen>
+				<Code>1007814032100001</Code>
+				<Name>1号厅</Name>
+				<SeatCount>315</SeatCount>
+				<Type>IMAX</Type>
+			</Screen>
+			<Screen>
+				<Code>1007814032101056</Code>
+				<Name>2号厅</Name>
+				<SeatCount>140</SeatCount>
+				<Type>巨幕</Type>
+			</Screen>
+			<Screen>
+				<Code>1007814032201057</Code>
+				<Name>3号厅</Name>
+				<SeatCount>144</SeatCount>
+				<Type>3D</Type>
+			</Screen>
+		</Cinema>
+	</QueryCinemaReply>
+</OnlineTicketingServiceReply>

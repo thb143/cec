@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<status>1</status>
+	<errorMessage></errorMessage>
+	<errorCode></errorCode>
+	<data>
+		<item>
+			<cinemaId>1</cinemaId>
+			<cinemaName>115,万达</cinemaName>
+			<validPeriod>2019-04-25</validPeriod>
+			<createTime></createTime>
+		</item>
+		<item>
+			<cinemaId>2</cinemaId>
+			<cinemaName>23</cinemaName>
+			<validPeriod>2019-04-25</validPeriod>
+			<createTime></createTime>
+		</item>
+		<item>
+			<cinemaId>4</cinemaId>
+			<cinemaName>cine24</cinemaName>
+			<validPeriod>2019-04-25</validPeriod>
+			<createTime></createTime>
+		</item>
+		<item>
+			<cinemaId>6</cinemaId>
+			<cinemaName>影院22</cinemaName>
+			<validPeriod>2019-04-25</validPeriod>
+			<createTime></createTime>
+		</item>
+		<item>
+			<cinemaId>7</cinemaId>
+			<cinemaName>cine82</cinemaName>
+			<validPeriod>2019-04-25</validPeriod>
+			<createTime></createTime>
+		</item>
+	</data>
+</root>

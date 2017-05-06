@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<payDetail>
+	<account>999001</account>
+	<accountBalance>416.0</accountBalance>
+	<accumulativeIntegral>84</accumulativeIntegral>
+	<availableIntegral>84</availableIntegral>
+	<cardStatus>正常</cardStatus>
+	<cardType>1</cardType>
+	<consumeIntegral>0</consumeIntegral>
+	<consumeIntegralPercent>100.0</consumeIntegralPercent>
+	<enableDate>2014-09-18</enableDate>
+	<items>
+		<discountPrice>91.8</discountPrice>
+		<integral>91</integral>
+		<itemType>2</itemType>
+		<number>1</number>
+		<originalPrice>102.0</originalPrice>
+		<planId>0514101000100802</planId>
+		<seatId>0300000100100101</seatId>
+		<serviceFee>0.0</serviceFee>
+	</items>
+	<items>
+		<discountPrice>92.8</discountPrice>
+		<integral>91</integral>
+		<itemType>2</itemType>
+		<number>1</number>
+		<originalPrice>102.0</originalPrice>
+		<planId>0514101000100802</planId>
+		<seatId>0300000100100201</seatId>
+		<serviceFee>0.0</serviceFee>
+	</items>
+	<orderNo>66257506588360722575</orderNo>
+	<owner>123</owner>
+	<policyName>金卡</policyName>
+	<responseCode>0</responseCode>
+	<totalPayMoney>0.0</totalPayMoney>
+	<validDate>2015-09-18</validDate>
+</payDetail>

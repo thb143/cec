@@ -1,0 +1,1 @@
+ ALTER TABLE CEC_TicketVoucher CHANGE validateTime confirmPrintTime datetime;

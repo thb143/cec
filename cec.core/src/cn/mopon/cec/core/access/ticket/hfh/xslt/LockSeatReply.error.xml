@@ -1,0 +1,11 @@
+<?xml version="1.0"	encoding="utf-8"?>
+<data version="1.0">
+	<seatLock version="1.0">
+		<result>3</result>
+		<messages>
+			<message>SLPE:Seat-Locking
+				Processing Error</message>
+		</messages>
+		<seats />
+	</seatLock>
+</data>

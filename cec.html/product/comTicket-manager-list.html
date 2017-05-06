@@ -1,0 +1,89 @@
+<div class="page">
+    <div class="pageHeader">
+        <div class="searchBar">
+            <div class="subBar">
+                <ul>
+                    <li>
+                        <input name="search"/>
+                    </li>
+                    <li>
+                        <div class="buttonActive">
+                            <div class="buttonContent">
+                                <button type="submit">
+                                    检索
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="pageContent">
+        <div class="panelBar">
+            <ul class="toolBar">
+                <li>
+                    <a href="product/comTicket-add.html" target="dialog" rel="comTicket-add" mask="true" title="新增通兑票" width="850" height="400"><span class="a09">新增</span></a>
+                </li>
+            </ul>
+        </div>
+        <table class="table" width="100%" layoutH="112">
+            <thead>
+                <tr>
+                    <th width="30px" align="center">序号</th>
+                     <th width="80px" align="center">通兑票编码</th>
+                    <th width="200px" align="center">通兑票名称</th>
+                    <th width="50px" align="center">通兑类型</th>
+                    <th width="80px" align="center">有效期/天</th>
+                    <th width="80px" align="center">销售对象</th>
+                   <!-- <th width="40px" align="center">结算价</th>-->
+                    <th width="70px" align="center">最大销售数量</th>
+                    <th width="100px" align="center">创建时间</th>
+                    <th width="50px" align="center">状态</th>
+                    <th width="320px" align="center">操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr target="sid_comTicket" rel="1">
+                    <td>1</td>
+                    <td>122121</td>
+                    <td><a href="product/comTick-info.html" target="dialog" mask="true" rel="comTick-info" width="850" height="500"title="通兑票详情">单家影院通兑票</a></td>
+                    <td>2D</td>
+                    <td>2014-12-31</td>
+                    <td>企业</td>
+                   <!-- <td>25.00</td>-->
+                    <td>100</td>
+                    <td>2014-01-01 10:30:00</td>
+                    <td>审批通过</td>
+                    <td><a>复制</a>&nbsp;|&nbsp;<a href="product/comTicket-edit.html" target="dialog" rel="comTicket-edit" mask="true" title="编辑通兑票" width="850" height="400">编辑</a>&nbsp;|&nbsp;<a>上架</a>&nbsp;|&nbsp;<a href="product/channel-list.html" target="dialog" mask="true" rel="channel-list" title="销售渠道管理" width="850" height="500">销售渠道</a>&nbsp;|&nbsp;<a href="product/order-list.html" target="dialog" mask="true" rel="order-list" width="850" height="500" title="订单列表">订单记录</a>&nbsp;|&nbsp;<a href="product/return-list.html" target="dialog" mask="true" rel="return-list" width="850" height="500" title="退款记录列表">退款记录</a></td>
+                </tr>
+                <tr target="sid_comTicket" rel="1">
+                    <td>2</td>
+                    <td>122122</td>
+                    <td><a href="product/comTick-info.html" target="dialog" mask="true" rel="cinema-edit" width="850" height="600"title="通兑票详情">多家影院通兑票</a></td>
+                    <td>2D</td>
+                    <td>2014-12-31</td>
+                     <td>企业+个人</td>
+                    <!--<td>50.00</td>-->
+                    <td>100</td>
+                    <td>2014-01-01 10:30:00</td>
+                    <td>上架</td>
+                    <td><a>复制</a>&nbsp;|&nbsp;<a href="product/comTicket-edit.html" target="dialog" rel="comTicket-edit" mask="true" title="编辑通兑票">编辑</a>&nbsp;|&nbsp;<a>下架</a>&nbsp;|&nbsp;<a href="product/channel-list.html" target="dialog" mask="true" rel="channel-list" title="销售渠道管理" width="850" height="450">销售渠道</a>&nbsp;|&nbsp;<a href="product/order-list.html" target="dialog" mask="true" rel="order-list" width="850" height="500" title="订单列表">订单记录</a>&nbsp;|&nbsp;<a href="product/return-list.html" target="dialog" mask="true" rel="return-list" width="850" height="500" title="退款记录列表">退款记录</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="panelBar">
+            <div class="pages">
+                <span>显示</span>
+                <select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                    <option value="200">200</option>
+                </select>
+                <span>条，共4条</span>
+            </div>
+            <div class="pagination" targetType="navTab" totalCount="1" numPerPage="20" pageNumShown="10" currentPage="1"></div>
+        </div>
+    </div>
+</div>

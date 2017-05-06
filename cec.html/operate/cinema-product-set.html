@@ -1,0 +1,107 @@
+<div class="page">
+    <div class="pageContent">
+        <form method="post" action="ajaxDone1.html" class="pageForm required-validate" onsubmit="return validateCallback(this, dialogAjaxDone);">
+            <fieldset disabled="disabled">
+                <legend><input type="checkbox" name="seatTicket" value="1" class="set"/>选座票</legend>
+                <div>
+                    <div class="pageFormContent">
+                        <dl class="nowrap">
+                            <dt>放映类型：</dt>
+                            <dd>
+                                <input type="checkbox" name="type" value="2D"/>2D
+                                <input type="checkbox" name="type" value="3D"/>3D
+                                <input type="checkbox" name="type" value="4D"/>4D
+                                <input type="checkbox" name="type" value="IMAX"/>IMAX
+                            </dd>
+                        </dl>
+                        <dl class="nowrap">
+                            <dt>接入地址：</dt>
+                            <dd><input size="80" name="address" type="text" class="seat"/></dd>
+                        </dl>
+                        <dl class="nowrap">
+                            <dt>接入类型：</dt>
+                            <dd>
+                                <select name="type" class="combox" disabled="disabled" size="30">
+                                    <option value="1" selected="selected">国标</option>
+                                    <option value="2">鼎新</option>
+                                </select>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>授权账号：</dt>
+                            <dd><input size="30" name="name" type="text" class="seat"/></dd>
+                        </dl>
+                        <dl>
+                            <dt>账号密码：</dt>
+                            <dd><input size="30" name="pwd" type="text" class="seat"/></dd>
+                        </dl>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset disabled="disabled">
+                <legend><input type="checkbox" name="convertTicket" value="2" class="set"/>通兑票</legend>
+                <div>
+                    <div class="pageFormContent">
+                        <dl>
+                            <dt><input type="checkbox" name="type" value="2D" class="addRequired"/>2D&nbsp;&nbsp;结算价：</dt>
+                            <dd><input type="text" size="10"/>元</dd>
+                        </dl>
+                        <dl>
+                            <dt><input type="checkbox" name="type" value="3D" class="addRequired"/>3D&nbsp;&nbsp;结算价：</dt>
+                            <dd><input type="text" size="10"/>元</dd>
+                        </dl>
+                        <dl>
+                            <dt><input type="checkbox" name="type" value="4D" class="addRequired"/>4D&nbsp;&nbsp;结算价：</dt>
+                            <dd><input type="text" size="10"/>元</dd>
+                        </dl>
+                        <dl>
+                            <dt><input type="checkbox" name="type" value="IMAX" class="addRequired"/>IMAX&nbsp;&nbsp;结算价：</dt>
+                            <dd><input type="text" size="10"/>元</dd>
+                        </dl>
+                    </div>
+                </div>
+            </fieldset>
+            <div class="formBar">
+                <ul>
+                    <li>
+                        <div class="buttonActive">
+                            <div class="buttonContent">
+                                <button type="submit">保存</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="button">
+                            <div class="buttonContent">
+                                <button type="button" class="close">取消</button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </div>
+</div>
+<script type="text/javascript" charset="utf-8">
+	$(".set").click(function(){
+	    var fieldset = $(this).closest("fieldset");
+	    if($(this).is(":checked") && fieldset.is(":disabled")){
+	        fieldset.removeAttr("disabled");
+	        fieldset.find(".seat").addClass("required");
+	    }
+	    if(!$(this).is(":checked")){
+            fieldset.attr("disabled","disabled");
+            fieldset.find(".seat").removeClass("required");
+        }
+	});
+	$(".addRequired").click(function(){
+        var dl = $(this).closest("dl");
+        if($(this).is(":checked")){
+            dl.find("input[type='text']").addClass("required");
+        }
+        if(!$(this).is(":checked")){
+            dl.find("input[type='text']").val("");
+            dl.find("input[type='text']").removeClass("required");
+        }
+    });
+</script>

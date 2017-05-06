@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data version="1.0">
+	<cinemas version="1.0">
+		<cinema id="44036001" name="嘉禾影院" linkId="01" local=""
+			hallCount="0" status="1" />
+		<cinema id="44014501" name="益田测试" linkId="033" local="深圳"
+			hallCount="17" status="1">
+			<hall id="1" name="1号厅" seatcount="213" vipflag="N" />
+			<hall id="10" name="10号厅" seatcount="45" vipflag="Y" />
+			<hall id="11" name="11号厅" seatcount="195" vipflag="N" />
+			<hall id="12" name="12号厅" seatcount="99" vipflag="N" />
+			<hall id="13" name="13号厅" seatcount="100" vipflag="N" />
+			<hall id="14" name="14号厅" seatcount="624" vipflag="N" />
+			<hall id="15" name="15号厅" seatcount="37" vipflag="Y" />
+			<hall id="16" name="16号厅" seatcount="740" vipflag="N" />
+			<hall id="17" name="我是测试厅" seatcount="369" vipflag="N" />
+			<hall id="2" name="2号厅" seatcount="32" vipflag="Y" />
+			<hall id="3" name="3号厅" seatcount="170" vipflag="N" />
+			<hall id="4" name="4号厅" seatcount="175" vipflag="N" />
+			<hall id="5" name="5号厅" seatcount="210" vipflag="N" />
+			<hall id="6" name="6号厅" seatcount="73" vipflag="N" />
+			<hall id="7" name="7号舒格厅" seatcount="86" vipflag="N" />
+			<hall id="8" name="8号VIP厅" seatcount="26" vipflag="Y" />
+			<hall id="9" name="OP-9号厅" seatcount="235" vipflag="N" />
+		</cinema>
+		<cinema id="44444444" name="104独立会员库影城" linkId="104" local="104"
+			hallCount="5" status="1">
+			<hall id="1" name="1号厅" seatcount="82" vipflag="N" />
+			<hall id="2" name="2号厅" seatcount="68" vipflag="N" />
+			<hall id="3" name="3号IMAX厅" seatcount="81" vipflag="N" />
+			<hall id="4" name="4号贵宾厅" seatcount="80" vipflag="Y" />
+			<hall id="5" name="5号厅" seatcount="135" vipflag="N" />
+		</cinema>
+		<cinema id="55555555" name="105独立会员库影城" linkId="105" local="105"
+			hallCount="4" status="1">
+			<hall id="1" name="1号厅" seatcount="248" vipflag="N" />
+			<hall id="2" name="2号厅" seatcount="162" vipflag="N" />
+			<hall id="3" name="3号厅" seatcount="116" vipflag="N" />
+			<hall id="4" name="4号厅" seatcount="134" vipflag="N" />
+		</cinema>
+		<cinema id="11051401" name="北京万达CBD店" linkId="112" local="北京"
+			hallCount="18" status="1">
+			<hall id="1" name="1号厅" seatcount="342" vipflag="N" />
+			<hall id="10" name="10号厅" seatcount="94" vipflag="N" />
+			<hall id="11" name="711" seatcount="156" vipflag="N" />
+			<hall id="12" name="123" seatcount="84" vipflag="N" />
+			<hall id="13" name="11号光棍专用厅" seatcount="112" vipflag="N" />
+			<hall id="14" name="13" seatcount="144" vipflag="N" />
+			<hall id="15" name="12" seatcount="0" vipflag="N" />
+			<hall id="16" name="14" seatcount="0" vipflag="N" />
+			<hall id="17" name="15" seatcount="169" vipflag="N" />
+			<hall id="18" name="111" seatcount="9502" vipflag="N" />
+			<hall id="2" name="2号厅" seatcount="444" vipflag="N" />
+			<hall id="3" name="3号厅" seatcount="134" vipflag="N" />
+			<hall id="4" name="VIP厅" seatcount="47" vipflag="Y" />
+			<hall id="5" name="5号厅" seatcount="172" vipflag="N" />
+			<hall id="6" name="6号厅" seatcount="134" vipflag="N" />
+			<hall id="7" name="ghj " seatcount="252" vipflag="N" />
+			<hall id="8" name="8号厅" seatcount="226" vipflag="N" />
+			<hall id="9" name="9号厅" seatcount="152" vipflag="N" />
+		</cinema>
+		<cinema id="99999999" name="嘉禾1123影城" linkId="1123" local="嘉禾1123"
+			hallCount="7" status="1">
+			<hall id="1" name="1号厅" seatcount="101" vipflag="N" />
+			<hall id="2" name="2号厅" seatcount="163" vipflag="N" />
+			<hall id="3" name="3号厅" seatcount="253" vipflag="N" />
+			<hall id="4" name="4号厅" seatcount="101" vipflag="N" />
+			<hall id="5" name="5号厅" seatcount="146" vipflag="N" />
+			<hall id="6" name="6号厅" seatcount="146" vipflag="N" />
+			<hall id="7" name="贵宾厅" seatcount="30" vipflag="Y" />
+		</cinema>
+		<cinema id="00000000" name="海印国际电影城" linkId="1764" local="广州"
+			hallCount="6" status="1">
+			<hall id="1" name="1号厅" seatcount="159" vipflag="N" />
+			<hall id="2" name="2号厅" seatcount="159" vipflag="N" />
+			<hall id="3" name="3号厅" seatcount="159" vipflag="N" />
+			<hall id="4" name="4号厅" seatcount="159" vipflag="N" />
+			<hall id="5" name="5号厅" seatcount="114" vipflag="N" />
+			<hall id="6" name="6号厅" seatcount="98" vipflag="N" />
+		</cinema>
+		<cinema id="11021201" name="288测试影院" linkId="288" local="北京"
+			hallCount="11" status="1">
+			<hall id="0000000000000001" name="1号厅" seatcount="189" vipflag="N" />
+			<hall id="0000000000000002" name="2号厅" seatcount="89" vipflag="N" />
+			<hall id="0000000000000003" name="3号厅" seatcount="250" vipflag="N" />
+			<hall id="0000000000000004" name="4号巨幕厅" seatcount="317"
+				vipflag="N" />
+			<hall id="0000000000000005" name="5号情侣厅" seatcount="42" vipflag="N" />
+			<hall id="0000000000000006" name="6号厅" seatcount="84" vipflag="N" />
+			<hall id="0000000000000007" name="7号厅" seatcount="95" vipflag="N" />
+			<hall id="0000000000000008" name="AJ8号厅" seatcount="126"
+				vipflag="N" />
+			<hall id="0000000000000009" name="AJ9号厅" seatcount="96" vipflag="N" />
+			<hall id="0000000000000010" name="test" seatcount="6" vipflag="N" />
+			<hall id="0000000000000011" name="VIP厅" seatcount="192" vipflag="Y" />
+		</cinema>
+		<cinema id="31000004" name="世纪环球测试影院" linkId="3104" local=""
+			hallCount="0" status="1" />
+		<cinema id="11028801" name="565测试影院" linkId="565" local="北京"
+			hallCount="11" status="1">
+			<hall id="0000000000000001" name="1号厅" seatcount="269" vipflag="N" />
+			<hall id="0000000000000002" name="2号厅" seatcount="234" vipflag="N" />
+			<hall id="0000000000000003" name="3号厅" seatcount="241" vipflag="N" />
+			<hall id="0000000000000004" name="4号厅" seatcount="209" vipflag="N" />
+			<hall id="0000000000000005" name="5号厅" seatcount="217" vipflag="N" />
+			<hall id="0000000000000006" name="VIP厅" seatcount="144" vipflag="Y" />
+			<hall id="0000000000000007" name="AJ1号厅" seatcount="140"
+				vipflag="N" />
+			<hall id="0000000000000008" name="AJ2号厅" seatcount="200"
+				vipflag="N" />
+			<hall id="0000000000000009" name="测试厅" seatcount="0" vipflag="N" />
+			<hall id="0000000000000010" name="测试厅1" seatcount="12" vipflag="N" />
+			<hall id="0000000000000011" name="测试厅3" seatcount="1" vipflag="N" />
+		</cinema>
+		<cinema id="77777777" name="嘉禾645影城" linkId="645" local="嘉禾645"
+			hallCount="12" status="1">
+			<hall id="1" name="VIP厅" seatcount="32" vipflag="Y" />
+			<hall id="10" name="10号厅-巨幕厅" seatcount="360" vipflag="N" />
+			<hall id="11" name="11号厅-IMAX厅" seatcount="365" vipflag="N" />
+			<hall id="12" name="12号厅-情侣厅" seatcount="50" vipflag="N" />
+			<hall id="2" name="2号厅" seatcount="296" vipflag="N" />
+			<hall id="3" name="3号厅" seatcount="261" vipflag="N" />
+			<hall id="4" name="4号厅-招商银行厅" seatcount="296" vipflag="N" />
+			<hall id="5" name="5号厅" seatcount="135" vipflag="N" />
+			<hall id="6" name="6号厅" seatcount="107" vipflag="N" />
+			<hall id="7" name="7号厅-华为P6厅" seatcount="107" vipflag="N" />
+			<hall id="8" name="8号厅" seatcount="127" vipflag="N" />
+			<hall id="9" name="9号厅" seatcount="127" vipflag="N" />
+		</cinema>
+		<cinema id="88888888" name="保定金盛影院" linkId="680" local="保定"
+			hallCount="7" status="1">
+			<hall id="1" name="一号厅" seatcount="320" vipflag="N" />
+			<hall id="2" name="二号厅" seatcount="122" vipflag="N" />
+			<hall id="3" name="三号厅" seatcount="122" vipflag="N" />
+			<hall id="4" name="四号厅" seatcount="129" vipflag="N" />
+			<hall id="5" name="五号厅" seatcount="122" vipflag="N" />
+			<hall id="6" name="六号厅" seatcount="42" vipflag="N" />
+			<hall id="7" name="七号厅" seatcount="42" vipflag="N" />
+		</cinema>
+		<cinema id="51019201" name="海口南国" linkId="773" local="海口"
+			hallCount="7" status="1">
+			<hall id="1" name="一号厅" seatcount="148" vipflag="N" />
+			<hall id="2" name="二号厅" seatcount="146" vipflag="N" />
+			<hall id="3" name="三号厅" seatcount="209" vipflag="N" />
+			<hall id="4" name="四号厅" seatcount="149" vipflag="N" />
+			<hall id="5" name="五号厅" seatcount="199" vipflag="N" />
+			<hall id="6" name="六号厅" seatcount="144" vipflag="N" />
+			<hall id="7" name="VIP厅" seatcount="23" vipflag="N" />
+		</cinema>
+		<cinema id="66666666" name="864测试影院" linkId="864" local="北京"
+			hallCount="7" status="1">
+			<hall id="1" name="1号厅" seatcount="757" vipflag="N" />
+			<hall id="2" name="2号厅" seatcount="108" vipflag="N" />
+			<hall id="3" name="3号厅" seatcount="94" vipflag="N" />
+			<hall id="4" name="4号贵宾厅" seatcount="130" vipflag="Y" />
+			<hall id="5" name="5号厅" seatcount="130" vipflag="N" />
+			<hall id="6" name="A厅" seatcount="130" vipflag="N" />
+			<hall id="7" name="LKG专用" seatcount="45" vipflag="N" />
+		</cinema>
+		<cinema id="00000001" name="凤凰佳影测试" linkId="888" local="茂名"
+			hallCount="8" status="1">
+			<hall id="1" name="1号厅" seatcount="200" vipflag="N" />
+			<hall id="2" name="2号厅" seatcount="200" vipflag="N" />
+			<hall id="3" name="3号厅" seatcount="150" vipflag="N" />
+			<hall id="4" name="IMAX厅" seatcount="800" vipflag="N" />
+			<hall id="5" name="贵宾厅" seatcount="30" vipflag="N" />
+			<hall id="6" name="多区厅" seatcount="300" vipflag="N" />
+			<hall id="7" name="礼堂一楼" seatcount="384" vipflag="N" />
+			<hall id="8" name="华谊" seatcount="16" vipflag="N" />
+		</cinema>
+		<cinema id="00000004" name="测试影城" linkId="8887" local="惠州"
+			hallCount="18" status="1">
+			<hall id="1" name="1号厅" seatcount="142" vipflag="N" />
+			<hall id="10" name="10号厅" seatcount="45" vipflag="Y" />
+			<hall id="11" name="11号厅" seatcount="195" vipflag="N" />
+			<hall id="12" name="12号厅" seatcount="99" vipflag="N" />
+			<hall id="13" name="13号厅" seatcount="100" vipflag="N" />
+			<hall id="14" name="14号厅" seatcount="624" vipflag="N" />
+			<hall id="15" name="15号厅" seatcount="37" vipflag="Y" />
+			<hall id="16" name="16号厅" seatcount="740" vipflag="N" />
+			<hall id="17" name="我是测试厅" seatcount="369" vipflag="N" />
+			<hall id="18" name="Testing" seatcount="0" vipflag="N" />
+			<hall id="2" name="2号厅" seatcount="32" vipflag="Y" />
+			<hall id="3" name="3号厅" seatcount="170" vipflag="N" />
+			<hall id="4" name="4号厅" seatcount="175" vipflag="N" />
+			<hall id="5" name="5号厅" seatcount="210" vipflag="N" />
+			<hall id="6" name="6号厅" seatcount="73" vipflag="N" />
+			<hall id="7" name="7号舒格厅" seatcount="86" vipflag="N" />
+			<hall id="8" name="8号VIP厅" seatcount="26" vipflag="Y" />
+			<hall id="9" name="OP-9号厅" seatcount="235" vipflag="N" />
+		</cinema>
+		<cinema id="00000003" name="凤凰佳影影城" linkId="8888" local="惠州"
+			hallCount="3" status="1">
+			<hall id="1" name="一号厅" seatcount="270" vipflag="N" />
+			<hall id="2" name="二号厅" seatcount="252" vipflag="Y" />
+			<hall id="3" name="三号厅" seatcount="108" vipflag="N" />
+		</cinema>
+		<cinema id="11111111" name="31测试影城" linkId="9001" local="广州"
+			hallCount="1" status="1">
+			<hall id="1" name="A厅" seatcount="109" vipflag="N" />
+		</cinema>
+	</cinemas>
+</data>

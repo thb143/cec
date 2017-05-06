@@ -1,0 +1,22 @@
+<QueryCardReturn>
+	<ResultCode>0</ResultCode>
+	<ResultMsg>返回成功</ResultMsg>
+	<PlaceNo>gzxxx</PlaceNo>
+	<CardId>00001919</CardId>
+	<AccLevelCode>04</AccLevelCode>
+	<AccLevelName>钻石VIP卡</AccLevelName>
+	<Score>23689.55</Score>
+	<AccBalance>188338.57</AccBalance>
+	<AccStatus>0</AccStatus>
+	<ExpirationTime>2114-02-28</ExpirationTime>
+	<CinemaName>618福建影迷部落</CinemaName>
+	<MemberName>会员卡</MemberName>
+	<ConnectName>张三</ConnectName>
+	<IdNum></IdNum>
+	<BirthDay>1990-02-03</BirthDay>
+	<MobilePhone>13886145001</MobilePhone>
+	<Address></Address>
+	<Sex>男</Sex>
+	<Married>未婚</Married>
+	<Kind>个人</Kind>
+</QueryCardReturn>

@@ -1,0 +1,158 @@
+<style type="text/css">
+    .divider {
+        margin-top: 5px;
+    }
+</style>
+<div class="page">
+    <div class="pageContent">
+        <form method="post" action="ajaxDone1.html" class="pageForm required-validate" onsubmit="return validateCallback(this, dialogAjaxResult);">
+            <div class="pageFormContent" layoutH="60">
+               <dl style="height:1px;">
+                 <dt><h3>特殊影片活动</h3></dt>
+                </dl>
+                <dl style="height:1px;width:100%;">
+                    <div class="divider"></div>
+                </dl>
+                <dl>
+                   <dt>活动名称：<dt>
+                   <dd style="margin-top:2px;"><input type="text" class="required" /></dd>
+                </dl>
+                <dl>
+                   <dt><dt>
+                   <dd style="margin-top:2px;"></dd>
+                </dl>
+                 <dl>
+                   <dt>起始日期：<dt>
+                   <dd><input type="text" class="required date" /></dd>
+                </dl>
+                <dl>
+                   <dt>截止日期：<dt>
+                   <dd><input type="text" class="required date"/></dd>
+                </dl>
+                 <dl class="nowrap">
+                    <dt>活动手续费：</dt>
+                    <dd><input type="radio" name="r1" value="1"/>无手续费<input type="radio" name="r1" value="1" checked/>固定金额<input size="3" name="price" value="2.00" class="number"/>&nbsp;元&nbsp;&nbsp;<input type="radio" name="r1" value="2"/>百分比<input size="3" name="price" disabled="true"/>&nbsp;%
+                    (说明：默认值为院线手续费)
+                    </dd>
+                </dl>
+                 <dl class="nowrap">
+                    <dt>活动价：</dt>
+                    <dd><input type="text" class="number" />元 (说明：为0则按默认规则自动计算销售价)</dd>
+                 </dl>
+                  <dl class="nowrap">
+                    <dt>活动影院、影厅：</dt>
+                    <dd><a class="button" href="activity/hall-select.html" target="dialog" rel="cinema-select" mask="true" width='850' height='550'><span>选择影院、影厅</span></a></dd>
+                 </dl>
+                 <dl class="nowrap">
+                    <dt>&nbsp;</dt>
+                    <dd>
+                       <table class="list" width="100%">
+                            <thead>
+                                <tr>
+                                    <th width="30px" align="center">序号</th>
+                                    <th width="150px" align="center">影院名称</th>
+                                    <th align="center">影厅名称</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr target="sid_user" rel="1">
+                                    <td>1</td>
+                                    <td>兜有</td>
+                                    <td>1号厅、2号厅、5号厅、VIP厅</td>
+                                </tr>
+                                <tr target="sid_user" rel="1">
+                                    <td>2</td>
+                                    <td>中影</td>
+                                    <td>1号厅、2号厅、VIP厅</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </dd>
+                 </dl>
+                   <dl class="nowrap">
+                    <dt>活动影片：</dt>
+                    <dd><a class="button" href="activity/film-select.html" target="dialog" rel="show-select" mask="true" width='850' height='550'><span>选择影片</span></a></dd>
+                 </dl> 
+                 <dl class="nowrap">
+                    <dt>&nbsp;</dt>
+                    <dd>
+                        <table class="list" width="100%">
+                             <thead>
+                                <tr>
+                                    <th width="30px" align="center">序号</th>
+                                    <th width="130px" align="center">影片编号</th>
+                                    <th align="center">影片名称</th>
+                                    <th width="60px" align="center">影片类型</th>
+                                    <th width="60px" align="center">影片时长</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr target="sid_user" rel="1">
+                                    <td>1</td>
+                                    <td>1001401502530</td>
+                                    <td>催眠大师</td>
+                                    <td>搞笑</td>
+                                    <td>120分钟</td>
+                                </tr>
+                                <tr target="sid_user" rel="1">
+                                    <td>2</td>
+                                    <td>1001401502531</td>
+                                    <td>失恋大师</td>
+                                    <td>搞笑</td>
+                                    <td>120分钟</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </dd>
+                 </dl> 
+                   <dl class="nowrap">
+                    <dt>活动渠道：</dt>
+                    <dd><a class="button" href="activity/channel-select.html" target="dialog" rel="channel-select" mask="true" width='850' height='550'><span>选择渠道</span></a></dd>
+                 </dl>
+                 <dl class="nowrap">
+                    <dt>&nbsp;</dt>
+                    <dd>
+                        <table class="list" width="100%">
+                            <thead>
+                                <tr>
+                                    <th width="30px" align="center">序号</th>
+                                    <th width="150px" align="center">渠道名称</th>
+                                    <th width="150px" align="center">渠道返点</th>
+                                    <th width="150px" align="center">剩余额度</th>
+                                    <th width="150px" align="center">信用额度</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr target="sid_user" rel="1">
+                                    <td>1</td>
+                                    <td>淘宝</td>
+                                    <td>2.0</td>
+                                    <td>10000.00</td>
+                                    <td>30000.00</td>
+                                </tr>
+                                <tr target="sid_user" rel="1">
+                                    <td>2</td>
+                                    <td>京东</td>
+                                    <td>21.0</td>
+                                    <td>110000.00</td>
+                                    <td>310000.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </dd>
+                 </dl> 
+                 
+            </div>
+            <div class="formBar">
+                <ul>
+                    <li>
+                       <a class="button" href="activity/activity-add.html" target="dialog" rel="activity-add" mask="true" title="新增活动"  width='850' height='550'><span>保存</span></a>
+                    </li>
+                    <li>
+                       <div class="button"><div class="buttonContent"><button type="button" class="close">取消 </button> </div></div>
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </div>
+</div>

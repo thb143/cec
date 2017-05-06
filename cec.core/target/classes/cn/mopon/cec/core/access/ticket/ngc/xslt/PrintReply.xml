@@ -1,0 +1,28 @@
+<reply>
+	<code>001</code>
+	<msg>操作成功。</msg>
+	<cinemaCode>01010071</cinemaCode>
+	<cinemaName>中影益田(火烈鸟)影院</cinemaName>
+	<hallCode>0000000000000003</hallCode>
+	<hallName>聚宝台</hallName>
+	<filmCode>003100822014</filmCode>
+	<filmName>不能说的夏天</filmName>
+	<cinemaShowCode>0514112900300150</cinemaShowCode>
+	<channelShowCode>141000005114</channelShowCode>
+	<showTime>2014-12-01 20:20:00</showTime>
+	<reprintCount>0</reprintCount>
+	<printCode>1417277041722751</printCode>
+	<verifyCode>3057628797916318</verifyCode>
+	<tickets>
+		<ticket>
+			<ticketCode>1417277041784260</ticketCode>
+			<seatCode>0300000300100201</seatCode>
+			<seatGroupCode>0201010071000003</seatGroupCode>
+			<rowNum>2</rowNum>
+			<colNum>1</colNum>
+			<price>51.0</price>
+			<serviceFee>37.0</serviceFee>
+			<printStatus>0</printStatus>
+		</ticket>
+	</tickets>
+</reply>
